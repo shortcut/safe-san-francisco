@@ -1,8 +1,4 @@
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.keyboard.chevron {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.keyboard.chevron.compact {
     public struct left {
         private init() {}

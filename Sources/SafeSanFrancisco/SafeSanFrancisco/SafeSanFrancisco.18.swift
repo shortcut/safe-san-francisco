@@ -451,10 +451,6 @@ extension SF.checkmark.circle {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.chevron {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.chevron.left {
     public struct forwardslash {
         public struct chevron {
@@ -1075,10 +1071,6 @@ extension SF.circle.bottomhalf {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.circle.dashed {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.circle.dashed.inset {
     public struct filled {
         private init() {}
@@ -1390,10 +1382,6 @@ extension SF.circle.grid._3x3 {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.circle.grid.cross {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)

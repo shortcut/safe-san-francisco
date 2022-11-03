@@ -145,10 +145,6 @@ extension SF.allergens {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.arrow.down {
     public struct and {
         public struct line {
@@ -296,10 +292,6 @@ extension SF.arrow.down {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.left {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -478,10 +470,6 @@ extension SF.arrow.right {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.up {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -1033,14 +1021,6 @@ extension SF.arrowshape {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrowshape.turn {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrowshape.turn.up {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.arrowshape.turn.up.backward {
     public struct badge {
         public struct clock {
@@ -1259,10 +1239,6 @@ extension SF.australsign {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.backward {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.backward.end {
     public struct circle {
         public struct fill {
@@ -1351,10 +1327,6 @@ extension SF.backward.end {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bag {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.bag.badge {
     public struct questionmark {
         public struct ar {
@@ -1440,10 +1412,6 @@ extension SF.bag.badge {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bag.fill {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -1577,10 +1545,6 @@ extension SF.bahtsign {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.battery {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.battery._100 {
     public struct circle {
         public struct fill {
@@ -1666,10 +1630,6 @@ extension SF.battery._100 {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bell {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -1991,10 +1951,6 @@ extension SF.brazilianrealsign {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cart {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.cart.badge {
     public struct questionmark {
         public struct ar {
@@ -2122,10 +2078,6 @@ extension SF.cart.badge {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cart.fill {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -2468,6 +2420,270 @@ extension SF.character {
         }
         
         #endif
+    }
+
+}
+
+@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
+extension SF.chart.line {
+    public struct downtrend {
+        public struct xyaxis {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    public static func image(accessibilityDescription: String? = nil) -> Image {
+                        SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    @available(macOS 13.0, *)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                        SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                        SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle.fill", configuration: configuration)
+                    }
+                    
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                        SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    
+                    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                        SFSymbolReference.swiftUIImage(name: "chart.line.downtrend.xyaxis.circle.fill")
+                    }
+                    
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                        SFSymbolReference.swiftUIImage(name: "chart.line.downtrend.xyaxis.circle.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+
+                private init() {}
+                #if os(macOS)
+                
+                public static func image(accessibilityDescription: String? = nil) -> Image {
+                    SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle", accessibilityDescription: accessibilityDescription)
+                }
+                
+                @available(macOS 13.0, *)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                    SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle", configuration: configuration)
+                }
+                
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    SFSymbolReference.image(name: "chart.line.downtrend.xyaxis.circle", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                
+                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                    SFSymbolReference.swiftUIImage(name: "chart.line.downtrend.xyaxis.circle")
+                }
+                
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                    SFSymbolReference.swiftUIImage(name: "chart.line.downtrend.xyaxis.circle", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "chart.line.downtrend.xyaxis", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "chart.line.downtrend.xyaxis", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "chart.line.downtrend.xyaxis", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "chart.line.downtrend.xyaxis", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "chart.line.downtrend.xyaxis")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "chart.line.downtrend.xyaxis", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        private init() {}
+    }
+
+    public struct flattrend {
+        public struct xyaxis {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    public static func image(accessibilityDescription: String? = nil) -> Image {
+                        SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    @available(macOS 13.0, *)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                        SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                        SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle.fill", configuration: configuration)
+                    }
+                    
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                        SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    
+                    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                        SFSymbolReference.swiftUIImage(name: "chart.line.flattrend.xyaxis.circle.fill")
+                    }
+                    
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                        SFSymbolReference.swiftUIImage(name: "chart.line.flattrend.xyaxis.circle.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+
+                private init() {}
+                #if os(macOS)
+                
+                public static func image(accessibilityDescription: String? = nil) -> Image {
+                    SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle", accessibilityDescription: accessibilityDescription)
+                }
+                
+                @available(macOS 13.0, *)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                    SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle", configuration: configuration)
+                }
+                
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    SFSymbolReference.image(name: "chart.line.flattrend.xyaxis.circle", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                
+                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                    SFSymbolReference.swiftUIImage(name: "chart.line.flattrend.xyaxis.circle")
+                }
+                
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                    SFSymbolReference.swiftUIImage(name: "chart.line.flattrend.xyaxis.circle", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "chart.line.flattrend.xyaxis", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "chart.line.flattrend.xyaxis", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "chart.line.flattrend.xyaxis", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "chart.line.flattrend.xyaxis", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "chart.line.flattrend.xyaxis")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "chart.line.flattrend.xyaxis", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        private init() {}
     }
 
 }

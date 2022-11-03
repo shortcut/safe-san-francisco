@@ -1,20 +1,4 @@
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.down.right {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.down.right.and {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.down.right.and.arrow {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.down.right.and.arrow.up {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.arrow.down.right.and.arrow.up.left {
     public struct circle {
         public struct fill {
@@ -321,10 +305,6 @@ extension SF.arrow.left {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.left.and {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.arrow.left.and.right {
     public struct righttriangle {
         public struct left {
@@ -476,10 +456,6 @@ extension SF.arrow.right {
         private init() {}
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.turn {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
@@ -1751,10 +1727,6 @@ extension SF.arrow.up.doc {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.up.left {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.arrow.up.left.and {
     public struct down {
         public struct right {
@@ -1872,14 +1844,6 @@ extension SF.arrow.up.left.and {
         private init() {}
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.up.left.and.arrow {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrow.up.left.and.arrow.down {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)

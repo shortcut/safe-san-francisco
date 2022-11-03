@@ -1,162 +1,4 @@
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.and.at {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.and.at.rectangle {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        public static func image(accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "square.and.at.rectangle.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "square.and.at.rectangle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "square.and.at.rectangle.fill", configuration: configuration)
-        }
-        
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "square.and.at.rectangle.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "square.and.at.rectangle.fill")
-        }
-        
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "square.and.at.rectangle.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.and.line {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.and.line.vertical {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.and.line.vertical.and {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.and.line.vertical.and.square {
-    public struct filled {
-        private init() {}
-        #if os(macOS)
-        
-        public static func image(accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "square.and.line.vertical.and.square.filled", accessibilityDescription: accessibilityDescription)
-        }
-        
-        @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "square.and.line.vertical.and.square.filled", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "square.and.line.vertical.and.square.filled", configuration: configuration)
-        }
-        
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "square.and.line.vertical.and.square.filled", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "square.and.line.vertical.and.square.filled")
-        }
-        
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "square.and.line.vertical.and.square.filled", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.bottomhalf {
-    public struct filled {
-        private init() {}
-        #if os(macOS)
-        
-        public static func image(accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "square.bottomhalf.filled", accessibilityDescription: accessibilityDescription)
-        }
-        
-        @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "square.bottomhalf.filled", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "square.bottomhalf.filled", configuration: configuration)
-        }
-        
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "square.bottomhalf.filled", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "square.bottomhalf.filled")
-        }
-        
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "square.bottomhalf.filled", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.dashed {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.square.dashed.inset {
     public struct filled {
         private init() {}
@@ -203,26 +45,6 @@ extension SF.square.dashed.inset {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.fill {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.fill.and {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.fill.and.line {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.fill.and.line.vertical {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.fill.and.line.vertical.and {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.square.fill.and.line.vertical.and.square {
     public struct fill {
         private init() {}
@@ -266,26 +88,6 @@ extension SF.square.fill.and.line.vertical.and.square {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.grid {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.grid._3x1 {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.grid._3x1.below {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.grid._3x1.below.line {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.square.grid._3x1.below.line.grid {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -1335,10 +1137,6 @@ extension SF.sun.max {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.tablecells {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.tablecells.fill {
     public struct badge {
         public struct ellipsis {
@@ -1477,10 +1275,6 @@ extension SF.tag {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.teletype {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.teletype.answer {
     public struct circle {
         public struct fill {
@@ -1615,10 +1409,6 @@ extension SF.text {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.textformat {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.textformat._123 {
     public struct hi {
         private init() {}
@@ -1662,10 +1452,6 @@ extension SF.textformat._123 {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.tram {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -2476,6 +2262,362 @@ extension SF.video.badge {
         }
         
         #endif
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.video.fill.badge {
+    public struct ellipsis {
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "video.fill.badge.ellipsis", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "video.fill.badge.ellipsis", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "video.fill.badge.ellipsis", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "video.fill.badge.ellipsis", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "video.fill.badge.ellipsis")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "video.fill.badge.ellipsis", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.wake {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "wake.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "wake.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "wake.circle.fill", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "wake.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "wake.circle.fill")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "wake.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "wake.circle", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "wake.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "wake.circle", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "wake.circle", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "wake.circle")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "wake.circle", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.waveform {
+    public struct and {
+        public struct magnifyingglass {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.and.magnifyingglass", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.and.magnifyingglass", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.and.magnifyingglass", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.and.magnifyingglass", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.and.magnifyingglass")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.and.magnifyingglass", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        public struct mic {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.and.mic", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.and.mic", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.and.mic", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.and.mic", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.and.mic")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.and.mic", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        private init() {}
+    }
+
+    public struct badge {
+        public struct exclamationmark {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.badge.exclamationmark", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.badge.exclamationmark", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.badge.exclamationmark", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.badge.exclamationmark", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.badge.exclamationmark")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.badge.exclamationmark", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        public struct minus {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.badge.minus", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.badge.minus", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.badge.minus", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.badge.minus", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.badge.minus")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.badge.minus", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        public struct plus {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.badge.plus", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "waveform.badge.plus", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.badge.plus", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "waveform.badge.plus", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.badge.plus")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "waveform.badge.plus", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        private init() {}
     }
 
 }

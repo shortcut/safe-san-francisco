@@ -87,10 +87,6 @@ extension SF.cart {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.clock {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
 extension SF.clock.arrow {
     public struct _2 {
         public struct circlepath {
@@ -138,18 +134,6 @@ extension SF.clock.arrow {
         private init() {}
     }
 
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.doc {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.doc.text {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.doc.text.below {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
@@ -1089,10 +1073,6 @@ extension SF.rectangle.badge {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.rectangle.fill {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
 extension SF.rectangle.fill.badge {
     public struct person {
         public struct crop {
@@ -1453,14 +1433,6 @@ extension SF.shuffle {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.text {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.text.below {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
 extension SF.text.below.photo {
     public struct rtl {
         private init() {}
@@ -1553,10 +1525,6 @@ extension SF.text.below.photo.fill {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.text.cursor {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
 extension SF.text.cursor.zh {
     public struct traditional {
         private init() {}
@@ -1603,10 +1571,6 @@ extension SF.text.cursor.zh {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.textbox {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
 extension SF.textbox.zh {
     public struct traditional {
         private init() {}
@@ -1650,10 +1614,6 @@ extension SF.textbox.zh {
         #endif
     }
 
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.textformat {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)

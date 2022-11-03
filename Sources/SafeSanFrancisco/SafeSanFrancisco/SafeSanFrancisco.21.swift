@@ -681,18 +681,6 @@ extension SF.iphone.homebutton {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.iphone.homebutton.radiowaves {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.iphone.homebutton.radiowaves.left {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.iphone.homebutton.radiowaves.left.and {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.iphone.homebutton.radiowaves.left.and.right {
     public struct circle {
         public struct fill {
@@ -866,18 +854,6 @@ extension SF.iphone.homebutton.slash {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.iphone.radiowaves {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.iphone.radiowaves.left {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.iphone.radiowaves.left.and {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -1103,18 +1079,6 @@ extension SF.ipodtouch {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.j {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.j.square {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.j.square.on {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.j.square.on.square {
     public struct fill {
         private init() {}
@@ -1204,10 +1168,6 @@ extension SF.keyboard {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.l {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -2322,10 +2282,6 @@ extension SF.line._3 {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.list {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)

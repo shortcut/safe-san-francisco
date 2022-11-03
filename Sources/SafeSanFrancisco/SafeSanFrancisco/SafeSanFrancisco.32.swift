@@ -355,10 +355,6 @@ extension SF.flag {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.flag._2 {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.flag._2.crossed {
     public struct circle {
         public struct fill {
@@ -486,10 +482,6 @@ extension SF.florinsign {
     }
     
     #endif
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.forward {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -838,10 +830,6 @@ extension SF.gauge {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gear {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -1531,14 +1519,6 @@ extension SF.hearingdevice.ear {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hifispeaker {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hifispeaker.and {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.hifispeaker.and.appletv {
     public struct rtl {
         private init() {}
@@ -1631,14 +1611,6 @@ extension SF.hifispeaker.and.appletv.fill {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepod {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepod.and {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.homepod.and.appletv {
     public struct rtl {
         private init() {}
@@ -1728,14 +1700,6 @@ extension SF.homepod.and.appletv.fill {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepodmini {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepodmini.and {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -2175,10 +2139,6 @@ extension SF.info {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.keyboard.badge {
     public struct eye {
         public struct fill {
@@ -2313,14 +2273,6 @@ extension SF.keyboard.badge.ellipsis {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.chevron {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.chevron.compact {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.keyboard.chevron.compact.down {
     public struct fill {
         private init() {}
@@ -2413,10 +2365,6 @@ extension SF.keyboard.chevron.compact.left {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.onehanded {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.keyboard.onehanded.left {
     public struct fill {
         private init() {}
@@ -2455,6 +2403,52 @@ extension SF.keyboard.onehanded.left {
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
             SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.left.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+}
+
+@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
+extension SF.keyboard.onehanded.right {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.right.fill")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.right.fill", variableValue: variableValue)
         }
         
         #endif

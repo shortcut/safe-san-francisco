@@ -1263,10 +1263,6 @@ extension SF.dot.radiowaves {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.dpad {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.dpad.down {
     public struct filled {
         private init() {}
@@ -1723,14 +1719,6 @@ extension SF.ellipsis {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.envelope {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.envelope.badge {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.envelope.badge.shield {
     public struct half {
         public struct filled {
@@ -1820,10 +1808,6 @@ extension SF.envelope.badge.shield {
         private init() {}
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.exclamationmark {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)

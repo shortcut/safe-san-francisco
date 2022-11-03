@@ -1,58 +1,4 @@
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.printer {
-    public struct filled {
-        public struct and {
-            public struct paper {
-                private init() {}
-                #if os(macOS)
-                
-                public static func image(accessibilityDescription: String? = nil) -> Image {
-                    SFSymbolReference.image(name: "printer.filled.and.paper", accessibilityDescription: accessibilityDescription)
-                }
-                
-                @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-                    SFSymbolReference.image(name: "printer.filled.and.paper", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                    SFSymbolReference.image(name: "printer.filled.and.paper", configuration: configuration)
-                }
-                
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                    SFSymbolReference.image(name: "printer.filled.and.paper", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-                    SFSymbolReference.swiftUIImage(name: "printer.filled.and.paper")
-                }
-                
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-                    SFSymbolReference.swiftUIImage(name: "printer.filled.and.paper", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.printer.dotmatrix {
     public struct filled {
         public struct and {
@@ -539,10 +485,6 @@ extension SF.quote {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.r {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.r.joystick {
     public struct press {
         public struct down {
@@ -972,14 +914,6 @@ extension SF.r.joystick {
         private init() {}
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.r.square {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.r.square.on {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -1935,10 +1869,6 @@ extension SF.rectangle.and {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.rectangle.bottomthird {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.rectangle.bottomthird.inset {
     public struct filled {
         private init() {}
@@ -1982,10 +1912,6 @@ extension SF.rectangle.bottomthird.inset {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.rectangle.center {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -2491,6 +2417,98 @@ extension SF.rectangle.inset.bottomright {
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
             SFSymbolReference.swiftUIImage(name: "rectangle.inset.bottomright.filled", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.topleft {
+    public struct filled {
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "rectangle.inset.topleft.filled", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "rectangle.inset.topleft.filled", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "rectangle.inset.topleft.filled", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "rectangle.inset.topleft.filled", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "rectangle.inset.topleft.filled")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "rectangle.inset.topleft.filled", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.topright {
+    public struct filled {
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "rectangle.inset.topright.filled", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "rectangle.inset.topright.filled", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "rectangle.inset.topright.filled", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "rectangle.inset.topright.filled", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "rectangle.inset.topright.filled")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "rectangle.inset.topright.filled", variableValue: variableValue)
         }
         
         #endif

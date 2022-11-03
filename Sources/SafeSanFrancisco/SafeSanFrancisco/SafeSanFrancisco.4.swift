@@ -347,10 +347,6 @@ extension SF.arrowshape {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrowshape.turn {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.arrowshape.turn.up {
     public struct backward {
         public struct _2 {
@@ -856,10 +852,6 @@ extension SF.arrowshape.turn.up {
         #endif
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrowshape.turn.up.left {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
@@ -1907,14 +1899,6 @@ extension SF.backward {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.badge {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.badge.plus {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.badge.plus.radiowaves {
     public struct forward {
         private init() {}
@@ -2046,10 +2030,6 @@ extension SF.bag {
         #endif
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.battery {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
@@ -2481,6 +2461,94 @@ extension SF.bolt {
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
             SFSymbolReference.swiftUIImage(name: "bolt.heart", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+}
+
+@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+extension SF.bolt.fill {
+    public struct batteryblock {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            public static func image(accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "bolt.fill.batteryblock.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            @available(macOS 13.0, *)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                SFSymbolReference.image(name: "bolt.fill.batteryblock.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "bolt.fill.batteryblock.fill", configuration: configuration)
+            }
+            
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                SFSymbolReference.image(name: "bolt.fill.batteryblock.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            
+            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "bolt.fill.batteryblock.fill")
+            }
+            
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                SFSymbolReference.swiftUIImage(name: "bolt.fill.batteryblock.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "bolt.fill.batteryblock", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "bolt.fill.batteryblock", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "bolt.fill.batteryblock", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "bolt.fill.batteryblock", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "bolt.fill.batteryblock")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "bolt.fill.batteryblock", variableValue: variableValue)
         }
         
         #endif

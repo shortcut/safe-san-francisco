@@ -679,10 +679,6 @@ extension SF.textformat.superscript {
 }
 
 @available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
-extension SF.tv {
-}
-
-@available(iOS 14.2, tvOS 14.2, watchOS 7.1, macOS 11.0, *)
 extension SF.tv.and {
     public struct mediabox {
         private init() {}
@@ -2009,10 +2005,6 @@ extension SF.character {
 }
 
 @available(iOS 14.5, tvOS 14.5, watchOS 7.4, macOS 11.3, *)
-extension SF.hifispeaker {
-}
-
-@available(iOS 14.5, tvOS 14.5, watchOS 7.4, macOS 11.3, *)
 extension SF.hifispeaker.and {
     public struct homepodmini {
         public struct fill {
@@ -2190,14 +2182,6 @@ extension SF.homepod {
         private init() {}
     }
 
-}
-
-@available(iOS 14.5, tvOS 14.5, watchOS 7.4, macOS 11.3, *)
-extension SF.rectangle {
-}
-
-@available(iOS 14.5, tvOS 14.5, watchOS 7.4, macOS 11.3, *)
-extension SF.rectangle.topthird {
 }
 
 @available(iOS 14.5, tvOS 14.5, watchOS 7.4, macOS 11.3, *)

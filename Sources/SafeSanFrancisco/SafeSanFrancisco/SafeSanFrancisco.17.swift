@@ -1,180 +1,4 @@
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.bell {
-    public struct and {
-        public struct waveform {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                public static func image(accessibilityDescription: String? = nil) -> Image {
-                    SFSymbolReference.image(name: "bell.and.waveform.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-                    SFSymbolReference.image(name: "bell.and.waveform.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                    SFSymbolReference.image(name: "bell.and.waveform.fill", configuration: configuration)
-                }
-                
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                    SFSymbolReference.image(name: "bell.and.waveform.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-                    SFSymbolReference.swiftUIImage(name: "bell.and.waveform.fill")
-                }
-                
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-                    SFSymbolReference.swiftUIImage(name: "bell.and.waveform.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-
-            private init() {}
-            #if os(macOS)
-            
-            public static func image(accessibilityDescription: String? = nil) -> Image {
-                SFSymbolReference.image(name: "bell.and.waveform", accessibilityDescription: accessibilityDescription)
-            }
-            
-            @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-                SFSymbolReference.image(name: "bell.and.waveform", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                SFSymbolReference.image(name: "bell.and.waveform", configuration: configuration)
-            }
-            
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                SFSymbolReference.image(name: "bell.and.waveform", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-                SFSymbolReference.swiftUIImage(name: "bell.and.waveform")
-            }
-            
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-                SFSymbolReference.swiftUIImage(name: "bell.and.waveform", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-
-        private init() {}
-    }
-
-    public struct square {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            public static func image(accessibilityDescription: String? = nil) -> Image {
-                SFSymbolReference.image(name: "bell.square.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-                SFSymbolReference.image(name: "bell.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                SFSymbolReference.image(name: "bell.square.fill", configuration: configuration)
-            }
-            
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                SFSymbolReference.image(name: "bell.square.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-                SFSymbolReference.swiftUIImage(name: "bell.square.fill")
-            }
-            
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-                SFSymbolReference.swiftUIImage(name: "bell.square.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-
-        private init() {}
-        #if os(macOS)
-        
-        public static func image(accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "bell.square", accessibilityDescription: accessibilityDescription)
-        }
-        
-        @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-            SFSymbolReference.image(name: "bell.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "bell.square", configuration: configuration)
-        }
-        
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-            SFSymbolReference.image(name: "bell.square", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "bell.square")
-        }
-        
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-            SFSymbolReference.swiftUIImage(name: "bell.square", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.bell.badge {
     public struct circle {
         public struct fill {
@@ -607,10 +431,6 @@ extension SF.bolt.car {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.book {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.book.closed {
     public struct circle {
         public struct fill {
@@ -787,10 +607,6 @@ extension SF.bookmark {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.books {
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.books.vertical {
     public struct circle {
         public struct fill {
@@ -964,10 +780,6 @@ extension SF.briefcase {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.bubble {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -1240,10 +1052,6 @@ extension SF.bubble.right {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.building {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
@@ -2160,10 +1968,6 @@ extension SF.car {
         #endif
     }
 
-}
-
-@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
-extension SF.character {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)

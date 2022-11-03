@@ -1,8 +1,4 @@
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.text.badge {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.text.badge.checkmark {
     public struct rtl {
         private init() {}
@@ -783,10 +779,6 @@ extension SF.textbox {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.textformat {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.textformat._123 {
     public struct ar {
         private init() {}
@@ -830,10 +822,6 @@ extension SF.textformat._123 {
         #endif
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.thermometer {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
@@ -1558,14 +1546,6 @@ extension SF.video.fill {
         private init() {}
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.waveform {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.waveform.path {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)

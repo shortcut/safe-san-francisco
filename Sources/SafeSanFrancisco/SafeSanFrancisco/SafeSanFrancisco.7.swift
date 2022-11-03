@@ -1,100 +1,4 @@
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.envelope {
-    public struct arrow {
-        public struct triangle {
-            public struct branch {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    public static func image(accessibilityDescription: String? = nil) -> Image {
-                        SFSymbolReference.image(name: "envelope.arrow.triangle.branch.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    @available(macOS 13.0, *)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-                        SFSymbolReference.image(name: "envelope.arrow.triangle.branch.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                        SFSymbolReference.image(name: "envelope.arrow.triangle.branch.fill", configuration: configuration)
-                    }
-                    
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                        SFSymbolReference.image(name: "envelope.arrow.triangle.branch.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    
-                    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-                        SFSymbolReference.swiftUIImage(name: "envelope.arrow.triangle.branch.fill")
-                    }
-                    
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-                        SFSymbolReference.swiftUIImage(name: "envelope.arrow.triangle.branch.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-
-                private init() {}
-                #if os(macOS)
-                
-                public static func image(accessibilityDescription: String? = nil) -> Image {
-                    SFSymbolReference.image(name: "envelope.arrow.triangle.branch", accessibilityDescription: accessibilityDescription)
-                }
-                
-                @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
-                    SFSymbolReference.image(name: "envelope.arrow.triangle.branch", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                    SFSymbolReference.image(name: "envelope.arrow.triangle.branch", configuration: configuration)
-                }
-                
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
-                    SFSymbolReference.image(name: "envelope.arrow.triangle.branch", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
-                    SFSymbolReference.swiftUIImage(name: "envelope.arrow.triangle.branch")
-                }
-                
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
-                    SFSymbolReference.swiftUIImage(name: "envelope.arrow.triangle.branch", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.envelope.badge {
     public struct shield {
         public struct leadinghalf {
@@ -659,10 +563,6 @@ extension SF.flag.slash {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.folder {
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
 extension SF.folder.badge {
     public struct gear {
         private init() {}
@@ -790,10 +690,6 @@ extension SF.folder.badge {
         #endif
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.folder.fill {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
@@ -1146,10 +1042,6 @@ extension SF.guitars {
         #endif
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.h {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
@@ -2260,10 +2152,6 @@ extension SF.house {
         #endif
     }
 
-}
-
-@available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.j {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)

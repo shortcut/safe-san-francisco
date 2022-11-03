@@ -313,18 +313,6 @@ extension SF {
 }
 
 @available(iOS 13.1, tvOS 13.0, watchOS 6.1, macOS 10.15, *)
-extension SF.arrow {
-}
-
-@available(iOS 13.1, tvOS 13.0, watchOS 6.1, macOS 10.15, *)
-extension SF.arrow.uturn {
-}
-
-@available(iOS 13.1, tvOS 13.0, watchOS 6.1, macOS 10.15, *)
-extension SF.arrow.uturn.left {
-}
-
-@available(iOS 13.1, tvOS 13.0, watchOS 6.1, macOS 10.15, *)
 extension SF.arrow.uturn.left.circle {
     public struct badge {
         public struct ellipsis {
@@ -414,10 +402,6 @@ extension SF.car {
     }
     
     #endif
-}
-
-@available(iOS 13.1, tvOS 13.0, watchOS 6.1, macOS 10.15, *)
-extension SF.circle {
 }
 
 @available(iOS 13.1, tvOS 13.0, watchOS 6.1, macOS 10.15, *)

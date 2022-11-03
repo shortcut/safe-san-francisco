@@ -1025,10 +1025,6 @@ extension SF.person.badge {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.crop {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.person.crop.rectangle {
     public struct badge {
         public struct plus {
@@ -1205,18 +1201,6 @@ extension SF.pesosign {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.down {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.phone.arrow.down.left {
     public struct fill {
         private init() {}
@@ -1306,10 +1290,6 @@ extension SF.phone.arrow.right {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.up {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -1590,10 +1570,6 @@ extension SF.phone.down {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.fill {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -2209,18 +2185,6 @@ extension SF.recordingtape {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.and {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.rectangle.portrait.and.arrow {
     public struct forward {
         public struct fill {
@@ -2306,14 +2270,6 @@ extension SF.rectangle.portrait.and.arrow {
         #endif
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.on {
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.on.rectangle {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
@@ -2483,6 +2439,90 @@ extension SF.rupeesign {
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
     public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
         SFSymbolReference.swiftUIImage(name: "rupeesign", variableValue: variableValue)
+    }
+    
+    #endif
+}
+
+@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
+extension SF.sensor {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        public static func image(accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "sensor.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        @available(macOS 13.0, *)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            SFSymbolReference.image(name: "sensor.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "sensor.fill", configuration: configuration)
+        }
+        
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            SFSymbolReference.image(name: "sensor.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        
+        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "sensor.fill")
+        }
+        
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            SFSymbolReference.swiftUIImage(name: "sensor.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+
+    #if os(macOS)
+    
+    public static func image(accessibilityDescription: String? = nil) -> Image {
+        SFSymbolReference.image(name: "sensor", accessibilityDescription: accessibilityDescription)
+    }
+    
+    @available(macOS 13.0, *)
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        SFSymbolReference.image(name: "sensor", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+    }
+    
+    #endif
+    
+    #if os(iOS) || os(tvOS) || os(watchOS)
+    
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        SFSymbolReference.image(name: "sensor", configuration: configuration)
+    }
+    
+    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        SFSymbolReference.image(name: "sensor", variableValue: variableValue, configuration: configuration)
+    }
+    
+    #endif
+    
+    #if canImport(SwiftUI)
+    
+    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        SFSymbolReference.swiftUIImage(name: "sensor")
+    }
+    
+    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        SFSymbolReference.swiftUIImage(name: "sensor", variableValue: variableValue)
     }
     
     #endif
