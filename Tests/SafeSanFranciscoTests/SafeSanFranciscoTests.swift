@@ -4,6 +4,8 @@ import XCTest
 final class SafeSanFranciscoTests: XCTestCase {
     func testPencil_iOS13() throws {
         
+        
+        
         let images = [
             SF.pencil.image(),
             SF.pencil.circle.image(),
