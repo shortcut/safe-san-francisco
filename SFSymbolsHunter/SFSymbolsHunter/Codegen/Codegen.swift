@@ -70,7 +70,7 @@ final class Codegen {
             numLines += lines
             
             if numLines >= linecountThreshold {
-                files.append(result)
+                files.append(fileheaderTemplate + result)
                 result = ""
                 numLines = 0
             }

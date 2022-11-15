@@ -1,3 +1,12 @@
+#if os(macOS)
+import AppKit
+#endif
+#if os(iOS) || os(tvOS) || os(watchOS)
+import UIKit
+#endif
+#if canImport(SwiftUI)
+import SwiftUI
+#endif
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.moon.stars {
     public struct circle {
@@ -5,12 +14,12 @@ extension SF.moon.stars {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "moon.stars.circle.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "moon.stars.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -18,12 +27,12 @@ extension SF.moon.stars {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "moon.stars.circle.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "moon.stars.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -31,12 +40,12 @@ extension SF.moon.stars {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "moon.stars.circle.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "moon.stars.circle.fill", variableValue: variableValue)
             }
             
@@ -46,12 +55,12 @@ extension SF.moon.stars {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "moon.stars.circle", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "moon.stars.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -59,12 +68,12 @@ extension SF.moon.stars {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "moon.stars.circle", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "moon.stars.circle", variableValue: variableValue, configuration: configuration)
         }
         
@@ -72,12 +81,12 @@ extension SF.moon.stars {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "moon.stars.circle")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "moon.stars.circle", variableValue: variableValue)
         }
         
@@ -90,12 +99,12 @@ extension SF.moon.stars {
 extension SF.nairasign {
     #if os(macOS)
     
-    public static func image(accessibilityDescription: String? = nil) -> Image {
+    public static func image(accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "nairasign", accessibilityDescription: accessibilityDescription)
     }
     
     @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "nairasign", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
     }
     
@@ -103,12 +112,12 @@ extension SF.nairasign {
     
     #if os(iOS) || os(tvOS) || os(watchOS)
     
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "nairasign", configuration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "nairasign", variableValue: variableValue, configuration: configuration)
     }
     
@@ -116,12 +125,12 @@ extension SF.nairasign {
     
     #if canImport(SwiftUI)
     
-    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage() -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "nairasign")
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "nairasign", variableValue: variableValue)
     }
     
@@ -135,12 +144,12 @@ extension SF.nosign {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "nosign.app.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "nosign.app.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -148,12 +157,12 @@ extension SF.nosign {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "nosign.app.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "nosign.app.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -161,12 +170,12 @@ extension SF.nosign {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "nosign.app.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "nosign.app.fill", variableValue: variableValue)
             }
             
@@ -176,12 +185,12 @@ extension SF.nosign {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "nosign.app", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "nosign.app", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -189,12 +198,12 @@ extension SF.nosign {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "nosign.app", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "nosign.app", variableValue: variableValue, configuration: configuration)
         }
         
@@ -202,12 +211,12 @@ extension SF.nosign {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "nosign.app")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "nosign.app", variableValue: variableValue)
         }
         
@@ -222,12 +231,12 @@ extension SF.opticaldisc {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "opticaldisc.fill", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "opticaldisc.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -235,12 +244,12 @@ extension SF.opticaldisc {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "opticaldisc.fill", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "opticaldisc.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -248,12 +257,12 @@ extension SF.opticaldisc {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "opticaldisc.fill")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "opticaldisc.fill", variableValue: variableValue)
         }
         
@@ -269,12 +278,12 @@ extension SF.parkingsign {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "parkingsign.brakesignal.slash", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "parkingsign.brakesignal.slash", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -282,12 +291,12 @@ extension SF.parkingsign {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "parkingsign.brakesignal.slash", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "parkingsign.brakesignal.slash", variableValue: variableValue, configuration: configuration)
             }
             
@@ -295,12 +304,12 @@ extension SF.parkingsign {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "parkingsign.brakesignal.slash")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "parkingsign.brakesignal.slash", variableValue: variableValue)
             }
             
@@ -310,12 +319,12 @@ extension SF.parkingsign {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "parkingsign.brakesignal", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "parkingsign.brakesignal", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -323,12 +332,12 @@ extension SF.parkingsign {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "parkingsign.brakesignal", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "parkingsign.brakesignal", variableValue: variableValue, configuration: configuration)
         }
         
@@ -336,12 +345,12 @@ extension SF.parkingsign {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "parkingsign.brakesignal")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "parkingsign.brakesignal", variableValue: variableValue)
         }
         
@@ -356,12 +365,12 @@ extension SF.pencil {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "pencil.line", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "pencil.line", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -369,12 +378,12 @@ extension SF.pencil {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "pencil.line", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "pencil.line", variableValue: variableValue, configuration: configuration)
         }
         
@@ -382,12 +391,12 @@ extension SF.pencil {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "pencil.line")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "pencil.line", variableValue: variableValue)
         }
         
@@ -403,12 +412,12 @@ extension SF.pencil.and {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "pencil.and.ruler.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "pencil.and.ruler.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -416,12 +425,12 @@ extension SF.pencil.and {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pencil.and.ruler.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pencil.and.ruler.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -429,12 +438,12 @@ extension SF.pencil.and {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "pencil.and.ruler.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "pencil.and.ruler.fill", variableValue: variableValue)
             }
             
@@ -444,12 +453,12 @@ extension SF.pencil.and {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "pencil.and.ruler", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "pencil.and.ruler", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -457,12 +466,12 @@ extension SF.pencil.and {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "pencil.and.ruler", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "pencil.and.ruler", variableValue: variableValue, configuration: configuration)
         }
         
@@ -470,12 +479,12 @@ extension SF.pencil.and {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "pencil.and.ruler")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "pencil.and.ruler", variableValue: variableValue)
         }
         
@@ -491,12 +500,12 @@ extension SF.person {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.bust.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.bust.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -504,12 +513,12 @@ extension SF.person {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.bust.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.bust.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -517,12 +526,12 @@ extension SF.person {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.bust.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.bust.fill", variableValue: variableValue)
             }
             
@@ -532,12 +541,12 @@ extension SF.person {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "person.bust", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "person.bust", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -545,12 +554,12 @@ extension SF.person {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "person.bust", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "person.bust", variableValue: variableValue, configuration: configuration)
         }
         
@@ -558,12 +567,12 @@ extension SF.person {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "person.bust")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "person.bust", variableValue: variableValue)
         }
         
@@ -577,12 +586,12 @@ extension SF.person {
                     private init() {}
                     #if os(macOS)
                     
-                    public static func image(accessibilityDescription: String? = nil) -> Image {
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
                         SFSymbolReference.image(name: "person.line.dotted.person.fill", accessibilityDescription: accessibilityDescription)
                     }
                     
                     @available(macOS 13.0, *)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                         SFSymbolReference.image(name: "person.line.dotted.person.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                     }
                     
@@ -590,12 +599,12 @@ extension SF.person {
                     
                     #if os(iOS) || os(tvOS) || os(watchOS)
                     
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "person.line.dotted.person.fill", configuration: configuration)
                     }
                     
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "person.line.dotted.person.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -603,12 +612,12 @@ extension SF.person {
                     
                     #if canImport(SwiftUI)
                     
-                    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                    public static func swiftUIImage() -> SwiftUI.Image {
                         SFSymbolReference.swiftUIImage(name: "person.line.dotted.person.fill")
                     }
                     
                     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                         SFSymbolReference.swiftUIImage(name: "person.line.dotted.person.fill", variableValue: variableValue)
                     }
                     
@@ -618,12 +627,12 @@ extension SF.person {
                 private init() {}
                 #if os(macOS)
                 
-                public static func image(accessibilityDescription: String? = nil) -> Image {
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.line.dotted.person", accessibilityDescription: accessibilityDescription)
                 }
                 
                 @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.line.dotted.person", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                 }
                 
@@ -631,12 +640,12 @@ extension SF.person {
                 
                 #if os(iOS) || os(tvOS) || os(watchOS)
                 
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.line.dotted.person", configuration: configuration)
                 }
                 
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.line.dotted.person", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -644,12 +653,12 @@ extension SF.person {
                 
                 #if canImport(SwiftUI)
                 
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage() -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.line.dotted.person")
                 }
                 
                 @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.line.dotted.person", variableValue: variableValue)
                 }
                 
@@ -672,12 +681,12 @@ extension SF.person._2 {
                 private init() {}
                 #if os(macOS)
                 
-                public static func image(accessibilityDescription: String? = nil) -> Image {
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.2.badge.gearshape.fill", accessibilityDescription: accessibilityDescription)
                 }
                 
                 @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.2.badge.gearshape.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                 }
                 
@@ -685,12 +694,12 @@ extension SF.person._2 {
                 
                 #if os(iOS) || os(tvOS) || os(watchOS)
                 
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.2.badge.gearshape.fill", configuration: configuration)
                 }
                 
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.2.badge.gearshape.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -698,12 +707,12 @@ extension SF.person._2 {
                 
                 #if canImport(SwiftUI)
                 
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage() -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.2.badge.gearshape.fill")
                 }
                 
                 @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.2.badge.gearshape.fill", variableValue: variableValue)
                 }
                 
@@ -713,12 +722,12 @@ extension SF.person._2 {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.2.badge.gearshape", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.2.badge.gearshape", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -726,12 +735,12 @@ extension SF.person._2 {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.badge.gearshape", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.badge.gearshape", variableValue: variableValue, configuration: configuration)
             }
             
@@ -739,12 +748,12 @@ extension SF.person._2 {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.2.badge.gearshape")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.2.badge.gearshape", variableValue: variableValue)
             }
             
@@ -758,12 +767,12 @@ extension SF.person._2 {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "person.2.gobackward", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "person.2.gobackward", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -771,12 +780,12 @@ extension SF.person._2 {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "person.2.gobackward", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "person.2.gobackward", variableValue: variableValue, configuration: configuration)
         }
         
@@ -784,12 +793,12 @@ extension SF.person._2 {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "person.2.gobackward")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "person.2.gobackward", variableValue: variableValue)
         }
         
@@ -801,12 +810,12 @@ extension SF.person._2 {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.2.slash.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.2.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -814,12 +823,12 @@ extension SF.person._2 {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.slash.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -827,12 +836,12 @@ extension SF.person._2 {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.2.slash.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.2.slash.fill", variableValue: variableValue)
             }
             
@@ -842,12 +851,12 @@ extension SF.person._2 {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "person.2.slash", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "person.2.slash", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -855,12 +864,12 @@ extension SF.person._2 {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "person.2.slash", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "person.2.slash", variableValue: variableValue, configuration: configuration)
         }
         
@@ -868,12 +877,12 @@ extension SF.person._2 {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "person.2.slash")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "person.2.slash", variableValue: variableValue)
         }
         
@@ -889,12 +898,12 @@ extension SF.person.and {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.and.background.dotted", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.and.background.dotted", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -902,12 +911,12 @@ extension SF.person.and {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.and.background.dotted", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.and.background.dotted", variableValue: variableValue, configuration: configuration)
             }
             
@@ -915,12 +924,12 @@ extension SF.person.and {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.and.background.dotted")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.and.background.dotted", variableValue: variableValue)
             }
             
@@ -940,12 +949,12 @@ extension SF.person.badge {
                 private init() {}
                 #if os(macOS)
                 
-                public static func image(accessibilityDescription: String? = nil) -> Image {
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", accessibilityDescription: accessibilityDescription)
                 }
                 
                 @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                 }
                 
@@ -953,12 +962,12 @@ extension SF.person.badge {
                 
                 #if os(iOS) || os(tvOS) || os(watchOS)
                 
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", configuration: configuration)
                 }
                 
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -966,12 +975,12 @@ extension SF.person.badge {
                 
                 #if canImport(SwiftUI)
                 
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage() -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.badge.shield.checkmark.fill")
                 }
                 
                 @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.badge.shield.checkmark.fill", variableValue: variableValue)
                 }
                 
@@ -981,12 +990,12 @@ extension SF.person.badge {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.badge.shield.checkmark", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.badge.shield.checkmark", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -994,12 +1003,12 @@ extension SF.person.badge {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.badge.shield.checkmark", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.badge.shield.checkmark", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1007,12 +1016,12 @@ extension SF.person.badge {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.badge.shield.checkmark")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.badge.shield.checkmark", variableValue: variableValue)
             }
             
@@ -1032,12 +1041,12 @@ extension SF.person.crop.rectangle {
                 private init() {}
                 #if os(macOS)
                 
-                public static func image(accessibilityDescription: String? = nil) -> Image {
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", accessibilityDescription: accessibilityDescription)
                 }
                 
                 @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                 }
                 
@@ -1045,12 +1054,12 @@ extension SF.person.crop.rectangle {
                 
                 #if os(iOS) || os(tvOS) || os(watchOS)
                 
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", configuration: configuration)
                 }
                 
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -1058,12 +1067,12 @@ extension SF.person.crop.rectangle {
                 
                 #if canImport(SwiftUI)
                 
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage() -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.badge.plus.fill")
                 }
                 
                 @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.badge.plus.fill", variableValue: variableValue)
                 }
                 
@@ -1073,12 +1082,12 @@ extension SF.person.crop.rectangle {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.crop.rectangle.badge.plus", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "person.crop.rectangle.badge.plus", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -1086,12 +1095,12 @@ extension SF.person.crop.rectangle {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.crop.rectangle.badge.plus", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.crop.rectangle.badge.plus", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1099,12 +1108,12 @@ extension SF.person.crop.rectangle {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.badge.plus")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.badge.plus", variableValue: variableValue)
             }
             
@@ -1120,12 +1129,12 @@ extension SF.person.crop.rectangle {
 extension SF.pesetasign {
     #if os(macOS)
     
-    public static func image(accessibilityDescription: String? = nil) -> Image {
+    public static func image(accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "pesetasign", accessibilityDescription: accessibilityDescription)
     }
     
     @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "pesetasign", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
     }
     
@@ -1133,12 +1142,12 @@ extension SF.pesetasign {
     
     #if os(iOS) || os(tvOS) || os(watchOS)
     
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "pesetasign", configuration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "pesetasign", variableValue: variableValue, configuration: configuration)
     }
     
@@ -1146,12 +1155,12 @@ extension SF.pesetasign {
     
     #if canImport(SwiftUI)
     
-    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage() -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "pesetasign")
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "pesetasign", variableValue: variableValue)
     }
     
@@ -1162,12 +1171,12 @@ extension SF.pesetasign {
 extension SF.pesosign {
     #if os(macOS)
     
-    public static func image(accessibilityDescription: String? = nil) -> Image {
+    public static func image(accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "pesosign", accessibilityDescription: accessibilityDescription)
     }
     
     @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "pesosign", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
     }
     
@@ -1175,12 +1184,12 @@ extension SF.pesosign {
     
     #if os(iOS) || os(tvOS) || os(watchOS)
     
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "pesosign", configuration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "pesosign", variableValue: variableValue, configuration: configuration)
     }
     
@@ -1188,12 +1197,12 @@ extension SF.pesosign {
     
     #if canImport(SwiftUI)
     
-    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage() -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "pesosign")
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "pesosign", variableValue: variableValue)
     }
     
@@ -1206,12 +1215,12 @@ extension SF.phone.arrow.down.left {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.down.left.fill", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.down.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1219,12 +1228,12 @@ extension SF.phone.arrow.down.left {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.down.left.fill", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.down.left.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1232,12 +1241,12 @@ extension SF.phone.arrow.down.left {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.down.left.fill")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.down.left.fill", variableValue: variableValue)
         }
         
@@ -1252,12 +1261,12 @@ extension SF.phone.arrow.right {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.right.fill", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1265,12 +1274,12 @@ extension SF.phone.arrow.right {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.right.fill", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.right.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1278,12 +1287,12 @@ extension SF.phone.arrow.right {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.right.fill")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.right.fill", variableValue: variableValue)
         }
         
@@ -1299,12 +1308,12 @@ extension SF.phone.arrow.up.right {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -1312,12 +1321,12 @@ extension SF.phone.arrow.up.right {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1325,12 +1334,12 @@ extension SF.phone.arrow.up.right {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.circle.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.circle.fill", variableValue: variableValue)
             }
             
@@ -1340,12 +1349,12 @@ extension SF.phone.arrow.up.right {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.circle", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1353,12 +1362,12 @@ extension SF.phone.arrow.up.right {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.circle", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.circle", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1366,12 +1375,12 @@ extension SF.phone.arrow.up.right {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.circle")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.circle", variableValue: variableValue)
         }
         
@@ -1382,12 +1391,12 @@ extension SF.phone.arrow.up.right {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.fill", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1395,12 +1404,12 @@ extension SF.phone.arrow.up.right {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.fill", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.arrow.up.right.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1408,12 +1417,12 @@ extension SF.phone.arrow.up.right {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.fill")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.fill", variableValue: variableValue)
         }
         
@@ -1428,12 +1437,12 @@ extension SF.phone.badge {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.badge.checkmark", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.badge.checkmark", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1441,12 +1450,12 @@ extension SF.phone.badge {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.badge.checkmark", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.badge.checkmark", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1454,12 +1463,12 @@ extension SF.phone.badge {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.badge.checkmark")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.badge.checkmark", variableValue: variableValue)
         }
         
@@ -1474,12 +1483,12 @@ extension SF.phone.connection {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.connection.fill", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.connection.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1487,12 +1496,12 @@ extension SF.phone.connection {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.connection.fill", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.connection.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1500,12 +1509,12 @@ extension SF.phone.connection {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.connection.fill")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.connection.fill", variableValue: variableValue)
         }
         
@@ -1523,12 +1532,12 @@ extension SF.phone.down {
                     private init() {}
                     #if os(macOS)
                     
-                    public static func image(accessibilityDescription: String? = nil) -> Image {
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
                         SFSymbolReference.image(name: "phone.down.waves.left.and.right", accessibilityDescription: accessibilityDescription)
                     }
                     
                     @available(macOS 13.0, *)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                         SFSymbolReference.image(name: "phone.down.waves.left.and.right", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                     }
                     
@@ -1536,12 +1545,12 @@ extension SF.phone.down {
                     
                     #if os(iOS) || os(tvOS) || os(watchOS)
                     
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "phone.down.waves.left.and.right", configuration: configuration)
                     }
                     
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "phone.down.waves.left.and.right", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -1549,12 +1558,12 @@ extension SF.phone.down {
                     
                     #if canImport(SwiftUI)
                     
-                    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                    public static func swiftUIImage() -> SwiftUI.Image {
                         SFSymbolReference.swiftUIImage(name: "phone.down.waves.left.and.right")
                     }
                     
                     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                         SFSymbolReference.swiftUIImage(name: "phone.down.waves.left.and.right", variableValue: variableValue)
                     }
                     
@@ -1578,12 +1587,12 @@ extension SF.phone.fill.badge {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.fill.badge.checkmark", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "phone.fill.badge.checkmark", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1591,12 +1600,12 @@ extension SF.phone.fill.badge {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.fill.badge.checkmark", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "phone.fill.badge.checkmark", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1604,12 +1613,12 @@ extension SF.phone.fill.badge {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.fill.badge.checkmark")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "phone.fill.badge.checkmark", variableValue: variableValue)
         }
         
@@ -1625,12 +1634,12 @@ extension SF.photo {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "photo.stack.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "photo.stack.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -1638,12 +1647,12 @@ extension SF.photo {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "photo.stack.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "photo.stack.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1651,12 +1660,12 @@ extension SF.photo {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "photo.stack.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "photo.stack.fill", variableValue: variableValue)
             }
             
@@ -1666,12 +1675,12 @@ extension SF.photo {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "photo.stack", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "photo.stack", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1679,12 +1688,12 @@ extension SF.photo {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "photo.stack", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "photo.stack", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1692,12 +1701,12 @@ extension SF.photo {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "photo.stack")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "photo.stack", variableValue: variableValue)
         }
         
@@ -1712,12 +1721,12 @@ extension SF.play {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "play.desktopcomputer", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "play.desktopcomputer", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1725,12 +1734,12 @@ extension SF.play {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "play.desktopcomputer", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "play.desktopcomputer", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1738,12 +1747,12 @@ extension SF.play {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "play.desktopcomputer")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "play.desktopcomputer", variableValue: variableValue)
         }
         
@@ -1754,12 +1763,12 @@ extension SF.play {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "play.display", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "play.display", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1767,12 +1776,12 @@ extension SF.play {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "play.display", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "play.display", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1780,12 +1789,12 @@ extension SF.play {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "play.display")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "play.display", variableValue: variableValue)
         }
         
@@ -1796,12 +1805,12 @@ extension SF.play {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "play.laptopcomputer", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "play.laptopcomputer", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1809,12 +1818,12 @@ extension SF.play {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "play.laptopcomputer", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "play.laptopcomputer", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1822,12 +1831,12 @@ extension SF.play {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "play.laptopcomputer")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "play.laptopcomputer", variableValue: variableValue)
         }
         
@@ -1843,12 +1852,12 @@ extension SF.playpause {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "playpause.circle.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "playpause.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -1856,12 +1865,12 @@ extension SF.playpause {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "playpause.circle.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "playpause.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1869,12 +1878,12 @@ extension SF.playpause {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "playpause.circle.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "playpause.circle.fill", variableValue: variableValue)
             }
             
@@ -1884,12 +1893,12 @@ extension SF.playpause {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "playpause.circle", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "playpause.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -1897,12 +1906,12 @@ extension SF.playpause {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "playpause.circle", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "playpause.circle", variableValue: variableValue, configuration: configuration)
         }
         
@@ -1910,12 +1919,12 @@ extension SF.playpause {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "playpause.circle")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "playpause.circle", variableValue: variableValue)
         }
         
@@ -1931,12 +1940,12 @@ extension SF.questionmark {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "questionmark.bubble.ar", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "questionmark.bubble.ar", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -1944,12 +1953,12 @@ extension SF.questionmark {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "questionmark.bubble.ar", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "questionmark.bubble.ar", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1957,12 +1966,12 @@ extension SF.questionmark {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "questionmark.bubble.ar")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "questionmark.bubble.ar", variableValue: variableValue)
             }
             
@@ -1974,12 +1983,12 @@ extension SF.questionmark {
                 private init() {}
                 #if os(macOS)
                 
-                public static func image(accessibilityDescription: String? = nil) -> Image {
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "questionmark.bubble.fill.ar", accessibilityDescription: accessibilityDescription)
                 }
                 
                 @available(macOS 13.0, *)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                     SFSymbolReference.image(name: "questionmark.bubble.fill.ar", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
                 }
                 
@@ -1987,12 +1996,12 @@ extension SF.questionmark {
                 
                 #if os(iOS) || os(tvOS) || os(watchOS)
                 
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "questionmark.bubble.fill.ar", configuration: configuration)
                 }
                 
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "questionmark.bubble.fill.ar", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2000,12 +2009,12 @@ extension SF.questionmark {
                 
                 #if canImport(SwiftUI)
                 
-                public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage() -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "questionmark.bubble.fill.ar")
                 }
                 
                 @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                     SFSymbolReference.swiftUIImage(name: "questionmark.bubble.fill.ar", variableValue: variableValue)
                 }
                 
@@ -2015,12 +2024,12 @@ extension SF.questionmark {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "questionmark.bubble.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "questionmark.bubble.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -2028,12 +2037,12 @@ extension SF.questionmark {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "questionmark.bubble.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "questionmark.bubble.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2041,12 +2050,12 @@ extension SF.questionmark {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "questionmark.bubble.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "questionmark.bubble.fill", variableValue: variableValue)
             }
             
@@ -2056,12 +2065,12 @@ extension SF.questionmark {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "questionmark.bubble", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "questionmark.bubble", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -2069,12 +2078,12 @@ extension SF.questionmark {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "questionmark.bubble", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "questionmark.bubble", variableValue: variableValue, configuration: configuration)
         }
         
@@ -2082,12 +2091,12 @@ extension SF.questionmark {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "questionmark.bubble")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "questionmark.bubble", variableValue: variableValue)
         }
         
@@ -2103,12 +2112,12 @@ extension SF.recordingtape {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "recordingtape.circle.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "recordingtape.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -2116,12 +2125,12 @@ extension SF.recordingtape {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "recordingtape.circle.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "recordingtape.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2129,12 +2138,12 @@ extension SF.recordingtape {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "recordingtape.circle.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "recordingtape.circle.fill", variableValue: variableValue)
             }
             
@@ -2144,12 +2153,12 @@ extension SF.recordingtape {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "recordingtape.circle", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "recordingtape.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -2157,12 +2166,12 @@ extension SF.recordingtape {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "recordingtape.circle", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "recordingtape.circle", variableValue: variableValue, configuration: configuration)
         }
         
@@ -2170,12 +2179,12 @@ extension SF.recordingtape {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "recordingtape.circle")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "recordingtape.circle", variableValue: variableValue)
         }
         
@@ -2191,12 +2200,12 @@ extension SF.rectangle.portrait.and.arrow {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -2204,12 +2213,12 @@ extension SF.rectangle.portrait.and.arrow {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2217,12 +2226,12 @@ extension SF.rectangle.portrait.and.arrow {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.forward.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.forward.fill", variableValue: variableValue)
             }
             
@@ -2232,12 +2241,12 @@ extension SF.rectangle.portrait.and.arrow {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -2245,12 +2254,12 @@ extension SF.rectangle.portrait.and.arrow {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward", variableValue: variableValue, configuration: configuration)
         }
         
@@ -2258,12 +2267,12 @@ extension SF.rectangle.portrait.and.arrow {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.forward")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.forward", variableValue: variableValue)
         }
         
@@ -2279,12 +2288,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
             private init() {}
             #if os(macOS)
             
-            public static func image(accessibilityDescription: String? = nil) -> Image {
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", accessibilityDescription: accessibilityDescription)
             }
             
             @available(macOS 13.0, *)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
                 SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
             }
             
@@ -2292,12 +2301,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
             
             #if os(iOS) || os(tvOS) || os(watchOS)
             
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", configuration: configuration)
             }
             
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2305,12 +2314,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
             
             #if canImport(SwiftUI)
             
-            public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage() -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.angled.fill")
             }
             
             @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
                 SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", variableValue: variableValue)
             }
             
@@ -2320,12 +2329,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -2333,12 +2342,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled", variableValue: variableValue, configuration: configuration)
         }
         
@@ -2346,12 +2355,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.angled")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.angled", variableValue: variableValue)
         }
         
@@ -2364,12 +2373,12 @@ extension SF.rectangle.portrait.on.rectangle.portrait {
 extension SF.rublesign {
     #if os(macOS)
     
-    public static func image(accessibilityDescription: String? = nil) -> Image {
+    public static func image(accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "rublesign", accessibilityDescription: accessibilityDescription)
     }
     
     @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "rublesign", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
     }
     
@@ -2377,12 +2386,12 @@ extension SF.rublesign {
     
     #if os(iOS) || os(tvOS) || os(watchOS)
     
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "rublesign", configuration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "rublesign", variableValue: variableValue, configuration: configuration)
     }
     
@@ -2390,12 +2399,12 @@ extension SF.rublesign {
     
     #if canImport(SwiftUI)
     
-    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage() -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "rublesign")
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "rublesign", variableValue: variableValue)
     }
     
@@ -2406,12 +2415,12 @@ extension SF.rublesign {
 extension SF.rupeesign {
     #if os(macOS)
     
-    public static func image(accessibilityDescription: String? = nil) -> Image {
+    public static func image(accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "rupeesign", accessibilityDescription: accessibilityDescription)
     }
     
     @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "rupeesign", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
     }
     
@@ -2419,12 +2428,12 @@ extension SF.rupeesign {
     
     #if os(iOS) || os(tvOS) || os(watchOS)
     
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "rupeesign", configuration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "rupeesign", variableValue: variableValue, configuration: configuration)
     }
     
@@ -2432,12 +2441,12 @@ extension SF.rupeesign {
     
     #if canImport(SwiftUI)
     
-    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage() -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "rupeesign")
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "rupeesign", variableValue: variableValue)
     }
     
@@ -2450,12 +2459,12 @@ extension SF.sensor {
         private init() {}
         #if os(macOS)
         
-        public static func image(accessibilityDescription: String? = nil) -> Image {
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "sensor.fill", accessibilityDescription: accessibilityDescription)
         }
         
         @available(macOS 13.0, *)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
             SFSymbolReference.image(name: "sensor.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
         }
         
@@ -2463,12 +2472,12 @@ extension SF.sensor {
         
         #if os(iOS) || os(tvOS) || os(watchOS)
         
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "sensor.fill", configuration: configuration)
         }
         
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "sensor.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -2476,12 +2485,12 @@ extension SF.sensor {
         
         #if canImport(SwiftUI)
         
-        public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage() -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "sensor.fill")
         }
         
         @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
             SFSymbolReference.swiftUIImage(name: "sensor.fill", variableValue: variableValue)
         }
         
@@ -2490,12 +2499,12 @@ extension SF.sensor {
 
     #if os(macOS)
     
-    public static func image(accessibilityDescription: String? = nil) -> Image {
+    public static func image(accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "sensor", accessibilityDescription: accessibilityDescription)
     }
     
     @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> Image {
+    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
         SFSymbolReference.image(name: "sensor", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
     }
     
@@ -2503,12 +2512,12 @@ extension SF.sensor {
     
     #if os(iOS) || os(tvOS) || os(watchOS)
     
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "sensor", configuration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> SFSymbolReference.Image {
+    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
         SFSymbolReference.image(name: "sensor", variableValue: variableValue, configuration: configuration)
     }
     
@@ -2516,12 +2525,12 @@ extension SF.sensor {
     
     #if canImport(SwiftUI)
     
-    public static func swiftUIImage() -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage() -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "sensor")
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SFSymbolReference.SwiftUIImage {
+    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference.swiftUIImage(name: "sensor", variableValue: variableValue)
     }
     
