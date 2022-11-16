@@ -1,10 +1,8 @@
 import XCTest
-@testable import SafeSanFrancisco
+import SafeSanFrancisco
 
 final class SafeSanFranciscoTests: XCTestCase {
     func testPencil_iOS13() throws {
-        
-        
         
         let images = [
             SF.pencil.image(),
@@ -32,7 +30,7 @@ final class SafeSanFranciscoTests: XCTestCase {
         }
     }
     
-    /*@available(iOS 15.0, *)
+    @available(iOS 15.0, macOS 12.0, *)
     func testPencil_iOS15() throws {
         
         let images = [
@@ -44,19 +42,19 @@ final class SafeSanFranciscoTests: XCTestCase {
         }
     }
     
-    @available(iOS 16.0, *)
+    @available(iOS 16.0, macOS 13.0, *)
     func testPencil_iOS16() throws {
         
         let images = [
-            SF.Pencil.line.image(),
-            SF.Pencil.And.ruler.image(),
-            SF.Pencil.And.Ruler.fill.image(),
-            SF.Square.And.Pencil.circle.image(),
-            SF.Square.And.Pencil.Circle.fill.image(),
+            SF.pencil.line.image(),
+            SF.pencil.and.ruler.image(),
+            //SF.pencil.and.ruler.fill.image(),
+            SF.square.and.pencil.circle.image(),
+            //SF.square.and.pencil.circle.fill.image(),
         ]
         
         for image in images {
             XCTAssertNotNil(image)
         }
-    }*/
+    }
 }

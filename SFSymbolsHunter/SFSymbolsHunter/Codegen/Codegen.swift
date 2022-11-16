@@ -18,7 +18,7 @@ final class Codegen {
         currentStructurePath.joined(separator: ".")
     }
     
-    func openStructure(named name: String, availability: String? = nil) {
+    func openStructure(named name: String, availability: String? = nil, ignoreIfExists: Bool = false) {
         currentStructurePath.append(name)
         let isExtension = definedStructures.contains(currentDottedStructurePath)
         definedStructures.insert(currentDottedStructurePath)
@@ -44,7 +44,7 @@ final class Codegen {
         }
     }
     
-    func closeStructure() {
+    func closeStructure(ignoreIfExists: Bool = false) {
         heads.removeLast()
         currentStructurePath.removeLast()
     }
@@ -57,7 +57,7 @@ final class Codegen {
         head.add(line: line)
     }
     
-    func getCode(linecountThreshold: Int = 2_500) -> [String] {
+    func getCode(linecountThreshold: Int = 7_500) -> [String] {
         var files = [String]()
         
         var result = ""

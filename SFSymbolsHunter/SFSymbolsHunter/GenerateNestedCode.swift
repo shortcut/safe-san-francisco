@@ -23,16 +23,23 @@ struct GenerateNestedCode: ParsableCommand {
     }
     
     func run() throws {
+        let startTime = Date().timeIntervalSince1970
+        print("Start")
+        
         let sfsymbolsAppUrl = URL(filePath: sfSymbolsAppPath)
         let nameAvailabilityFile = sfsymbolsAppUrl.appending(path: kNameAvailavilityPlistPath)
         
         let nameAvailability = try NameAvailabilityHelper.readNameAvailabilityFile(file: nameAvailabilityFile)
         let groupedNamespacedSymbols = NameAvailabilityHelper.makeGroupedNamespacedSymbols(from: nameAvailability)
+        
+        let timestamp1 = Date().timeIntervalSince1970
+        print("Grouped symbols in \(timestamp1 - startTime)s")
 
         let files = CodegenHelpers.codegen(title: "SF", fromGroupedNamespacedSymbols: groupedNamespacedSymbols, yearsToRelease: nameAvailability.yearToRelease)
 
         try FileHelper.saveFilesInDirectory(withName: "SafeSanFrancisco", path: outputPath, files: files)
         
-        print("Done!")
+        let timestamp2 = Date().timeIntervalSince1970
+        print("Done in \(timestamp2 - startTime)s")
     }
 }
