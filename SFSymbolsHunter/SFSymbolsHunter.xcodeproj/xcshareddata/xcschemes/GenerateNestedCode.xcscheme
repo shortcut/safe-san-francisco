@@ -60,6 +60,10 @@
             argument = "/Applications/SF\ Symbols\ beta.app"
             isEnabled = "YES">
          </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-o $PROJECT_DIR/../Sources/SafeSanFrancisco"
+            isEnabled = "YES">
+         </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
    <ProfileAction

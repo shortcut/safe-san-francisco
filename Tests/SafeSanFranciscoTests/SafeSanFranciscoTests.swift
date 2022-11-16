@@ -48,9 +48,9 @@ final class SafeSanFranciscoTests: XCTestCase {
         let images = [
             SF.pencil.line.image(),
             SF.pencil.and.ruler.image(),
-            //SF.pencil.and.ruler.fill.image(),
+            SF.pencil.and.ruler.fill.image(),
             SF.square.and.pencil.circle.image(),
-            //SF.square.and.pencil.circle.fill.image(),
+            SF.square.and.pencil.circle.fill.image(),
         ]
         
         for image in images {

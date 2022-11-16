@@ -7,12 +7,124 @@ import UIKit
 #if canImport(SwiftUI)
 import SwiftUI
 #endif
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.alarm {
-    public struct waves {
-        public struct left {
-            public struct and {
-                public struct right {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.display {
+    public struct and {
+        public struct arrow {
+            public struct down {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.doc {
+    public struct viewfinder {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.doc.richtext {
+    public struct hi {
+        private init() {}
+    }
+
+    public struct ja {
+        private init() {}
+    }
+
+    public struct ko {
+        private init() {}
+    }
+
+    public struct th {
+        private init() {}
+    }
+
+    public struct zh {
+        public struct traditional {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.doc.richtext.fill {
+    public struct hi {
+        private init() {}
+    }
+
+    public struct ja {
+        private init() {}
+    }
+
+    public struct ko {
+        private init() {}
+    }
+
+    public struct th {
+        private init() {}
+    }
+
+    public struct zh {
+        public struct traditional {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.doc.text {
+    public struct _image {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dot {
+    public struct viewfinder {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dot.circle {
+    public struct viewfinder {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dot.circle.and {
+    public struct hand {
+        public struct point {
+            public struct up {
+                public struct left {
                     public struct fill {
                         private init() {}
                     }
@@ -31,22 +143,1726 @@ extension SF.alarm {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.allergens {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dot.radiowaves {
+    public struct up {
+        public struct forward {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dpad.down {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dpad.left {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dpad.right {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.dpad.up {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.drop {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.ear {
+    public struct and {
+        public struct waveform {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.ellipsis {
+    public struct curlybraces {
+        private init() {}
+    }
+
+    public struct vertical {
+        public struct bubble {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.envelope.badge.shield {
+    public struct half {
+        public struct filled {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.exclamationmark.bubble {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.eye {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct trianglebadge {
+        public struct exclamationmark {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.eye.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.figure {
+    public struct roll {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.film {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.flag {
+    public struct _2 {
+        public struct crossed {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct and {
+        public struct flag {
+            public struct filled {
+                public struct crossed {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct filled {
+        public struct and {
+            public struct flag {
+                public struct crossed {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.flame {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.folder.badge {
+    public struct gearshape {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.folder.fill.badge {
+    public struct gearshape {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.forward {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.gear {
+    public struct badge {
+        public struct checkmark {
+            private init() {}
+        }
+
+        public struct questionmark {
+            private init() {}
+        }
+
+        public struct xmark {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.gearshape {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.globe {
+    public struct americas {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct asia {
+        public struct australia {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct badge {
+        public struct chevron {
+            public struct backward {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct europe {
+        public struct africa {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.gobackward {
+    public struct _5 {
+        public struct ar {
+            private init() {}
+        }
+
+        public struct hi {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.goforward {
+    public struct _5 {
+        public struct ar {
+            private init() {}
+        }
+
+        public struct hi {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.graduationcap {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.h.square.on.square {
     public struct fill {
         private init() {}
     }
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.down {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hammer {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hand.raised {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        public struct on {
+            public struct square {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hand.thumbsdown {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hand.thumbsup {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.heart {
+    public struct rectangle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hexagon {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hifispeaker.and {
+    public struct appletv {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.homepod.and {
+    public struct appletv {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.homepodmini {
     public struct and {
-        public struct line {
-            public struct horizontal {
-                public struct and {
-                    public struct arrow {
-                        public struct up {
+        public struct appletv {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hourglass {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hourglass.bottomhalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.hourglass.tophalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.icloud {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.ipad {
+    public struct and {
+        public struct arrow {
+            public struct forward {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct iphone {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct rear {
+        public struct camera {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.iphone {
+    public struct and {
+        public struct arrow {
+            public struct forward {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct rear {
+        public struct camera {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct smartbatterycase {
+        public struct gen1 {
+            private init() {}
+        }
+
+        public struct gen2 {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.iphone.homebutton {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.iphone.homebutton.radiowaves.left.and.right {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.iphone.homebutton.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.iphone.radiowaves.left.and.right {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.iphone.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.ipodtouch {
+    public struct slash {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.j.square.on.square {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.keyboard {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.l.joystick {
+    public struct press {
+        public struct down {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tilt {
+        public struct down {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct left {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct right {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct up {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.laptopcomputer {
+    public struct trianglebadge {
+        public struct exclamationmark {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.laptopcomputer.and {
+    public struct arrow {
+        public struct down {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.lasso {
+    public struct and {
+        public struct sparkles {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.leaf {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.lightbulb {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.line {
+    public struct _2 {
+        public struct horizontal {
+            public struct decrease {
+                public struct circle {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.line._3 {
+    public struct horizontal {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct decrease {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.list.bullet {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.list.bullet.rectangle {
+    public struct fill {
+        private init() {}
+    }
+
+    public struct portrait {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.list.dash {
+    public struct header {
+        public struct rectangle {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.list.number {
+    public struct hi {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.location {
+    public struct magnifyingglass {
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.location.north {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.lock {
+    public struct desktopcomputer {
+        private init() {}
+    }
+
+    public struct display {
+        private init() {}
+    }
+
+    public struct ipad {
+        private init() {}
+    }
+
+    public struct iphone {
+        private init() {}
+    }
+
+    public struct laptopcomputer {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.lock.open {
+    public struct applewatch {
+        private init() {}
+    }
+
+    public struct desktopcomputer {
+        private init() {}
+    }
+
+    public struct display {
+        private init() {}
+    }
+
+    public struct ipad {
+        private init() {}
+    }
+
+    public struct iphone {
+        private init() {}
+    }
+
+    public struct laptopcomputer {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.macpro.gen1 {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.macpro.gen3 {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.map {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mappin {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mappin.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.memorychip {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.message {
+    public struct and {
+        public struct waveform {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mic {
+    public struct badge {
+        public struct plus {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mic.fill {
+    public struct badge {
+        public struct plus {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mic.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.minus {
+    public struct forwardslash {
+        public struct plus {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.music.mic {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.music.note {
+    public struct tv {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.network {
+    public struct badge {
+        public struct shield {
+            public struct half {
+                public struct filled {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.newspaper {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.octagon {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.oval {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.oval.portrait {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person {
+    public struct text {
+        public struct rectangle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct wave {
+        public struct _2 {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person._2 {
+    public struct crop {
+        public struct square {
+            public struct stack {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct wave {
+        public struct _2 {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person._3 {
+    public struct sequence {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.badge {
+    public struct clock {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop {
+    public struct artframe {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.circle.badge {
+    public struct clock {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fill {
+        private init() {}
+    }
+
+    public struct moon {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.circle.badge.exclamationmark {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.circle.badge.questionmark {
+    public struct fill {
+        public struct ar {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.rectangle {
+    public struct stack {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.square {
+    public struct filled {
+        public struct and {
+            public struct at {
+                public struct rectangle {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.personalhotspot {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.phone {
+    public struct and {
+        public struct waveform {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.photo {
+    public struct artframe {
+        private init() {}
+    }
+
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.pills {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.pin {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.play {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.play.rectangle {
+    public struct on {
+        public struct rectangle {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.plus {
+    public struct forwardslash {
+        public struct minus {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.plus.rectangle.on.folder {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.plus.square {
+    public struct dashed {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.point {
+    public struct _3 {
+        public struct connected {
+            public struct trianglepath {
+                public struct dotted {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct filled {
+            public struct connected {
+                public struct trianglepath {
+                    public struct dotted {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct filled {
+        public struct topleft {
+            public struct down {
+                public struct curvedto {
+                    public struct point {
+                        public struct bottomright {
+                            public struct up {
+                                private init() {}
+                            }
+
                             private init() {}
                         }
 
@@ -65,29 +1881,13 @@ extension SF.arrow.down {
         private init() {}
     }
 
-    public struct message {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.left.and {
-    public struct line {
-        public struct vertical {
-            public struct and {
-                public struct arrow {
-                    public struct right {
-                        private init() {}
-                    }
-
-                    private init() {}
-                }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.point.topleft.down.curvedto.point {
+    public struct filled {
+        public struct bottomright {
+            public struct up {
                 private init() {}
             }
 
@@ -99,10 +1899,38 @@ extension SF.arrow.left.and {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.left.and.right {
-    public struct text {
-        public struct vertical {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.point.topleft.down.curvedto.point.bottomright.up {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.power {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct dotted {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.printer {
+    public struct filled {
+        public struct and {
+            public struct paper {
+                private init() {}
+            }
+
             private init() {}
         }
 
@@ -111,13 +1939,165 @@ extension SF.arrow.left.and.right {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.right {
-    public struct and {
-        public struct line {
-            public struct vertical {
-                public struct and {
-                    public struct arrow {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.printer.dotmatrix {
+    public struct filled {
+        public struct and {
+            public struct paper {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.puzzlepiece {
+    public struct `extension` {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.questionmark {
+    public struct app {
+        public struct ar {
+            private init() {}
+        }
+
+        public struct dashed {
+            public struct ar {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            public struct ar {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.quote {
+    public struct closing {
+        private init() {}
+    }
+
+    public struct opening {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.r.joystick {
+    public struct press {
+        public struct down {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tilt {
+        public struct down {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct left {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct right {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct up {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.r.square.on.square {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle {
+    public struct _2 {
+        public struct swap {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct filled {
+        public struct and {
+            public struct hand {
+                public struct point {
+                    public struct up {
                         public struct left {
                             private init() {}
                         }
@@ -137,15 +2117,11 @@ extension SF.arrow.right {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.up.and {
-    public struct line {
-        public struct horizontal {
-            public struct and {
+    public struct leadinghalf {
+        public struct inset {
+            public struct filled {
                 public struct arrow {
-                    public struct down {
+                    public struct leading {
                         private init() {}
                     }
 
@@ -161,89 +2137,57 @@ extension SF.arrow.up.and {
         private init() {}
     }
 
-}
+    public struct leadingthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.up.and.down {
-    public struct text {
-        public struct horizontal {
             private init() {}
         }
 
         private init() {}
     }
 
-}
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.up.and.down.and {
-    public struct sparkles {
-        private init() {}
-    }
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrow.up.circle {
-    public struct badge {
-        public struct clock {
             private init() {}
         }
 
         private init() {}
     }
 
-}
+    public struct trailinghalf {
+        public struct inset {
+            public struct filled {
+                public struct arrow {
+                    public struct trailing {
+                        private init() {}
+                    }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrowshape {
-    public struct backward {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct forward {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct left {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct right {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.arrowshape.turn.up.backward {
-    public struct badge {
-        public struct clock {
-            public struct fill {
-                public struct rtl {
                     private init() {}
                 }
 
                 private init() {}
             }
 
-            public struct rtl {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct trailingthird {
+        public struct inset {
+            public struct filled {
                 private init() {}
             }
 
@@ -255,9 +2199,21 @@ extension SF.arrowshape.turn.up.backward {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.backward.end {
-    public struct circle {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle._3 {
+    public struct group {
+        public struct bubble {
+            public struct left {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
         public struct fill {
             private init() {}
         }
@@ -267,52 +2223,20 @@ extension SF.backward.end {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bag.badge {
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bag.fill.badge {
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.battery._100 {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bell.and {
-    public struct waves {
-        public struct left {
-            public struct and {
-                public struct right {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.and {
+    public struct hand {
+        public struct point {
+            public struct up {
+                public struct left {
                     public struct fill {
                         private init() {}
                     }
 
+                    public struct filled {
+                        private init() {}
+                    }
+
                     private init() {}
                 }
 
@@ -327,1298 +2251,18 @@ extension SF.bell.and {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bolt {
-    public struct brakesignal {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.bolt.badge {
-    public struct clock {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cart.badge {
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        public struct rtl {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cart.fill.badge {
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        public struct rtl {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.character {
-    public struct duployan {
-        private init() {}
-    }
-
-    public struct phonetic {
-        private init() {}
-    }
-
-    public struct sutton {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.chart.line {
-    public struct downtrend {
-        public struct xyaxis {
-            public struct circle {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct flattrend {
-        public struct xyaxis {
-            public struct circle {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.checklist {
-    public struct checked {
-        public struct rtl {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct unchecked {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.checkmark {
-    public struct message {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.checkmark.circle {
-    public struct badge {
-        public struct questionmark {
-            public struct ar {
-                private init() {}
-            }
-
-            public struct fill {
-                public struct ar {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct xmark {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.chevron.backward {
-    public struct to {
-        public struct line {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.chevron.forward {
-    public struct to {
-        public struct line {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.chevron.left {
-    public struct to {
-        public struct line {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.chevron.right {
-    public struct to {
-        public struct line {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.circle {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.bottomthird.inset {
     public struct filled {
-        public struct pattern {
-            public struct diagonalline {
-                public struct rectangle {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct rectangle {
-        public struct dashed {
-            private init() {}
-        }
-
-        public struct filled {
-            public struct pattern {
-                public struct diagonalline {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
         private init() {}
     }
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.circle.dashed {
-    public struct rectangle {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.clock.badge {
-    public struct fill {
-        private init() {}
-    }
-
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        public struct fill {
-            public struct ar {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct xmark {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.bolt {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.bolt.rain {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.drizzle {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.fog {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.hail {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.heavyrain {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.moon {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.moon.bolt {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.moon.rain {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.rain {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.sleet {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.snow {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.sun {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.sun.bolt {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cloud.sun.rain {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.creditcard {
-    public struct viewfinder {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.cursorarrow.square {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.dial {
-    public struct high {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct low {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct medium {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.doc.badge {
-    public struct arrow {
-        public struct up {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.dollarsign {
-    public struct arrow {
-        public struct circlepath {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.drop {
-    public struct degreesign {
-        public struct fill {
-            private init() {}
-        }
-
-        public struct slash {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            public struct rtl {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct keypad {
-        public struct rectangle {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.ellipsis {
-    public struct message {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.envelope.open {
-    public struct badge {
-        public struct clock {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.exclamationmark {
-    public struct brakesignal {
-        private init() {}
-    }
-
-    public struct lock {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive.badge {
-    public struct exclamationmark {
-        private init() {}
-    }
-
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive.fill {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive.fill.badge {
-    public struct exclamationmark {
-        private init() {}
-    }
-
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.face.smiling {
-    public struct inverse {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.fanblades {
-    public struct slash {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.faxmachine {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.figure {
-    public struct _2 {
-        public struct and {
-            public struct child {
-                public struct holdinghands {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct arms {
-            public struct open {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct american {
-        public struct football {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct and {
-        public struct child {
-            public struct holdinghands {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct archery {
-        private init() {}
-    }
-
-    public struct arms {
-        public struct open {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct australian {
-        public struct football {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct badminton {
-        private init() {}
-    }
-
-    public struct barre {
-        private init() {}
-    }
-
-    public struct baseball {
-        private init() {}
-    }
-
-    public struct basketball {
-        private init() {}
-    }
-
-    public struct bowling {
-        private init() {}
-    }
-
-    public struct boxing {
-        private init() {}
-    }
-
-    public struct climbing {
-        private init() {}
-    }
-
-    public struct cooldown {
-        private init() {}
-    }
-
-    public struct core {
-        public struct training {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct cricket {
-        private init() {}
-    }
-
-    public struct cross {
-        public struct training {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct curling {
-        private init() {}
-    }
-
-    public struct dance {
-        private init() {}
-    }
-
-    public struct disc {
-        public struct sports {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct dress {
-        public struct line {
-            public struct vertical {
-                public struct figure {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct elliptical {
-        private init() {}
-    }
-
-    public struct equestrian {
-        public struct sports {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct fall {
-        public struct circle {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct fencing {
-        private init() {}
-    }
-
-    public struct fishing {
-        private init() {}
-    }
-
-    public struct flexibility {
-        private init() {}
-    }
-
-    public struct golf {
-        private init() {}
-    }
-
-    public struct gymnastics {
-        private init() {}
-    }
-
-    public struct hand {
-        public struct cycling {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct handball {
-        private init() {}
-    }
-
-    public struct highintensity {
-        public struct intervaltraining {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct hiking {
-        private init() {}
-    }
-
-    public struct hockey {
-        private init() {}
-    }
-
-    public struct hunting {
-        private init() {}
-    }
-
-    public struct indoor {
-        public struct cycle {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct jumprope {
-        private init() {}
-    }
-
-    public struct kickboxing {
-        private init() {}
-    }
-
-    public struct lacrosse {
-        private init() {}
-    }
-
-    public struct martial {
-        public struct arts {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct mind {
-        public struct and {
-            public struct body {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct mixed {
-        public struct cardio {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct open {
-        public struct water {
-            public struct swim {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct outdoor {
-        public struct cycle {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct pickleball {
-        private init() {}
-    }
-
-    public struct pilates {
-        private init() {}
-    }
-
-    public struct play {
-        private init() {}
-    }
-
-    public struct pool {
-        public struct swim {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct racquetball {
-        private init() {}
-    }
-
-    public struct rolling {
-        private init() {}
-    }
-
-    public struct rower {
-        private init() {}
-    }
-
-    public struct rugby {
-        private init() {}
-    }
-
-    public struct run {
-        public struct circle {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct sailing {
-        private init() {}
-    }
-
-    public struct skating {
-        private init() {}
-    }
-
-    public struct skiing {
-        public struct crosscountry {
-            private init() {}
-        }
-
-        public struct downhill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct snowboarding {
-        private init() {}
-    }
-
-    public struct soccer {
-        private init() {}
-    }
-
-    public struct socialdance {
-        private init() {}
-    }
-
-    public struct softball {
-        private init() {}
-    }
-
-    public struct squash {
-        private init() {}
-    }
-
-    public struct stair {
-        public struct stepper {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct stairs {
-        private init() {}
-    }
-
-    public struct step {
-        public struct training {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct strengthtraining {
-        public struct functional {
-            private init() {}
-        }
-
-        public struct traditional {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct surfing {
-        private init() {}
-    }
-
-    public struct table {
-        public struct tennis {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct taichi {
-        private init() {}
-    }
-
-    public struct tennis {
-        private init() {}
-    }
-
-    public struct track {
-        public struct and {
-            public struct field {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct volleyball {
-        private init() {}
-    }
-
-    public struct water {
-        public struct fitness {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct waterpolo {
-        private init() {}
-    }
-
-    public struct wrestling {
-        private init() {}
-    }
-
-    public struct yoga {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.figure.roll {
-    public struct runningpace {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.figure.walk {
-    public struct arrival {
-        private init() {}
-    }
-
-    public struct departure {
-        private init() {}
-    }
-
-    public struct motion {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.film {
-    public struct stack {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.flag {
-    public struct checkered {
-        public struct _2 {
-            public struct crossed {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.flag._2.crossed {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.forward.end {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gauge {
-    public struct high {
-        private init() {}
-    }
-
-    public struct low {
-        private init() {}
-    }
-
-    public struct medium {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.center.inset {
+    public struct filled {
         public struct badge {
-            public struct minus {
-                private init() {}
-            }
-
             public struct plus {
                 private init() {}
             }
@@ -1631,924 +2275,28 @@ extension SF.gauge {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gear.badge {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gearshape {
-    public struct arrow {
-        public struct triangle {
-            public struct _2 {
-                public struct circlepath {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.globe {
-    public struct central {
-        public struct south {
-            public struct asia {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct desk {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hand {
-    public struct app {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hand.raised {
-    public struct fingers {
-        public struct spread {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hearingdevice {
-    public struct and {
-        public struct signal {
-            public struct meter {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hearingdevice.ear {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hifispeaker.and.appletv {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hifispeaker.and.appletv.fill {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepod.and.appletv {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepod.and.appletv.fill {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepodmini.and.appletv {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepodmini.and.appletv.fill {
-    public struct rtl {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hurricane {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.info {
-    public struct bubble {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct square {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.badge {
-    public struct eye {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.badge.ellipsis {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.chevron.compact.down {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.chevron.compact.left {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.onehanded.left {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.onehanded.right {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.laptopcomputer.and {
-    public struct ipad {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.light {
-    public struct beacon {
-        public struct max {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct min {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct cylindrical {
-        public struct ceiling {
-            public struct fill {
-                private init() {}
-            }
-
-            public struct inverse {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct panel {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct recessed {
-        public struct _3 {
-            public struct fill {
-                private init() {}
-            }
-
-            public struct inverse {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct fill {
-            private init() {}
-        }
-
-        public struct inverse {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct ribbon {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct strip {
-        public struct _2 {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.lightbulb {
-    public struct _2 {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct led {
-        public struct fill {
-            private init() {}
-        }
-
-        public struct wide {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.list {
-    public struct clipboard {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.list.bullet {
-    public struct clipboard {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.location.slash {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.lock {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.lock.open {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.message {
-    public struct badge {
-        public struct circle {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            public struct rtl {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct fill {
-            public struct rtl {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset {
+    public struct bottomleading {
         public struct filled {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct rtl {
             private init() {}
         }
 
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.mic {
-    public struct and {
-        public struct signal {
-            public struct meter {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
+    public struct bottomtrailing {
+        public struct filled {
             private init() {}
         }
 
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.mic.badge {
-    public struct xmark {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.mic.fill.badge {
-    public struct xmark {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.moon {
-    public struct haze {
-        public struct circle {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.moon.stars {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.nosign {
-    public struct app {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.opticaldisc {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.parkingsign {
-    public struct brakesignal {
-        public struct slash {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.pencil {
-    public struct line {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.pencil.and {
-    public struct ruler {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person {
-    public struct bust {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct line {
-        public struct dotted {
+    public struct filled {
+        public struct and {
             public struct person {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person._2 {
-    public struct badge {
-        public struct gearshape {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct gobackward {
-        private init() {}
-    }
-
-    public struct slash {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.and {
-    public struct background {
-        public struct dotted {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.badge {
-    public struct shield {
-        public struct checkmark {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.crop.rectangle {
-    public struct badge {
-        public struct plus {
-            public struct fill {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.down.left {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.right {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.up.right {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.badge {
-    public struct checkmark {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.connection {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.down {
-    public struct waves {
-        public struct left {
-            public struct and {
-                public struct right {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.fill.badge {
-    public struct checkmark {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.photo {
-    public struct stack {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.play {
-    public struct desktopcomputer {
-        private init() {}
-    }
-
-    public struct display {
-        private init() {}
-    }
-
-    public struct laptopcomputer {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.playpause {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.questionmark {
-    public struct bubble {
-        public struct ar {
-            private init() {}
-        }
-
-        public struct fill {
-            public struct ar {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.recordingtape {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.and.arrow {
-    public struct forward {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.on.rectangle.portrait {
-    public struct angled {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sensor {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.shippingbox {
-    public struct and {
-        public struct arrow {
-            public struct backward {
-                public struct fill {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.slider.horizontal._2 {
-    public struct gobackward {
-        private init() {}
-    }
-
-    public struct square {
-        public struct badge {
-            public struct arrow {
-                public struct down {
+                public struct filled {
                     private init() {}
                 }
 
@@ -2559,7 +2307,79 @@ extension SF.slider.horizontal._2 {
         }
 
         public struct on {
-            public struct square {
+            public struct rectangle {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct topleading {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct toptrailing {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.bottomleft {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.bottomright {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.topleft {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.topright {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.lefthalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.lefthalf.inset {
+    public struct filled {
+        public struct arrow {
+            public struct left {
                 private init() {}
             }
 
@@ -2571,45 +2391,17 @@ extension SF.slider.horizontal._2 {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.slider.horizontal.below.square {
-    public struct and {
-        public struct square {
-            public struct filled {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.leftthird.inset {
+    public struct filled {
         private init() {}
     }
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.smoke {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.on.rectangle {
     public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.speaker {
-    public struct minus {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-    public struct plus {
         public struct fill {
             private init() {}
         }
@@ -2627,32 +2419,8 @@ extension SF.speaker {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.speaker.wave._2 {
-    public struct bubble {
-        public struct left {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-
-                private init() {}
-            }
-
-            public struct rtl {
-                private init() {}
-            }
-
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sportscourt {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.on.rectangle.slash {
     public struct circle {
         public struct fill {
             private init() {}
@@ -2661,10 +2429,82 @@ extension SF.sportscourt {
         private init() {}
     }
 
+    public struct fill {
+        private init() {}
+    }
+
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.portrait {
+    public struct and {
+        public struct arrow {
+            public struct right {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bottomleading {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bottomleft {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bottomright {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
     public struct bottomthird {
         public struct inset {
             public struct filled {
@@ -2677,11 +2517,67 @@ extension SF.square {
         private init() {}
     }
 
-    public struct dotted {
+    public struct bottomtrailing {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct center {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct leadinghalf {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
         private init() {}
     }
 
     public struct leadingthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+
         public struct inset {
             public struct filled {
                 private init() {}
@@ -2705,6 +2601,46 @@ extension SF.square {
         private init() {}
     }
 
+    public struct on {
+        public struct rectangle {
+            public struct portrait {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct slash {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
     public struct rightthird {
         public struct inset {
             public struct filled {
@@ -2717,7 +2653,111 @@ extension SF.square {
         private init() {}
     }
 
+    public struct slash {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct split {
+        public struct _2x1 {
+            public struct fill {
+                private init() {}
+            }
+
+            public struct slash {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct topleading {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct topleft {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct topright {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
     public struct topthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct toptrailing {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct trailinghalf {
         public struct inset {
             public struct filled {
                 private init() {}
@@ -2743,23 +2783,19 @@ extension SF.square {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square._2 {
-    public struct layers {
-        public struct _3d {
-            public struct bottom {
-                public struct filled {
-                    private init() {}
-                }
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.righthalf {
+    public struct filled {
+        private init() {}
+    }
 
-                private init() {}
-            }
+}
 
-            public struct top {
-                public struct filled {
-                    private init() {}
-                }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.righthalf.inset {
+    public struct filled {
+        public struct arrow {
+            public struct right {
                 private init() {}
             }
 
@@ -2771,30 +2807,18 @@ extension SF.square._2 {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square._3.layers._3d {
-    public struct bottom {
-        public struct filled {
-            private init() {}
-        }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.rightthird.inset {
+    public struct filled {
         private init() {}
     }
 
-    public struct middle {
-        public struct filled {
-            private init() {}
-        }
+}
 
-        private init() {}
-    }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.split._2x1 {
     public struct slash {
-        private init() {}
-    }
-
-    public struct top {
-        public struct filled {
+        public struct fill {
             private init() {}
         }
 
@@ -2803,10 +2827,10 @@ extension SF.square._3.layers._3d {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square._3.layers._3d.down.backward {
-    public struct slash {
-        public struct rtl {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.stack.badge {
+    public struct play {
+        public struct fill {
             private init() {}
         }
 
@@ -2815,24 +2839,83 @@ extension SF.square._3.layers._3d.down.backward {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square._3.layers._3d.down.forward {
-    public struct slash {
-        public struct rtl {
-            private init() {}
-        }
-
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.stack.badge.person.crop {
+    public struct fill {
         private init() {}
     }
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.and.pencil {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.topthird.inset {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`._1 {
+    public struct ar {
+        private init() {}
+    }
+
+    public struct hi {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`._1.circle {
+    public struct ar {
+        private init() {}
+    }
+
+    public struct hi {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`._1.circle.fill {
+    public struct ar {
+        private init() {}
+    }
+
+    public struct hi {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.restart.circle {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`return` {
+    public struct left {
+        private init() {}
+    }
+
+    public struct right {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.scissors {
     public struct circle {
         public struct fill {
             private init() {}
-            
         }
 
         private init() {}
@@ -2840,11 +2923,923 @@ extension SF.square.and.pencil {
 
 }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.on.square {
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.shield {
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.shield.lefthalf {
+    public struct filled {
+        public struct slash {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.shippingbox {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.signature {
+    public struct ja {
+        private init() {}
+    }
+
+    public struct th {
+        private init() {}
+    }
+
+    public struct zh {
+        public struct traditional {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sleep {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.slider.horizontal {
+    public struct _2 {
+        public struct rectangle {
+            public struct and {
+                public struct arrow {
+                    public struct triangle {
+                        public struct _2 {
+                            public struct circlepath {
+                                private init() {}
+                            }
+
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.slider.horizontal.below.square {
+    public struct filled {
+        public struct and {
+            public struct square {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.smallcircle {
+    public struct filled {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sparkle {
+    public struct magnifyingglass {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sparkles {
+    public struct tv {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sparkles.square {
+    public struct filled {
+        public struct on {
+            public struct square {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.speaker {
     public struct badge {
-        public struct person {
-            public struct crop {
+        public struct exclamationmark {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square {
+    public struct filled {
+        public struct and {
+            public struct line {
+                public struct vertical {
+                    public struct and {
+                        public struct square {
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct on {
+            public struct square {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct text {
+        public struct square {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._2.stack._3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._2.stack._3d.top {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack._3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack._3d.middle {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack._3d.top {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.and.arrow.up {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct trianglebadge {
+        public struct exclamationmark {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.and.at.rectangle {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.and.line.vertical.and.square {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.bottomhalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.dashed.inset {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.fill.and.line.vertical.and.square {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x1.below.line.grid._1x2 {
+    public struct fill {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3 {
+    public struct square {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.bottomleft {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.bottommiddle {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.bottomright {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.middle {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.middleleft {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.middleright {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.topleft {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.topmiddle {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.topright {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.lefthalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.righthalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.tophalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.star {
+    public struct bubble {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.star.leadinghalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.stethoscope {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sun {
+    public struct and {
+        public struct horizon {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sun.max {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.tablecells.fill {
+    public struct badge {
+        public struct ellipsis {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.tag {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.teletype.answer {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.text {
+    public struct viewfinder {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.textformat._123 {
+    public struct hi {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.tram.fill {
+    public struct tunnel {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.trash {
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.trash.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.triangle {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.triangle.lefthalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.triangle.righthalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.tv {
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.video {
+    public struct and {
+        public struct waveform {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.video.badge {
+    public struct ellipsis {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.video.fill.badge {
+    public struct ellipsis {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.wake {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.waveform {
+    public struct and {
+        public struct magnifyingglass {
+            private init() {}
+        }
+
+        public struct mic {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct badge {
+        public struct exclamationmark {
+            private init() {}
+        }
+
+        public struct minus {
+            private init() {}
+        }
+
+        public struct plus {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.wifi {
+    public struct circle {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct square {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.xmark {
+    public struct app {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.1, tvOS 15.1, watchOS 8.1, macOS 12.0, *)
+extension SF.bolt {
+    public struct ring {
+        public struct closed {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.1, tvOS 15.1, watchOS 8.1, macOS 12.0, *)
+extension SF.platter.filled.bottom {
+    public struct and {
+        public struct arrow {
+            public struct down {
+                public struct iphone {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct iphone {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.1, tvOS 15.1, watchOS 8.1, macOS 12.0, *)
+extension SF.platter.filled.top {
+    public struct and {
+        public struct arrow {
+            public struct up {
+                public struct iphone {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct iphone {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.1, tvOS 15.1, watchOS 8.1, macOS 12.0, *)
+extension SF.square._3 {
+    public struct layers {
+        public struct _3d {
+            public struct down {
+                public struct backward {
+                    private init() {}
+                }
+
+                public struct forward {
+                    private init() {}
+                }
+
+                public struct left {
+                    private init() {}
+                }
+
+                public struct right {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.1, tvOS 15.1, watchOS 8.1, macOS 12.0, *)
+extension SF.text.justify {
+    public struct leading {
+        private init() {}
+    }
+
+    public struct left {
+        private init() {}
+    }
+
+    public struct right {
+        private init() {}
+    }
+
+    public struct trailing {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.airpod {
+    public struct gen3 {
+        public struct left {
+            private init() {}
+        }
+
+        public struct right {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.airpods {
+    public struct gen3 {
+        public struct chargingcase {
+            public struct wireless {
                 public struct fill {
                     private init() {}
                 }
@@ -2858,7 +3853,383 @@ extension SF.square.on.square {
         private init() {}
     }
 
-    public struct intersection {
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.beats {
+    public struct fit {
+        public struct pro {
+            public struct chargingcase {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct left {
+                private init() {}
+            }
+
+            public struct right {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.rectangle.leadinghalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.rectangle.trailinghalf {
+    public struct filled {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.layers._3d.down.left {
+    public struct slash {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.layers._3d.down.right {
+    public struct slash {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.stack._3d {
+    public struct slash {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.4, tvOS 15.4, watchOS 8.5, macOS 12.3, *)
+extension SF {
+    public struct dots {
+        public struct and {
+            public struct line {
+                public struct vertical {
+                    public struct and {
+                        public struct cursorarrow {
+                            public struct rectangle {
+                                private init() {}
+                            }
+
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.4, tvOS 15.4, watchOS 8.5, macOS 12.3, *)
+extension SF.camera {
+    public struct macro {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.4, tvOS 15.4, watchOS 8.5, macOS 12.3, *)
+extension SF.key {
+    public struct viewfinder {
+        private init() {}
+    }
+
+}
+
+@available(iOS 15.4, tvOS 15.4, watchOS 8.5, macOS 12.3, *)
+extension SF.person.badge {
+    public struct key {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+}
+
+@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
+extension SF {
+    public struct abs {
+        public struct brakesignal {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct air {
+        public struct conditioner {
+            public struct horizontal {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct vertical {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct purifier {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct angle {
+        private init() {}
+    }
+
+    public struct apple {
+        public struct logo {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct av {
+        public struct remote {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct backpack {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct balloon {
+        public struct _2 {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct baseball {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct diamond {
+            public struct bases {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct basket {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct basketball {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bathtub {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct beach {
+        public struct umbrella {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct bird {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct birthday {
+        public struct cake {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct blinds {
+        public struct horizontal {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct vertical {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct box {
+        public struct truck {
+            public struct badge {
+                public struct clock {
+                    public struct fill {
+                        public struct rtl {
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    public struct rtl {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct brakesignal {
         public struct dashed {
             private init() {}
         }
@@ -2866,25 +4237,13 @@ extension SF.square.on.square {
         private init() {}
     }
 
-}
+    public struct bubbles {
+        public struct and {
+            public struct sparkles {
+                public struct fill {
+                    private init() {}
+                }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.squares {
-    public struct leading {
-        public struct rectangle {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.squareshape {
-    public struct dotted {
-        public struct split {
-            public struct _2x2 {
                 private init() {}
             }
 
@@ -2894,12 +4253,76 @@ extension SF.squareshape {
         private init() {}
     }
 
-}
+    public struct button {
+        public struct programmable {
+            public struct square {
+                public struct fill {
+                    private init() {}
+                }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.star.square {
-    public struct on {
-        public struct square {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct cabinet {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct carbon {
+        public struct dioxide {
+            public struct cloud {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct monoxide {
+            public struct cloud {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct carrot {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct cellularbars {
+        private init() {}
+    }
+
+    public struct chair {
+        public struct fill {
+            private init() {}
+        }
+
+        public struct lounge {
             public struct fill {
                 private init() {}
             }
@@ -2910,11 +4333,7 @@ extension SF.star.square {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.and.horizon {
-    public struct circle {
+    public struct chandelier {
         public struct fill {
             private init() {}
         }
@@ -2922,11 +4341,7 @@ extension SF.sun.and.horizon {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.dust {
-    public struct circle {
+    public struct clipboard {
         public struct fill {
             private init() {}
         }
@@ -2934,24 +4349,16 @@ extension SF.sun.dust {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.haze {
-    public struct circle {
-        public struct fill {
+    public struct compass {
+        public struct drawing {
             private init() {}
         }
 
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.max {
-    public struct trianglebadge {
-        public struct exclamationmark {
+    public struct contact {
+        public struct sensor {
             public struct fill {
                 private init() {}
             }
@@ -2962,11 +4369,7 @@ extension SF.sun.max {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sunrise {
-    public struct circle {
+    public struct cooktop {
         public struct fill {
             private init() {}
         }
@@ -2974,28 +4377,16 @@ extension SF.sunrise {
         private init() {}
     }
 
-}
+    public struct cricket {
+        public struct ball {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sunset {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
+                private init() {}
+            }
 
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.`switch` {
-    public struct programmable {
-        public struct fill {
-            private init() {}
-        }
-
-        public struct square {
             public struct fill {
                 private init() {}
             }
@@ -3006,11 +4397,19 @@ extension SF.`switch` {
         private init() {}
     }
 
-}
+    public struct curtains {
+        public struct closed {
+            private init() {}
+        }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.table {
-    public struct furniture {
+        public struct open {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct dehumidifier {
         public struct fill {
             private init() {}
         }
@@ -3018,18 +4417,698 @@ extension SF.table {
         private init() {}
     }
 
-}
+    public struct deskview {
+        public struct fill {
+            private init() {}
+        }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.text {
-    public struct line {
-        public struct first {
-            public struct and {
-                public struct arrowtriangle {
-                    public struct forward {
+        private init() {}
+    }
+
+    public struct dishwasher {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct distribute {
+        public struct horizontal {
+            public struct center {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct left {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct right {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct vertical {
+            public struct bottom {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct center {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct top {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct door {
+        public struct french {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct garage {
+            public struct closed {
+                public struct trianglebadge {
+                    public struct exclamationmark {
                         private init() {}
                     }
 
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct double {
+                public struct bay {
+                    public struct closed {
+                        public struct trianglebadge {
+                            public struct exclamationmark {
+                                private init() {}
+                            }
+
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    public struct open {
+                        public struct trianglebadge {
+                            public struct exclamationmark {
+                                private init() {}
+                            }
+
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct open {
+                public struct trianglebadge {
+                    public struct exclamationmark {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct left {
+            public struct hand {
+                public struct closed {
+                    private init() {}
+                }
+
+                public struct open {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct right {
+            public struct hand {
+                public struct closed {
+                    private init() {}
+                }
+
+                public struct open {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct sliding {
+            public struct left {
+                public struct hand {
+                    public struct closed {
+                        private init() {}
+                    }
+
+                    public struct open {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct right {
+                public struct hand {
+                    public struct closed {
+                        private init() {}
+                    }
+
+                    public struct open {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct dryer {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct dumbbell {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct entry {
+        public struct lever {
+            public struct keypad {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct trianglebadge {
+                    public struct exclamationmark {
+                        public struct fill {
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct eraser {
+        public struct fill {
+            private init() {}
+        }
+
+        public struct line {
+            public struct dashed {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fan {
+        public struct and {
+            public struct light {
+                public struct ceiling {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct ceiling {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct desk {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct floor {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct oscillation {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fireplace {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct firewall {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fish {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fleuron {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fluid {
+        public struct brakesignal {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct football {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct fossil {
+        public struct shell {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct frying {
+        public struct pan {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct headlight {
+        public struct high {
+            public struct beam {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct low {
+            public struct beam {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct heater {
+        public struct vertical {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct hifireceiver {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct hockey {
+        public struct puck {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct hold {
+        public struct brakesignal {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct humidifier {
+        public struct and {
+            public struct droplets {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lamp {
+        public struct ceiling {
+            public struct fill {
+                private init() {}
+            }
+
+            public struct inverse {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct desk {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct floor {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct table {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct laurel {
+        public struct leading {
+            private init() {}
+        }
+
+        public struct trailing {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lightswitch {
+        public struct off {
+            public struct fill {
+                private init() {}
+            }
+
+            public struct square {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct on {
+            public struct fill {
+                private init() {}
+            }
+
+            public struct square {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct lizard {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct macstudio {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct medal {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct medical {
+        public struct thermometer {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct microbe {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct microwave {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct mirror {
+        public struct side {
+            public struct left {
+                private init() {}
+            }
+
+            public struct right {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct moonphase {
+        public struct first {
+            public struct quarter {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct full {
+            public struct moon {
+                public struct inverse {
                     private init() {}
                 }
 
@@ -3040,9 +5119,429 @@ extension SF.text {
         }
 
         public struct last {
-            public struct and {
-                public struct arrowtriangle {
-                    public struct forward {
+            public struct quarter {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct new {
+            public struct moon {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct waning {
+            public struct crescent {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct gibbous {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct waxing {
+            public struct crescent {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct gibbous {
+                public struct inverse {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct numbersign {
+        private init() {}
+    }
+
+    public struct oar {
+        public struct _2 {
+            public struct crossed {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct oven {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct parkinglight {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct party {
+        public struct popper {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct pedestrian {
+        public struct gate {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct pill {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct pipe {
+        public struct and {
+            public struct drop {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct playstation {
+        public struct logo {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct popcorn {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct poweroutlet {
+        public struct strip {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct type {
+            public struct a {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct b {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct c {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct d {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct e {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct f {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct g {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct h {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct i {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct j {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct k {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct l {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct m {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct n {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct o {
+                public struct fill {
+                    private init() {}
+                }
+
+                public struct square {
+                    public struct fill {
                         private init() {}
                     }
 
@@ -3058,59 +5557,11 @@ extension SF.text {
         private init() {}
     }
 
-    public struct word {
-        public struct spacing {
-            private init() {}
-        }
-
+    public struct quotelevel {
         private init() {}
     }
 
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.textformat {
-    public struct _12 {
-        public struct ar {
-            private init() {}
-        }
-
-        public struct hi {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.thermometer {
-    public struct brakesignal {
-        private init() {}
-    }
-
-    public struct high {
-        private init() {}
-    }
-
-    public struct low {
-        private init() {}
-    }
-
-    public struct medium {
-        public struct slash {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.thermometer.snowflake {
-    public struct circle {
+    public struct refrigerator {
         public struct fill {
             private init() {}
         }
@@ -3118,73 +5569,17 @@ extension SF.thermometer.snowflake {
         private init() {}
     }
 
-}
+    public struct road {
+        public struct lanes {
+            public struct curved {
+                public struct left {
+                    private init() {}
+                }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.thermometer.sun {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
+                public struct right {
+                    private init() {}
+                }
 
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.timer {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.tornado {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.tropicalstorm {
-    public struct circle {
-        public struct fill {
-            private init() {}
-        }
-
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.tv.and.mediabox {
-    public struct fill {
-        private init() {}
-    }
-
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.umbrella {
-    public struct percent {
-        public struct ar {
-            private init() {}
-        }
-
-        public struct fill {
-            public struct ar {
                 private init() {}
             }
 
@@ -3194,11 +5589,39 @@ extension SF.umbrella {
         private init() {}
     }
 
-}
+    public struct roller {
+        public struct shade {
+            public struct closed {
+                private init() {}
+            }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.video {
-    public struct doorbell {
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct roman {
+        public struct shade {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct sailboat {
         public struct fill {
             private init() {}
         }
@@ -3206,19 +5629,35 @@ extension SF.video {
         private init() {}
     }
 
-}
+    public struct shared {
+        public struct with {
+            public struct you {
+                public struct slash {
+                    private init() {}
+                }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.waveform {
-    public struct slash {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
         private init() {}
     }
 
-}
+    public struct shazam {
+        public struct logo {
+            public struct fill {
+                private init() {}
+            }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.wifi {
-    public struct router {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct shoeprints {
         public struct fill {
             private init() {}
         }
@@ -3226,11 +5665,31 @@ extension SF.wifi {
         private init() {}
     }
 
-}
+    public struct shower {
+        public struct fill {
+            private init() {}
+        }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.wind {
-    public struct circle {
+        public struct handheld {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct sidejet {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct sink {
         public struct fill {
             private init() {}
         }
@@ -3238,11 +5697,31 @@ extension SF.wind {
         private init() {}
     }
 
-}
+    public struct soccerball {
+        public struct circle {
+            public struct fill {
+                public struct inverse {
+                    private init() {}
+                }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.wind.snow {
-    public struct circle {
+                private init() {}
+            }
+
+            public struct inverse {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct inverse {
+            private init() {}
+        }
+
+        private init() {}
+    }
+
+    public struct sofa {
         public struct fill {
             private init() {}
         }
@@ -3250,11 +5729,11 @@ extension SF.wind.snow {
         private init() {}
     }
 
-}
+    public struct space {
+        private init() {}
+    }
 
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.wrench {
-    public struct adjustable {
+    public struct spigot {
         public struct fill {
             private init() {}
         }
@@ -3262,3869 +5741,349 @@ extension SF.wrench {
         private init() {}
     }
 
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._0.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._0.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._0.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._0.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "0.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "0.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "0.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._00.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._00.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._00.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._00.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "00.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "00.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "00.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._01.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._01.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._01.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._01.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "01.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "01.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "01.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._02.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._02.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._02.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._02.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "02.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "02.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "02.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._03.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._03.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._03.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._03.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "03.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "03.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "03.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._04.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._04.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._04.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._04.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "04.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "04.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "04.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._05.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._05.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._05.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._05.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "05.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "05.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "05.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._06.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._06.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._06.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._06.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "06.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "06.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "06.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._07.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._07.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._07.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._07.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "07.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "07.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "07.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._08.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._08.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._08.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._08.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "08.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "08.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "08.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._09.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._09.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._09.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._09.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "09.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "09.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "09.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._1.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._1.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._1.magnifyingglass {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.magnifyingglass", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.magnifyingglass", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.magnifyingglass", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.magnifyingglass", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.magnifyingglass")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.magnifyingglass", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._1.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._1.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "1.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "1.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "1.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._10.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._10.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._10.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._10.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "10.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "10.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "10.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._11.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._11.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._11.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._11.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "11.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "11.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "11.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._12.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._12.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._12.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._12.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "12.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "12.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "12.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._13.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._13.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._13.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._13.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "13.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "13.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "13.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._14.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._14.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._14.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._14.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "14.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "14.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "14.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._15.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._15.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._15.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._15.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "15.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "15.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "15.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._16.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._16.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._16.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._16.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "16.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "16.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "16.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._17.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._17.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._17.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._17.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "17.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "17.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "17.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._18.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._18.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._18.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._18.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "18.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.square.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "18.square.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.square.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "18.square.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._19.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.circle", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.circle", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.circle", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.circle")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.circle", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._19.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.circle.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.circle.fill", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.circle.fill", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.circle.fill")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.circle.fill", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._19.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.square", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.square", configuration: configuration)
-    }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.square", variableValue: variableValue, configuration: configuration)
-    }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.square")
-    }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.square", variableValue: variableValue)
-    }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._19.square.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.square.fill", accessibilityDescription: accessibilityDescription)
-    }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "19.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-    }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.square.fill", configuration: configuration)
+    public struct sprinkler {
+        public struct and {
+            public struct droplets {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "19.square.fill", variableValue: variableValue, configuration: configuration)
+
+    public struct stairs {
+        private init() {}
     }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.square.fill")
+
+    public struct stove {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "19.square.fill", variableValue: variableValue)
+
+    public struct swatchpalette {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._2.circle {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "2.circle", accessibilityDescription: accessibilityDescription)
+
+    public struct syringe {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "2.circle", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+
+    public struct teddybear {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "2.circle", configuration: configuration)
+
+    public struct tennis {
+        public struct racket {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "2.circle", variableValue: variableValue, configuration: configuration)
+
+    public struct tennisball {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "2.circle")
+
+    public struct tent {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "2.circle", variableValue: variableValue)
+
+    public struct theatermask {
+        public struct and {
+            public struct paintbrush {
+                public struct fill {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._2.circle.fill {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "2.circle.fill", accessibilityDescription: accessibilityDescription)
+
+    public struct toilet {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "2.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+
+    public struct trophy {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "2.circle.fill", configuration: configuration)
+
+    public struct vial {
+        public struct viewfinder {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "2.circle.fill", variableValue: variableValue, configuration: configuration)
+
+    public struct videoprojector {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "2.circle.fill")
+
+    public struct volleyball {
+        public struct circle {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "2.circle.fill", variableValue: variableValue)
+
+    public struct washer {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-}
-
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-extension SF._2.square {
-    #if os(macOS)
-    
-    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "2.square", accessibilityDescription: accessibilityDescription)
+
+    public struct water {
+        public struct waves {
+            public struct and {
+                public struct arrow {
+                    public struct down {
+                        public struct trianglebadge {
+                            public struct exclamationmark {
+                                private init() {}
+                            }
+
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    public struct up {
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            public struct slash {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, *)
-    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-        SFSymbolReference.image(name: "2.square", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+
+    public struct web {
+        public struct camera {
+            public struct fill {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-    
-    #if os(iOS) || os(tvOS) || os(watchOS)
-    
-    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "2.square", configuration: configuration)
+
+    public struct window {
+        public struct awning {
+            public struct closed {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct casement {
+            public struct closed {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct ceiling {
+            public struct closed {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct horizontal {
+            public struct closed {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct shade {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct vertical {
+            public struct closed {
+                private init() {}
+            }
+
+            public struct open {
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-        SFSymbolReference.image(name: "2.square", variableValue: variableValue, configuration: configuration)
+
+    public struct windshield {
+        public struct front {
+            public struct and {
+                public struct fluid {
+                    private init() {}
+                }
+
+                public struct wiper {
+                    public struct and {
+                        public struct drop {
+                            private init() {}
+                        }
+
+                        private init() {}
+                    }
+
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        public struct rear {
+            public struct and {
+                public struct fluid {
+                    private init() {}
+                }
+
+                public struct wiper {
+                    private init() {}
+                }
+
+                private init() {}
+            }
+
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
-    
-    #if canImport(SwiftUI)
-    
-    public static func swiftUIImage() -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "2.square")
+
+    public struct wineglass {
+        public struct fill {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-        SFSymbolReference.swiftUIImage(name: "2.square", variableValue: variableValue)
+
+    public struct xbox {
+        public struct logo {
+            private init() {}
+        }
+
+        private init() {}
     }
-    
-    #endif
+
 }
 
