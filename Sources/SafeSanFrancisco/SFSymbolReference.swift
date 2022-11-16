@@ -92,11 +92,11 @@ public struct SFSymbolReference {
     public func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SwiftUI.Image(systemName: name, variableValue: variableValue)
     }
-    
+
     internal static func swiftUIImage(name: String) -> SwiftUI.Image {
         SFSymbolReference(named: name).swiftUIImage()
     }
-    
+
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
     internal static func swiftUIImage(name: String, variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference(named: name).swiftUIImage(variableValue: variableValue)

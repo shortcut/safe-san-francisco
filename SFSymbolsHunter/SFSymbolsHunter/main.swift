@@ -11,7 +11,7 @@ import ArgumentParser
 struct Main: ParsableCommand {
     
     static var configuration = CommandConfiguration(
-        subcommands: [GenerateNestedCode.self],
+        subcommands: [GenerateNestedCode.self, GenerateTests.self],
         defaultSubcommand: GenerateNestedCode.self
     )
 }

@@ -32,4 +32,11 @@ struct Symbol: CustomStringConvertible {
             codegen.add(line: String(line))
         }
     }
+    
+    func namespacedNameForImage(withTitle title: String) -> String {
+        let nameComponents = name
+            .split(separator: ".")
+            .map { CodegenHelpers.serializeKey(String($0), checkReservedKeywords: false) }
+        return "\(title).\(nameComponents.joined(separator: ".")).image()"
+    }
 }

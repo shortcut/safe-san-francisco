@@ -21,18 +21,16 @@ struct CodegenHelpers {
         return reserved[text]
     }
 
-    static func serializeKey(_ text: String, isStructName: Bool = false) -> String {
+    static func serializeKey(_ text: String, checkReservedKeywords: Bool = true) -> String {
         guard let firstCharacter = text.first else {
             return text
         }
 
         if firstCharacter.isNumber {
-            return isStructName
-                ? "__\(text)"
-                : "_\(text)"
+            return "_\(text)"
         }
         
-        if isReserved(text) {
+        if checkReservedKeywords && isReserved(text) {
             return "`\(text)`"
         }
         
@@ -114,6 +112,8 @@ struct CodegenHelpers {
             yearsToRelease: yearsToRelease
         )
         
+        ProgressLogger.shared.log("Made structs")
+        
         for group in groupedNamespacedSymbols {
             let year = group.key
             let namespacedSymbols = group.value
@@ -127,7 +127,11 @@ struct CodegenHelpers {
             codegenRecurse(codegen: codegen, dictionary: namespacedSymbols)
             
             codegen.closeStructure()
+            
+            ProgressLogger.shared.log("Generated extension for \(year)")
         }
+        
+        ProgressLogger.shared.log("Made extensions")
         
         return codegen.getCode()
     }

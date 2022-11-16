@@ -23,8 +23,8 @@ struct GenerateNestedCode: ParsableCommand {
     }
     
     func run() throws {
-        let startTime = Date().timeIntervalSince1970
         print("Start")
+        ProgressLogger.shared.start()
         
         let sfsymbolsAppUrl = URL(filePath: sfSymbolsAppPath)
         let nameAvailabilityFile = sfsymbolsAppUrl.appending(path: kNameAvailavilityPlistPath)
@@ -32,14 +32,14 @@ struct GenerateNestedCode: ParsableCommand {
         let nameAvailability = try NameAvailabilityHelper.readNameAvailabilityFile(file: nameAvailabilityFile)
         let groupedNamespacedSymbols = NameAvailabilityHelper.makeGroupedNamespacedSymbols(from: nameAvailability)
         
-        let timestamp1 = Date().timeIntervalSince1970
-        print("Grouped symbols in \(timestamp1 - startTime)s")
+        ProgressLogger.shared.log("Grouped symbols")
 
         let files = CodegenHelpers.codegen(title: "SF", fromGroupedNamespacedSymbols: groupedNamespacedSymbols, yearsToRelease: nameAvailability.yearToRelease)
+        
+        ProgressLogger.shared.log("Generated \(files.count) code fragments")
 
         try FileHelper.saveFilesInDirectory(withName: "SafeSanFrancisco", path: outputPath, files: files)
         
-        let timestamp2 = Date().timeIntervalSince1970
-        print("Done in \(timestamp2 - startTime)s")
+        ProgressLogger.shared.log("Done")
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BE1FB182925265E004C73C1 /* ProgressLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE1FB172925265E004C73C1 /* ProgressLogger.swift */; };
+		7BE1FB1A292532D6004C73C1 /* GenerateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE1FB19292532D6004C73C1 /* GenerateTests.swift */; };
 		7BED86A5291166B30040772E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED86A4291166B30040772E /* main.swift */; };
 		7BED86BE29125D7B0040772E /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED86BD29125D7B0040772E /* Release.swift */; };
 		7BED86C029125D9F0040772E /* NameAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED86BF29125D9F0040772E /* NameAvailability.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7BE1FB172925265E004C73C1 /* ProgressLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLogger.swift; sourceTree = "<group>"; };
+		7BE1FB19292532D6004C73C1 /* GenerateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateTests.swift; sourceTree = "<group>"; };
 		7BED86A1291166B30040772E /* SFSymbolsHunter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SFSymbolsHunter; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BED86A4291166B30040772E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7BED86AD291166E00040772E /* SFSymbolsHunter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SFSymbolsHunter.entitlements; sourceTree = "<group>"; };
@@ -113,10 +117,12 @@
 				7BED86A4291166B30040772E /* main.swift */,
 				7BED87572914003D0040772E /* GenerateNestedCode.swift */,
 				7BED8759291400D00040772E /* GenerateSymbolCode.swift */,
+				7BE1FB19292532D6004C73C1 /* GenerateTests.swift */,
 				7BED86C329125DDD0040772E /* Constants.swift */,
 				7BED874D2913C95F0040772E /* Templates.swift */,
 				7BED874F2913F8240040772E /* FileHelper.swift */,
 				7BED86CE29125F0C0040772E /* NameAvailabilityHelper.swift */,
+				7BE1FB172925265E004C73C1 /* ProgressLogger.swift */,
 				7BED86DB2912A60A0040772E /* Codegen */,
 				7BED86CA29125E560040772E /* Resources */,
 				7BED86C529125DEB0040772E /* Extensions */,
@@ -240,11 +246,13 @@
 				7BED86BE29125D7B0040772E /* Release.swift in Sources */,
 				7BED86E12912A6570040772E /* ExtensionCodegen.swift in Sources */,
 				7BED87582914003D0040772E /* GenerateNestedCode.swift in Sources */,
+				7BE1FB1A292532D6004C73C1 /* GenerateTests.swift in Sources */,
 				7BED875A291400D00040772E /* GenerateSymbolCode.swift in Sources */,
 				7BED86E32912A6840040772E /* CodegenProtocol.swift in Sources */,
 				7BED87502913F8240040772E /* FileHelper.swift in Sources */,
 				7BED86CF29125F0C0040772E /* NameAvailabilityHelper.swift in Sources */,
 				7BED86C429125DDD0040772E /* Constants.swift in Sources */,
+				7BE1FB182925265E004C73C1 /* ProgressLogger.swift in Sources */,
 				7BED86DD2912A6190040772E /* CodegenHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

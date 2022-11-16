@@ -60,3 +60,19 @@ import SwiftUI
 #endif
 
 """
+
+let testsTemplate = """
+import XCTest
+import SafeSanFrancisco
+
+final class SafeSanFranciscoTests: XCTestCase {
+    func testAllSymbols() throws {
+        let images = [{{IMAGES}}
+        ]
+        
+        for image in images {
+            XCTAssertNotNil(image)
+        }
+    }
+}
+"""
