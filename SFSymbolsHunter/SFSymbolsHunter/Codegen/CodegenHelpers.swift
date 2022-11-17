@@ -44,12 +44,11 @@ struct CodegenHelpers {
     static func recurseCodegen(codegen: Codegen, dictionary: [String: Any], key: String? = nil, ignoringSymbols: Bool) {
         var keys = dictionary.keys.sorted()
         
-        //FIXME: Maybe its good enough to == "fill"
-        let endsWithFill = key?.hasSuffix("fill") ?? false
+        let endsWithFill = key == "fill"
         let ignoreIfExists = !endsWithFill && ignoringSymbols
         
         if let key {
-            codegen.openStructure(named: serializeKey(key), ignoreIfExists: ignoreIfExists)
+            codegen.openStructure(named: serializeKey(key))
         }
         
         keys.removeAll(where: { $0 == kNamespaceDictionaryValuesKey })
@@ -69,7 +68,7 @@ struct CodegenHelpers {
         }
         
         if key != nil {
-            codegen.closeStructure(ignoreIfExists: ignoreIfExists)
+            codegen.closeStructure()
         }
     }
 

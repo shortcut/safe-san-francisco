@@ -18,7 +18,7 @@ final class Codegen {
         currentStructurePath.joined(separator: ".")
     }
     
-    func openStructure(named name: String, availability: String? = nil, ignoreIfExists: Bool = false) {
+    func openStructure(named name: String, availability: String? = nil) {
         currentStructurePath.append(name)
         let isExtension = definedStructures.contains(currentDottedStructurePath)
         definedStructures.insert(currentDottedStructurePath)
@@ -44,7 +44,7 @@ final class Codegen {
         }
     }
     
-    func closeStructure(ignoreIfExists: Bool = false) {
+    func closeStructure() {
         heads.removeLast()
         currentStructurePath.removeLast()
     }
