@@ -57,7 +57,7 @@ final class Codegen {
         head.add(line: line)
     }
     
-    func getCode(linecountThreshold: Int = 10_000) -> [String] {
+    func getCode(linecountThreshold: Int = 30_000) -> [String] {
         var files = [String]()
         
         var result = ""
