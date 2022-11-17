@@ -29,21 +29,21 @@ static let sailboat = SF.sailboat.self
 
 ### Special names
 
-As variable names cannot start with a number, numbers are preceded with an underscore:
+As variable names cannot start with a number, numbers are preceded with a `x`:
 ```swift 
-let oneSquare = SF._1.square.self
+let oneSquare = SF.x1.square.self
 ```
 
-The name `image` is reserved by this framework, and so also needs to be preceded by an underscore:
+The name `image` is reserved by this framework, and so needs to be preceded by `x_`:
 ```swift
-let docTextImage = SF.doc.text._image.self
+let docTextImage = SF.doc.text.x_image.self
 
-let docTextImageFill = SF.doc.text._image.fill.self
+let docTextImageFill = SF.doc.text.x_image.fill.self
 ```
 
 Reserved names in Swift—like `switch`—are escaped and can be used without any problems:
 ```swift 
-let switch2 = SF.switch._2.self
+let switch2 = SF.switch.x2.self
 ```
 
 ## Using Safe San Francisco in your project
