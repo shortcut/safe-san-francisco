@@ -1,0 +1,68 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Try the syntax") {
+        Try out the syntax and make your apps safer with regards to system symbols.
+        
+    }
+    
+    @Section(title: "Referencing a symbol") {
+        @ContentAndMedia {
+            Learn how to access symbols
+            
+            @Image(source: sailboat.png, alt: "A sailboat")
+        }
+        
+        @Steps {
+            @Step {
+                Find a symbol you like in the SF Symbols app.
+                
+                @Image(source: sf-symbols, alt: "The SF Symbols app with “square.and.arrow.up” selected")
+            }
+            
+            @Step {
+                Copy the name of the symbol by pressing `Cmd + Shift + C`.
+                
+                @Image(source: square-and-arrow-up, alt: "The square.and.arrow.up symbol")
+            }
+            
+            @Step {
+                Paste the name following the `SF` namespace.
+                
+                @Code(name: "SquareAndArrowUpView.swift", file: try-the-syntax-step-2.swift)
+            }
+            
+            @Step {
+                Take the image by using either the `.image()` or `.swiftUIImage()` methods.
+                
+                @Code(name: "SquareAndArrowUpView.swift", file: try-the-syntax-step-3.swift)
+            }
+        }
+    }
+    
+    @Section(title: "Special names and availability") {
+        @ContentAndMedia {
+            Learn about special names and availability
+            
+            @Image(source: wand-and-stars.png, alt: "A magic wand with stars around")
+        }
+        
+        @Steps {
+            @Step {
+                As variable names cannot start with a number, numbers are preceded by a `x`. 
+                
+                @Code(name: "NumberSymbols.swift", file: try-the-syntax-numbers.swift)
+            }
+            
+            @Step {
+                The name `image` is reserved by this framework and must therefore be preceded by `x_`.
+                
+                @Code(name: "ImageSymbols.swift", file: try-the-syntax-image.swift)
+            }
+            
+            @Step {
+                Availability information is attached to each symbol, making the trouble of crashing or missing icons vanish at compile time.
+                
+                @Code(name: "Rotate3dSymbol.swift", file: try-the-syntax-availability.swift)
+            }
+        }
+    }
+}

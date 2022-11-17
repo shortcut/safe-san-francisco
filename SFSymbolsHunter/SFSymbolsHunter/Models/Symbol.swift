@@ -27,10 +27,7 @@ struct Symbol: CustomStringConvertible {
     
     func codegenWhenOnlyStaticVariable(codegen: Codegen) {
         let template = imageTemplate.replacingOccurrences(of: "%@", with: self.name)
-        let lines = template.split(separator: "\n", omittingEmptySubsequences: false)
-        for line in lines {
-            codegen.add(line: String(line))
-        }
+        codegen.add(line: template)
     }
     
     func namespacedNameForImage(withTitle title: String) -> String {

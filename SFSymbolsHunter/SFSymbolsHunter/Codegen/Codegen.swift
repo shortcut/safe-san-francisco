@@ -64,7 +64,7 @@ final class Codegen {
         var numLines = 0
         codegenTypes.enumerated().forEach { i, codegen in
             let code = codegen.render(tabLevel: 0)
-            let lines = code.split(separator: "\n", omittingEmptySubsequences: false).count
+            let lines = code.occurences(of: "\n")
             
             result += code
             numLines += lines

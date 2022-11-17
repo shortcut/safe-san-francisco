@@ -1,0 +1,18 @@
+@Tutorials(name: "Safe San Francisco") {
+    @Intro(title: "Typesafe access to SFSymbols on all Apple platforms.") {
+        Try out the syntax and make your apps safer with regards to system symbols.
+        
+    }
+    
+    @Chapter(name: "Try the syntax") {
+        Get used to the intuitive syntax, learning about special names and availability
+        
+        @TutorialReference(tutorial: "doc:TryTheSyntax")
+    }
+    
+    @Chapter(name: "Migrate a project") {
+        Take an already existing project and migrate it to use Safe San Francisco
+        
+        @TutorialReference(tutorial: "doc:MigrateAProject")
+    }
+}
