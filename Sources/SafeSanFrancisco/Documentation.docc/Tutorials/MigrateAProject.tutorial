@@ -1,0 +1,40 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Migrate a project") {
+        Take an already existing project and migrate it to use Safe San Francisco
+        
+    }
+    
+    @Section(title: "Changing UIImage to SF") {
+        @ContentAndMedia {
+            Migrating is as easy as copying the string value of a UIImage and pasting it following `SF`.
+            
+            @Image(source: doc-on-clipboard, alt: "Document on clipboard symboling copy and paste")
+        }
+        
+        @Steps {
+            @Step {
+                Find all places you are using  `UIImage(systemName: )`.
+                
+                @Code(name: "MainCoordinator.swift", file: migrate-a-project-step-1.swift)
+            }
+            
+            @Step {
+                Import `SafeSanFrancisco`
+                
+                @Code(name: "MainCoordinator.swift", file: migrate-a-project-step-2.swift)
+            }
+            
+            @Step {
+                Copy the string value and paste it following `SF.`
+                
+                @Code(name: "MainCoordinator.swift", file: migrate-a-project-step-3.swift)
+            }
+            
+            @Step {
+                Take the image by using the `.image()` method.
+                
+                @Code(name: "MainCoordinator.swift", file: migrate-a-project-step-4.swift)
+            }
+        }
+    }
+}

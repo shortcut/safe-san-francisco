@@ -15,10 +15,16 @@ struct CodegenHelpers {
     
     static func substitution(for text: String) -> String? {
         let reserved = [
-            "image": "_image"
+            "image": "x_image"
         ]
         
         return reserved[text]
+    }
+    
+    static func requiresToBeDefinedInStruct(for text: String) -> Bool {
+        let reserved = Set(["fill"])
+        
+        return reserved.contains(text)
     }
 
     static func serializeKey(_ text: String, checkReservedKeywords: Bool = true) -> String {
@@ -27,7 +33,7 @@ struct CodegenHelpers {
         }
 
         if firstCharacter.isNumber {
-            return "_\(text)"
+            return "x\(text)"
         }
         
         if checkReservedKeywords && isReserved(text) {
@@ -44,8 +50,7 @@ struct CodegenHelpers {
     static func recurseCodegen(codegen: Codegen, dictionary: [String: Any], key: String? = nil, ignoringSymbols: Bool) {
         var keys = dictionary.keys.sorted()
         
-        let endsWithFill = key == "fill"
-        let ignoreIfExists = !endsWithFill && ignoringSymbols
+        let defineInStruct = requiresToBeDefinedInStruct(for: key ?? "")
         
         if let key {
             codegen.openStructure(named: serializeKey(key))
@@ -53,7 +58,7 @@ struct CodegenHelpers {
         
         keys.removeAll(where: { $0 == kNamespaceDictionaryValuesKey })
         
-        if (endsWithFill && ignoringSymbols) || (!endsWithFill && !ignoringSymbols),
+        if (defineInStruct && ignoringSymbols) || (!defineInStruct && !ignoringSymbols),
            let symbol = dictionary[kNamespaceDictionaryValuesKey] as? Symbol {
             if key == nil {
                 let line = symbol.codegenStaticVariable
@@ -148,5 +153,20 @@ func tab(level: Int) -> String {
 
 func addLine(_ line: String, with tabLevel: Int, to result: inout String) {
     let tab = tab(level: tabLevel)
+    let line = line.replacingOccurrences(of: "\n", with: "\n\(tab)")
     result += "\(tab)\(line)\n"
+}
+
+extension String {
+    func occurences(of character: Character) -> Int {
+        var count = 0
+        
+        self.forEach {
+            if $0 == character {
+                count += 1
+            }
+        }
+        
+        return count
+    }
 }
