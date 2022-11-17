@@ -84,21 +84,21 @@ public struct SFSymbolReference {
 #endif
     
 #if canImport(SwiftUI)
-    public func swiftUIImage() -> SwiftUIImage {
+    public func swiftUIImage() -> SwiftUI.Image {
         SwiftUI.Image(systemName: name)
     }
     
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    public func swiftUIImage(variableValue: Double?) -> SwiftUIImage {
+    public func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
         SwiftUI.Image(systemName: name, variableValue: variableValue)
     }
-    
-    internal static func swiftUIImage(name: String) -> SwiftUIImage {
+
+    internal static func swiftUIImage(name: String) -> SwiftUI.Image {
         SFSymbolReference(named: name).swiftUIImage()
     }
-    
+
     @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    internal static func swiftUIImage(name: String, variableValue: Double?) -> SwiftUIImage {
+    internal static func swiftUIImage(name: String, variableValue: Double?) -> SwiftUI.Image {
         SFSymbolReference(named: name).swiftUIImage(variableValue: variableValue)
     }
 #endif
@@ -109,8 +109,5 @@ extension SFSymbolReference {
     public typealias Image = NSImage
 #elseif os(iOS) || os(tvOS) || os(watchOS)
     public typealias Image = UIImage
-#endif
-#if canImport(SwiftUI)
-    public typealias SwiftUIImage = SwiftUI.Image
 #endif
 }

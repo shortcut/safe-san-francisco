@@ -21,18 +21,16 @@ struct CodegenHelpers {
         return reserved[text]
     }
 
-    static func serializeKey(_ text: String, isStructName: Bool = false) -> String {
+    static func serializeKey(_ text: String, checkReservedKeywords: Bool = true) -> String {
         guard let firstCharacter = text.first else {
             return text
         }
 
         if firstCharacter.isNumber {
-            return isStructName
-                ? "__\(text)"
-                : "_\(text)"
+            return "_\(text)"
         }
         
-        if isReserved(text) {
+        if checkReservedKeywords && isReserved(text) {
             return "`\(text)`"
         }
         
@@ -43,27 +41,30 @@ struct CodegenHelpers {
         return text
     }
 
-    static func recurseCodegen(codegen: Codegen, dictionary: [String: Any], key: String? = nil) {
-        
+    static func recurseCodegen(codegen: Codegen, dictionary: [String: Any], key: String? = nil, ignoringSymbols: Bool) {
         var keys = dictionary.keys.sorted()
+        
+        let endsWithFill = key == "fill"
+        let ignoreIfExists = !endsWithFill && ignoringSymbols
         
         if let key {
             codegen.openStructure(named: serializeKey(key))
         }
         
-        if let symbol = dictionary[kNamespaceDictionaryValuesKey] as? Symbol {
+        keys.removeAll(where: { $0 == kNamespaceDictionaryValuesKey })
+        
+        if (endsWithFill && ignoringSymbols) || (!endsWithFill && !ignoringSymbols),
+           let symbol = dictionary[kNamespaceDictionaryValuesKey] as? Symbol {
             if key == nil {
                 let line = symbol.codegenStaticVariable
                 codegen.add(line: line)
             } else {
                 symbol.codegenWhenOnlyStaticVariable(codegen: codegen)
             }
-            
-            keys.removeAll(where: { $0 == kNamespaceDictionaryValuesKey })
         }
         
         keys.forEach {
-            codegenRecurse(codegen: codegen, dictionary: dictionary, key: $0)
+            codegenRecurse(codegen: codegen, dictionary: dictionary, key: $0, ignoringSymbols: ignoringSymbols)
         }
         
         if key != nil {
@@ -71,9 +72,9 @@ struct CodegenHelpers {
         }
     }
 
-    static func codegenRecurse(codegen: Codegen, dictionary: [String: Any], key: String? = nil) {
+    static func codegenRecurse(codegen: Codegen, dictionary: [String: Any], key: String? = nil, ignoringSymbols: Bool = false) {
             guard let key else {
-                recurseCodegen(codegen: codegen, dictionary: dictionary)
+                recurseCodegen(codegen: codegen, dictionary: dictionary, ignoringSymbols: ignoringSymbols)
                 return
             }
             
@@ -82,12 +83,38 @@ struct CodegenHelpers {
                 return
             }
             
-            recurseCodegen(codegen: codegen, dictionary: subdictionary, key: key)
+            recurseCodegen(codegen: codegen, dictionary: subdictionary, key: key, ignoringSymbols: ignoringSymbols)
+    }
+    
+    static func makeStructureOutline(codegen: Codegen, title: String, fromGroupedNamespacedSymbols groupedNamespacedSymbols: [Dictionary<String, [String:Any]>.Element], yearsToRelease: [String: Release]) {
+        for group in groupedNamespacedSymbols {
+            let year = group.key
+            let namespacedSymbols = group.value
+            
+            guard let release = yearsToRelease[year] else {
+                continue
+            }
+            
+            codegen.openStructure(named: title, availability: release.codegenSwiftAvailability)
+            
+            codegenRecurse(codegen: codegen, dictionary: namespacedSymbols, ignoringSymbols: true)
+            
+            codegen.closeStructure()
+        }
     }
 
     static func codegen(title: String, fromGroupedNamespacedSymbols groupedNamespacedSymbols: [String: [String:Any]], yearsToRelease: [String: Release]) -> [String] {
         let codegen = Codegen()
         let groupedNamespacedSymbols = groupedNamespacedSymbols.sorted(by: { $0.key < $1.key })
+        
+        makeStructureOutline(
+            codegen: codegen,
+            title: title,
+            fromGroupedNamespacedSymbols: groupedNamespacedSymbols,
+            yearsToRelease: yearsToRelease
+        )
+        
+        ProgressLogger.shared.log("Made structs")
         
         for group in groupedNamespacedSymbols {
             let year = group.key
@@ -102,7 +129,11 @@ struct CodegenHelpers {
             codegenRecurse(codegen: codegen, dictionary: namespacedSymbols)
             
             codegen.closeStructure()
+            
+            ProgressLogger.shared.log("Generated extension for \(year)")
         }
+        
+        ProgressLogger.shared.log("Made extensions")
         
         return codegen.getCode()
     }

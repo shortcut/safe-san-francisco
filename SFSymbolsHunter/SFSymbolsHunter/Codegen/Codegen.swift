@@ -57,20 +57,20 @@ final class Codegen {
         head.add(line: line)
     }
     
-    func getCode(linecountThreshold: Int = 2_500) -> [String] {
+    func getCode(linecountThreshold: Int = 30_000) -> [String] {
         var files = [String]()
         
         var result = ""
         var numLines = 0
-        codegenTypes.forEach { codegen in
+        codegenTypes.enumerated().forEach { i, codegen in
             let code = codegen.render(tabLevel: 0)
             let lines = code.split(separator: "\n", omittingEmptySubsequences: false).count
             
             result += code
             numLines += lines
             
-            if numLines >= linecountThreshold {
-                files.append(result)
+            if numLines >= linecountThreshold || i == codegenTypes.count - 1 {
+                files.append(fileheaderTemplate + result)
                 result = ""
                 numLines = 0
             }

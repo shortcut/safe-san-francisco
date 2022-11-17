@@ -31,7 +31,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -53,7 +53,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "generate-nested-code"
+            argument = "generate-tests"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -61,7 +61,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-o $PROJECT_DIR/../Sources/SafeSanFrancisco"
+            argument = "-o $PROJECT_DIR/../Tests"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
