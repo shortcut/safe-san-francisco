@@ -65,7 +65,8 @@ let testsTemplate = """
 import XCTest
 import SafeSanFrancisco
 
-final class SafeSanFranciscoTests: XCTestCase {
+{{AVAILABIITY}}
+final class {{CLASS_NAME}}: XCTestCase {
     func testAllSymbols() throws {
         let images = [{{IMAGES}}
         ]
