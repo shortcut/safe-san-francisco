@@ -29,14 +29,15 @@ static let sailboat = SF.sailboat.self
 
 ### Special names
 
-As variable names cannot start with a number, numbers are preceded with an `x`:
+As variable names cannot start with a number, numbers are preceded with an underscore or a `x`:
 ```swift 
+SF._1.square
 SF.x1.square
 ```
 
-The name `image` is reserved by this framework, and so also needs to be preceded by an `x_`:
+The name `image` is reserved by this framework, and so also needs to be preceded by either an underscore or `x_`:
 ```swift
-SF.doc.text.x_image
+SF.doc.text._image
 SF.doc.text.x_image.fill
 ```
 

@@ -47,13 +47,13 @@
         
         @Steps {
             @Step {
-                As variable names cannot start with a number, numbers are preceded by a `x`. 
+                As variable names cannot start with a number, numbers are preceded by an underscore or `x`. 
                 
                 @Code(name: "NumberSymbols.swift", file: try-the-syntax-numbers.swift)
             }
             
             @Step {
-                The name `image` is reserved by this framework and must therefore be preceded by `x_`.
+                The name `image` is reserved by this framework and must therefore be preceded by an underscore or `x_`.
                 
                 @Code(name: "ImageSymbols.swift", file: try-the-syntax-image.swift)
             }
