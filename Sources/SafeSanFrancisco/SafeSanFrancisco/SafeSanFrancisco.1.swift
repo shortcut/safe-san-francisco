@@ -13901,7 +13901,7 @@ extension SF.x1.magnifyingglass {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF._1.magnifyingglass {
+extension SF.x1.magnifyingglass {
     public struct ar {
         private init() {}
     }
@@ -18979,7 +18979,7 @@ extension SF.arrowshape.turn.up.left.x2 {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.arrowshape.turn.up.left._2 {
+extension SF.arrowshape.turn.up.left.x2 {
     public struct circle {
         public struct fill {
             private init() {}
@@ -20143,7 +20143,7 @@ extension SF.battery.x100 {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.battery._100 {
+extension SF.battery.x100 {
     public struct bolt {
         public struct rtl {
             private init() {}
@@ -27614,7 +27614,7 @@ extension SF.line.horizontal.x3 {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.line.horizontal._3 {
+extension SF.line.horizontal.x3 {
     public struct circle {
         public struct fill {
             private init() {}
@@ -29105,7 +29105,7 @@ extension SF.person.x2 {
 }
 
 @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-extension SF.person._2 {
+extension SF.person.x2 {
     public struct circle {
         public struct fill {
             private init() {}

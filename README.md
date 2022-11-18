@@ -39,7 +39,7 @@ The name `image` is reserved by this framework, and so needs to be preceded by e
 ```swift
 let docTextImage = SF.doc.text.x_image.self
 
-let docTextImageFill = SF.doc.text._image.fill.self
+let docTextImageFill = SF.doc.text.x_image.fill.self
 ```
 
 Reserved names in Swift—like `switch`—are escaped and can be used without any problems:

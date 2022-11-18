@@ -171,3 +171,17 @@ func addLine(_ line: String, with tabLevel: Int, to result: inout String) {
     let line = line.replacingOccurrences(of: "\n", with: "\n\(tab)")
     result += "\(tab)\(line)\n"
 }
+
+extension String {
+    func occurences(of character: Character) -> Int {
+        var count = 0
+        
+        self.forEach {
+            if $0 == character {
+                count += 1
+            }
+        }
+        
+        return count
+    }
+}
