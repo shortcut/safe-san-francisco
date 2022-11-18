@@ -8,6 +8,8204 @@ import UIKit
 import SwiftUI
 #endif
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.list.dash {
+    public struct header {
+        public struct rectangle {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.list.number {
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.location {
+    public struct magnifyingglass {
+        private init() {}
+    }
+    
+    public struct square {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “location.square.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "location.square.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “location.square.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "location.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “location.square.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "location.square.fill", configuration: configuration)
+            }
+            
+            ///Creates the “location.square.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "location.square.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “location.square.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "location.square.fill")
+            }
+            
+            ///Creates the “location.square.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "location.square.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.location.north {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “location.north.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "location.north.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “location.north.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "location.north.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “location.north.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "location.north.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “location.north.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "location.north.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “location.north.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "location.north.circle.fill")
+            }
+            
+            ///Creates the “location.north.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "location.north.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.lock {
+    public struct desktopcomputer {
+        private init() {}
+    }
+    
+    public struct display {
+        private init() {}
+    }
+    
+    public struct ipad {
+        private init() {}
+    }
+    
+    public struct iphone {
+        private init() {}
+    }
+    
+    public struct laptopcomputer {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.lock.open {
+    public struct applewatch {
+        private init() {}
+    }
+    
+    public struct desktopcomputer {
+        private init() {}
+    }
+    
+    public struct display {
+        private init() {}
+    }
+    
+    public struct ipad {
+        private init() {}
+    }
+    
+    public struct iphone {
+        private init() {}
+    }
+    
+    public struct laptopcomputer {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.macpro.gen1 {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “macpro.gen1.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "macpro.gen1.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “macpro.gen1.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "macpro.gen1.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “macpro.gen1.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "macpro.gen1.fill", configuration: configuration)
+        }
+        
+        ///Creates the “macpro.gen1.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "macpro.gen1.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “macpro.gen1.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "macpro.gen1.fill")
+        }
+        
+        ///Creates the “macpro.gen1.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "macpro.gen1.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.macpro.gen3 {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “macpro.gen3.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "macpro.gen3.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “macpro.gen3.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "macpro.gen3.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “macpro.gen3.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "macpro.gen3.fill", configuration: configuration)
+        }
+        
+        ///Creates the “macpro.gen3.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "macpro.gen3.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “macpro.gen3.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "macpro.gen3.fill")
+        }
+        
+        ///Creates the “macpro.gen3.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "macpro.gen3.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.map {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “map.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "map.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “map.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "map.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “map.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "map.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “map.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "map.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “map.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "map.circle.fill")
+            }
+            
+            ///Creates the “map.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "map.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mappin {
+    public struct square {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “mappin.square.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mappin.square.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “mappin.square.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mappin.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “mappin.square.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mappin.square.fill", configuration: configuration)
+            }
+            
+            ///Creates the “mappin.square.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mappin.square.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “mappin.square.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mappin.square.fill")
+            }
+            
+            ///Creates the “mappin.square.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mappin.square.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mappin.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “mappin.slash.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mappin.slash.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “mappin.slash.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mappin.slash.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “mappin.slash.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mappin.slash.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “mappin.slash.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mappin.slash.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “mappin.slash.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mappin.slash.circle.fill")
+            }
+            
+            ///Creates the “mappin.slash.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mappin.slash.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.memorychip {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “memorychip.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "memorychip.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “memorychip.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "memorychip.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “memorychip.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "memorychip.fill", configuration: configuration)
+        }
+        
+        ///Creates the “memorychip.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "memorychip.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “memorychip.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "memorychip.fill")
+        }
+        
+        ///Creates the “memorychip.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "memorychip.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.message {
+    public struct and {
+        public struct waveform {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “message.and.waveform.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "message.and.waveform.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “message.and.waveform.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "message.and.waveform.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “message.and.waveform.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "message.and.waveform.fill", configuration: configuration)
+                }
+                
+                ///Creates the “message.and.waveform.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "message.and.waveform.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “message.and.waveform.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "message.and.waveform.fill")
+                }
+                
+                ///Creates the “message.and.waveform.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "message.and.waveform.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mic {
+    public struct badge {
+        public struct plus {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct square {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “mic.square.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mic.square.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “mic.square.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mic.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “mic.square.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mic.square.fill", configuration: configuration)
+            }
+            
+            ///Creates the “mic.square.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mic.square.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “mic.square.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mic.square.fill")
+            }
+            
+            ///Creates the “mic.square.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mic.square.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mic.fill {
+    public struct badge {
+        public struct plus {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.mic.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “mic.slash.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mic.slash.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “mic.slash.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "mic.slash.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “mic.slash.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mic.slash.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “mic.slash.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "mic.slash.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “mic.slash.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mic.slash.circle.fill")
+            }
+            
+            ///Creates the “mic.slash.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "mic.slash.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.minus {
+    public struct forwardslash {
+        public struct plus {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.music.mic {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “music.mic.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "music.mic.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “music.mic.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "music.mic.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “music.mic.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "music.mic.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “music.mic.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "music.mic.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “music.mic.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "music.mic.circle.fill")
+            }
+            
+            ///Creates the “music.mic.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "music.mic.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.music.note {
+    public struct tv {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “music.note.tv.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "music.note.tv.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “music.note.tv.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "music.note.tv.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “music.note.tv.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "music.note.tv.fill", configuration: configuration)
+            }
+            
+            ///Creates the “music.note.tv.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "music.note.tv.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “music.note.tv.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "music.note.tv.fill")
+            }
+            
+            ///Creates the “music.note.tv.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "music.note.tv.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.network {
+    public struct badge {
+        public struct shield {
+            public struct half {
+                public struct filled {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.newspaper {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “newspaper.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "newspaper.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “newspaper.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "newspaper.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “newspaper.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "newspaper.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “newspaper.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "newspaper.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “newspaper.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "newspaper.circle.fill")
+            }
+            
+            ///Creates the “newspaper.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "newspaper.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.octagon {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.oval {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.oval.portrait {
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person {
+    public struct text {
+        public struct rectangle {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.text.rectangle.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.text.rectangle.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.text.rectangle.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.text.rectangle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.text.rectangle.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.text.rectangle.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.text.rectangle.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.text.rectangle.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.text.rectangle.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.text.rectangle.fill")
+                }
+                
+                ///Creates the “person.text.rectangle.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.text.rectangle.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct wave {
+        public struct x2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.wave.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.wave.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.wave.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.wave.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.wave.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.wave.2.fill")
+                }
+                
+                ///Creates the “person.wave.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.wave.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct _2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.wave.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.wave.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.wave.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.wave.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.wave.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.wave.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.wave.2.fill")
+                }
+                
+                ///Creates the “person.wave.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.wave.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.x2 {
+    public struct crop {
+        public struct square {
+            public struct stack {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "person.2.crop.square.stack.fill")
+                    }
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "person.2.crop.square.stack.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct wave {
+        public struct x2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.2.wave.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill")
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct _2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.2.wave.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill")
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person._2 {
+    public struct crop {
+        public struct square {
+            public struct stack {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "person.2.crop.square.stack.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "person.2.crop.square.stack.fill")
+                    }
+                    
+                    ///Creates the “person.2.crop.square.stack.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "person.2.crop.square.stack.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct wave {
+        public struct x2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.2.wave.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill")
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct _2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "person.2.wave.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “person.2.wave.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill")
+                }
+                
+                ///Creates the “person.2.wave.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "person.2.wave.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.x3 {
+    public struct sequence {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “person.3.sequence.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “person.3.sequence.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “person.3.sequence.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", configuration: configuration)
+            }
+            
+            ///Creates the “person.3.sequence.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “person.3.sequence.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.3.sequence.fill")
+            }
+            
+            ///Creates the “person.3.sequence.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.3.sequence.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person._3 {
+    public struct sequence {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “person.3.sequence.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “person.3.sequence.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “person.3.sequence.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", configuration: configuration)
+            }
+            
+            ///Creates the “person.3.sequence.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.3.sequence.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “person.3.sequence.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.3.sequence.fill")
+            }
+            
+            ///Creates the “person.3.sequence.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.3.sequence.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.badge {
+    public struct clock {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “person.badge.clock.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.badge.clock.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “person.badge.clock.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.badge.clock.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “person.badge.clock.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.badge.clock.fill", configuration: configuration)
+            }
+            
+            ///Creates the “person.badge.clock.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.badge.clock.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “person.badge.clock.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.badge.clock.fill")
+            }
+            
+            ///Creates the “person.badge.clock.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.badge.clock.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop {
+    public struct artframe {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.circle.badge {
+    public struct clock {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “person.crop.circle.badge.clock.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.clock.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “person.crop.circle.badge.clock.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.clock.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “person.crop.circle.badge.clock.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.clock.fill", configuration: configuration)
+            }
+            
+            ///Creates the “person.crop.circle.badge.clock.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.clock.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “person.crop.circle.badge.clock.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.clock.fill")
+            }
+            
+            ///Creates the “person.crop.circle.badge.clock.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.clock.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “person.crop.circle.badge.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “person.crop.circle.badge.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “person.crop.circle.badge.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.fill", configuration: configuration)
+        }
+        
+        ///Creates the “person.crop.circle.badge.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “person.crop.circle.badge.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.fill")
+        }
+        
+        ///Creates the “person.crop.circle.badge.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+    public struct moon {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “person.crop.circle.badge.moon.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.moon.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “person.crop.circle.badge.moon.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.moon.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “person.crop.circle.badge.moon.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.moon.fill", configuration: configuration)
+            }
+            
+            ///Creates the “person.crop.circle.badge.moon.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.crop.circle.badge.moon.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “person.crop.circle.badge.moon.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.moon.fill")
+            }
+            
+            ///Creates the “person.crop.circle.badge.moon.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.moon.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.circle.badge.exclamationmark {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “person.crop.circle.badge.exclamationmark.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.exclamationmark.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “person.crop.circle.badge.exclamationmark.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.exclamationmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “person.crop.circle.badge.exclamationmark.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.exclamationmark.fill", configuration: configuration)
+        }
+        
+        ///Creates the “person.crop.circle.badge.exclamationmark.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.exclamationmark.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “person.crop.circle.badge.exclamationmark.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.exclamationmark.fill")
+        }
+        
+        ///Creates the “person.crop.circle.badge.exclamationmark.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.exclamationmark.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.circle.badge.questionmark {
+    public struct fill {
+        public struct ar {
+            private init() {}
+        }
+        
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “person.crop.circle.badge.questionmark.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.questionmark.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “person.crop.circle.badge.questionmark.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.questionmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “person.crop.circle.badge.questionmark.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.questionmark.fill", configuration: configuration)
+        }
+        
+        ///Creates the “person.crop.circle.badge.questionmark.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "person.crop.circle.badge.questionmark.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “person.crop.circle.badge.questionmark.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.questionmark.fill")
+        }
+        
+        ///Creates the “person.crop.circle.badge.questionmark.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "person.crop.circle.badge.questionmark.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.rectangle {
+    public struct stack {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “person.crop.rectangle.stack.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.crop.rectangle.stack.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “person.crop.rectangle.stack.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "person.crop.rectangle.stack.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “person.crop.rectangle.stack.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.crop.rectangle.stack.fill", configuration: configuration)
+            }
+            
+            ///Creates the “person.crop.rectangle.stack.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "person.crop.rectangle.stack.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “person.crop.rectangle.stack.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.stack.fill")
+            }
+            
+            ///Creates the “person.crop.rectangle.stack.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.stack.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.person.crop.square {
+    public struct filled {
+        public struct and {
+            public struct at {
+                public struct rectangle {
+                    public struct fill {
+                        private init() {}
+                        #if os(macOS)
+                        
+                        ///Creates the “person.crop.square.filled.and.at.rectangle.fill” system symbol image with the accessibility description you specify.
+                        ///
+                        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                        @available(iOS, unavailable)
+                        @available(tvOS, unavailable)
+                        @available(watchOS, unavailable)
+                        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                            SFSymbolReference.image(name: "person.crop.square.filled.and.at.rectangle.fill", accessibilityDescription: accessibilityDescription)
+                        }
+                        
+                        ///Creates the “person.crop.square.filled.and.at.rectangle.fill” system symbol image with the variable value you specify.
+                        ///
+                        ///The value parameter is valid for symbols that support variable rendering.
+                        ///
+                        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                        @available(macOS 13.0, *)
+                        @available(iOS, unavailable)
+                        @available(tvOS, unavailable)
+                        @available(watchOS, unavailable)
+                        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                            SFSymbolReference.image(name: "person.crop.square.filled.and.at.rectangle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                        }
+                        
+                        #endif
+                        
+                        #if os(iOS) || os(tvOS) || os(watchOS)
+                        
+                        ///Creates the “person.crop.square.filled.and.at.rectangle.fill” system symbol image object with the specified configuration.
+                        ///
+                        ///Use this method to retrieve system-defined symbol images.
+                        ///
+                        ///- Parameter configuration: The image configuration the system applies to the image.
+                        ///
+                        ///- Returns: The object containing the image variant that matches the specified configuration data.
+                        @available(macOS, unavailable)
+                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            SFSymbolReference.image(name: "person.crop.square.filled.and.at.rectangle.fill", configuration: configuration)
+                        }
+                        
+                        ///Creates the “person.crop.square.filled.and.at.rectangle.fill” system symbol image object with the configuration and variable value you specify.
+                        ///
+                        ///Use this method to retrieve system-defined symbol images.
+                        ///
+                        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                        ///- Parameter configuration: The image configuration the system applies to the image.
+                        ///
+                        ///- Returns: The object containing the image variant that matches the specified configuration data.
+                        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                        @available(macOS, unavailable)
+                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            SFSymbolReference.image(name: "person.crop.square.filled.and.at.rectangle.fill", variableValue: variableValue, configuration: configuration)
+                        }
+                        
+                        #endif
+                        
+                        #if canImport(SwiftUI)
+                        ///Creates the “person.crop.square.filled.and.at.rectangle.fill” system symbol image.
+                        ///
+                        ///This initializer creates an image using a system-provided symbol.
+                        public static func swiftUIImage() -> SwiftUI.Image {
+                            SFSymbolReference.swiftUIImage(name: "person.crop.square.filled.and.at.rectangle.fill")
+                        }
+                        
+                        ///Creates the “person.crop.square.filled.and.at.rectangle.fill” system symbol image with a variable value.
+                        ///
+                        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                        ///
+                        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                            SFSymbolReference.swiftUIImage(name: "person.crop.square.filled.and.at.rectangle.fill", variableValue: variableValue)
+                        }
+                        
+                        #endif
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.personalhotspot {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “personalhotspot.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "personalhotspot.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “personalhotspot.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "personalhotspot.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “personalhotspot.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "personalhotspot.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “personalhotspot.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "personalhotspot.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “personalhotspot.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "personalhotspot.circle.fill")
+            }
+            
+            ///Creates the “personalhotspot.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "personalhotspot.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.phone {
+    public struct and {
+        public struct waveform {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “phone.and.waveform.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "phone.and.waveform.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “phone.and.waveform.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "phone.and.waveform.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “phone.and.waveform.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "phone.and.waveform.fill", configuration: configuration)
+                }
+                
+                ///Creates the “phone.and.waveform.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "phone.and.waveform.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “phone.and.waveform.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "phone.and.waveform.fill")
+                }
+                
+                ///Creates the “phone.and.waveform.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "phone.and.waveform.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.photo {
+    public struct artframe {
+        private init() {}
+    }
+    
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “photo.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "photo.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “photo.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "photo.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “photo.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "photo.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “photo.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "photo.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “photo.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "photo.circle.fill")
+            }
+            
+            ///Creates the “photo.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "photo.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.pills {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “pills.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "pills.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “pills.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "pills.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “pills.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "pills.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “pills.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "pills.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “pills.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "pills.circle.fill")
+            }
+            
+            ///Creates the “pills.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "pills.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.pin {
+    public struct square {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “pin.square.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "pin.square.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “pin.square.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "pin.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “pin.square.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "pin.square.fill", configuration: configuration)
+            }
+            
+            ///Creates the “pin.square.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "pin.square.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “pin.square.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "pin.square.fill")
+            }
+            
+            ///Creates the “pin.square.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "pin.square.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.play {
+    public struct square {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “play.square.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "play.square.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “play.square.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "play.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “play.square.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "play.square.fill", configuration: configuration)
+            }
+            
+            ///Creates the “play.square.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "play.square.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “play.square.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "play.square.fill")
+            }
+            
+            ///Creates the “play.square.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "play.square.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.play.rectangle {
+    public struct on {
+        public struct rectangle {
+            public struct circle {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “play.rectangle.on.rectangle.circle.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "play.rectangle.on.rectangle.circle.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “play.rectangle.on.rectangle.circle.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "play.rectangle.on.rectangle.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “play.rectangle.on.rectangle.circle.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "play.rectangle.on.rectangle.circle.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “play.rectangle.on.rectangle.circle.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "play.rectangle.on.rectangle.circle.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “play.rectangle.on.rectangle.circle.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "play.rectangle.on.rectangle.circle.fill")
+                    }
+                    
+                    ///Creates the “play.rectangle.on.rectangle.circle.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "play.rectangle.on.rectangle.circle.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “play.rectangle.on.rectangle.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "play.rectangle.on.rectangle.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “play.rectangle.on.rectangle.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "play.rectangle.on.rectangle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “play.rectangle.on.rectangle.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "play.rectangle.on.rectangle.fill", configuration: configuration)
+                }
+                
+                ///Creates the “play.rectangle.on.rectangle.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "play.rectangle.on.rectangle.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “play.rectangle.on.rectangle.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "play.rectangle.on.rectangle.fill")
+                }
+                
+                ///Creates the “play.rectangle.on.rectangle.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "play.rectangle.on.rectangle.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.plus {
+    public struct forwardslash {
+        public struct minus {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.plus.rectangle.on.folder {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “plus.rectangle.on.folder.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "plus.rectangle.on.folder.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “plus.rectangle.on.folder.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "plus.rectangle.on.folder.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “plus.rectangle.on.folder.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "plus.rectangle.on.folder.fill", configuration: configuration)
+        }
+        
+        ///Creates the “plus.rectangle.on.folder.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "plus.rectangle.on.folder.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “plus.rectangle.on.folder.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "plus.rectangle.on.folder.fill")
+        }
+        
+        ///Creates the “plus.rectangle.on.folder.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "plus.rectangle.on.folder.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.plus.square {
+    public struct dashed {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.point {
+    public struct x3 {
+        public struct connected {
+            public struct trianglepath {
+                public struct dotted {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct filled {
+            public struct connected {
+                public struct trianglepath {
+                    public struct dotted {
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct _3 {
+        public struct connected {
+            public struct trianglepath {
+                public struct dotted {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct filled {
+            public struct connected {
+                public struct trianglepath {
+                    public struct dotted {
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct filled {
+        public struct topleft {
+            public struct down {
+                public struct curvedto {
+                    public struct point {
+                        public struct bottomright {
+                            public struct up {
+                                private init() {}
+                            }
+                            
+                            private init() {}
+                        }
+                        
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.point.topleft.down.curvedto.point {
+    public struct filled {
+        public struct bottomright {
+            public struct up {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.point.topleft.down.curvedto.point.bottomright.up {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “point.topleft.down.curvedto.point.bottomright.up.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "point.topleft.down.curvedto.point.bottomright.up.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “point.topleft.down.curvedto.point.bottomright.up.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "point.topleft.down.curvedto.point.bottomright.up.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “point.topleft.down.curvedto.point.bottomright.up.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "point.topleft.down.curvedto.point.bottomright.up.fill", configuration: configuration)
+        }
+        
+        ///Creates the “point.topleft.down.curvedto.point.bottomright.up.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "point.topleft.down.curvedto.point.bottomright.up.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “point.topleft.down.curvedto.point.bottomright.up.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "point.topleft.down.curvedto.point.bottomright.up.fill")
+        }
+        
+        ///Creates the “point.topleft.down.curvedto.point.bottomright.up.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "point.topleft.down.curvedto.point.bottomright.up.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.power {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “power.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "power.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “power.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "power.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “power.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "power.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “power.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "power.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “power.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "power.circle.fill")
+            }
+            
+            ///Creates the “power.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "power.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+    public struct dotted {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.printer {
+    public struct filled {
+        public struct and {
+            public struct paper {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.printer.dotmatrix {
+    public struct filled {
+        public struct and {
+            public struct paper {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.puzzlepiece {
+    public struct `extension` {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “puzzlepiece.extension.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "puzzlepiece.extension.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “puzzlepiece.extension.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "puzzlepiece.extension.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “puzzlepiece.extension.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "puzzlepiece.extension.fill", configuration: configuration)
+            }
+            
+            ///Creates the “puzzlepiece.extension.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "puzzlepiece.extension.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “puzzlepiece.extension.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "puzzlepiece.extension.fill")
+            }
+            
+            ///Creates the “puzzlepiece.extension.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "puzzlepiece.extension.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.questionmark {
+    public struct app {
+        public struct ar {
+            private init() {}
+        }
+        
+        public struct dashed {
+            public struct ar {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct fill {
+            public struct ar {
+                private init() {}
+            }
+            
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “questionmark.app.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "questionmark.app.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “questionmark.app.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "questionmark.app.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “questionmark.app.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "questionmark.app.fill", configuration: configuration)
+            }
+            
+            ///Creates the “questionmark.app.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "questionmark.app.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “questionmark.app.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "questionmark.app.fill")
+            }
+            
+            ///Creates the “questionmark.app.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "questionmark.app.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.quote {
+    public struct closing {
+        private init() {}
+    }
+    
+    public struct opening {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.r.joystick {
+    public struct press {
+        public struct down {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “r.joystick.press.down.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.press.down.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “r.joystick.press.down.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.press.down.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “r.joystick.press.down.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.press.down.fill", configuration: configuration)
+                }
+                
+                ///Creates the “r.joystick.press.down.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.press.down.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “r.joystick.press.down.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.press.down.fill")
+                }
+                
+                ///Creates the “r.joystick.press.down.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.press.down.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct tilt {
+        public struct down {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “r.joystick.tilt.down.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.down.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “r.joystick.tilt.down.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.down.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “r.joystick.tilt.down.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.down.fill", configuration: configuration)
+                }
+                
+                ///Creates the “r.joystick.tilt.down.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.down.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “r.joystick.tilt.down.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.down.fill")
+                }
+                
+                ///Creates the “r.joystick.tilt.down.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.down.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct left {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “r.joystick.tilt.left.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.left.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “r.joystick.tilt.left.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “r.joystick.tilt.left.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.left.fill", configuration: configuration)
+                }
+                
+                ///Creates the “r.joystick.tilt.left.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.left.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “r.joystick.tilt.left.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.left.fill")
+                }
+                
+                ///Creates the “r.joystick.tilt.left.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.left.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct right {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “r.joystick.tilt.right.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.right.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “r.joystick.tilt.right.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “r.joystick.tilt.right.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.right.fill", configuration: configuration)
+                }
+                
+                ///Creates the “r.joystick.tilt.right.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.right.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “r.joystick.tilt.right.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.right.fill")
+                }
+                
+                ///Creates the “r.joystick.tilt.right.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.right.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct up {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “r.joystick.tilt.up.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.up.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “r.joystick.tilt.up.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.up.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “r.joystick.tilt.up.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.up.fill", configuration: configuration)
+                }
+                
+                ///Creates the “r.joystick.tilt.up.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "r.joystick.tilt.up.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “r.joystick.tilt.up.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.up.fill")
+                }
+                
+                ///Creates the “r.joystick.tilt.up.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "r.joystick.tilt.up.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.r.square.on.square {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “r.square.on.square.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "r.square.on.square.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “r.square.on.square.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "r.square.on.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “r.square.on.square.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "r.square.on.square.fill", configuration: configuration)
+        }
+        
+        ///Creates the “r.square.on.square.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "r.square.on.square.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “r.square.on.square.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "r.square.on.square.fill")
+        }
+        
+        ///Creates the “r.square.on.square.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "r.square.on.square.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle {
+    public struct x2 {
+        public struct swap {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct _2 {
+        public struct swap {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct filled {
+        public struct and {
+            public struct hand {
+                public struct point {
+                    public struct up {
+                        public struct left {
+                            private init() {}
+                        }
+                        
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct leadinghalf {
+        public struct inset {
+            public struct filled {
+                public struct arrow {
+                    public struct leading {
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct leadingthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct trailinghalf {
+        public struct inset {
+            public struct filled {
+                public struct arrow {
+                    public struct trailing {
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct trailingthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.x3 {
+    public struct group {
+        public struct bubble {
+            public struct left {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.3.group.bubble.left.fill")
+                    }
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.3.group.bubble.left.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.3.group.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.3.group.fill")
+            }
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.3.group.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle._3 {
+    public struct group {
+        public struct bubble {
+            public struct left {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.3.group.bubble.left.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.3.group.bubble.left.fill")
+                    }
+                    
+                    ///Creates the “rectangle.3.group.bubble.left.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.3.group.bubble.left.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.3.group.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.3.group.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.3.group.fill")
+            }
+            
+            ///Creates the “rectangle.3.group.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.3.group.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.and {
+    public struct hand {
+        public struct point {
+            public struct up {
+                public struct left {
+                    public struct fill {
+                        private init() {}
+                        #if os(macOS)
+                        
+                        ///Creates the “rectangle.and.hand.point.up.left.fill” system symbol image with the accessibility description you specify.
+                        ///
+                        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                        @available(iOS, unavailable)
+                        @available(tvOS, unavailable)
+                        @available(watchOS, unavailable)
+                        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                            SFSymbolReference.image(name: "rectangle.and.hand.point.up.left.fill", accessibilityDescription: accessibilityDescription)
+                        }
+                        
+                        ///Creates the “rectangle.and.hand.point.up.left.fill” system symbol image with the variable value you specify.
+                        ///
+                        ///The value parameter is valid for symbols that support variable rendering.
+                        ///
+                        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                        @available(macOS 13.0, *)
+                        @available(iOS, unavailable)
+                        @available(tvOS, unavailable)
+                        @available(watchOS, unavailable)
+                        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                            SFSymbolReference.image(name: "rectangle.and.hand.point.up.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                        }
+                        
+                        #endif
+                        
+                        #if os(iOS) || os(tvOS) || os(watchOS)
+                        
+                        ///Creates the “rectangle.and.hand.point.up.left.fill” system symbol image object with the specified configuration.
+                        ///
+                        ///Use this method to retrieve system-defined symbol images.
+                        ///
+                        ///- Parameter configuration: The image configuration the system applies to the image.
+                        ///
+                        ///- Returns: The object containing the image variant that matches the specified configuration data.
+                        @available(macOS, unavailable)
+                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            SFSymbolReference.image(name: "rectangle.and.hand.point.up.left.fill", configuration: configuration)
+                        }
+                        
+                        ///Creates the “rectangle.and.hand.point.up.left.fill” system symbol image object with the configuration and variable value you specify.
+                        ///
+                        ///Use this method to retrieve system-defined symbol images.
+                        ///
+                        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                        ///- Parameter configuration: The image configuration the system applies to the image.
+                        ///
+                        ///- Returns: The object containing the image variant that matches the specified configuration data.
+                        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                        @available(macOS, unavailable)
+                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            SFSymbolReference.image(name: "rectangle.and.hand.point.up.left.fill", variableValue: variableValue, configuration: configuration)
+                        }
+                        
+                        #endif
+                        
+                        #if canImport(SwiftUI)
+                        ///Creates the “rectangle.and.hand.point.up.left.fill” system symbol image.
+                        ///
+                        ///This initializer creates an image using a system-provided symbol.
+                        public static func swiftUIImage() -> SwiftUI.Image {
+                            SFSymbolReference.swiftUIImage(name: "rectangle.and.hand.point.up.left.fill")
+                        }
+                        
+                        ///Creates the “rectangle.and.hand.point.up.left.fill” system symbol image with a variable value.
+                        ///
+                        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                        ///
+                        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                            SFSymbolReference.swiftUIImage(name: "rectangle.and.hand.point.up.left.fill", variableValue: variableValue)
+                        }
+                        
+                        #endif
+                    }
+                    
+                    public struct filled {
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.bottomthird.inset {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.center.inset {
+    public struct filled {
+        public struct badge {
+            public struct plus {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset {
+    public struct bottomleading {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomtrailing {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct filled {
+        public struct and {
+            public struct person {
+                public struct filled {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct on {
+            public struct rectangle {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct topleading {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct toptrailing {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.bottomleft {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.bottomright {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.topleft {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.inset.topright {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.lefthalf {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.lefthalf.inset {
+    public struct filled {
+        public struct arrow {
+            public struct left {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.leftthird.inset {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.on.rectangle {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.on.rectangle.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.on.rectangle.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.on.rectangle.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.on.rectangle.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.on.rectangle.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.circle.fill")
+            }
+            
+            ///Creates the “rectangle.on.rectangle.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+    public struct square {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.on.rectangle.square.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.square.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.on.rectangle.square.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.on.rectangle.square.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.square.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.on.rectangle.square.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.square.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.on.rectangle.square.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.square.fill")
+            }
+            
+            ///Creates the “rectangle.on.rectangle.square.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.square.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.on.rectangle.slash {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.on.rectangle.slash.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.slash.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.on.rectangle.slash.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.slash.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.on.rectangle.slash.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.slash.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.on.rectangle.slash.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.on.rectangle.slash.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.on.rectangle.slash.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.slash.circle.fill")
+            }
+            
+            ///Creates the “rectangle.on.rectangle.slash.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.slash.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “rectangle.on.rectangle.slash.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "rectangle.on.rectangle.slash.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “rectangle.on.rectangle.slash.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "rectangle.on.rectangle.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “rectangle.on.rectangle.slash.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "rectangle.on.rectangle.slash.fill", configuration: configuration)
+        }
+        
+        ///Creates the “rectangle.on.rectangle.slash.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "rectangle.on.rectangle.slash.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “rectangle.on.rectangle.slash.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.slash.fill")
+        }
+        
+        ///Creates the “rectangle.on.rectangle.slash.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "rectangle.on.rectangle.slash.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.portrait {
+    public struct and {
+        public struct arrow {
+            public struct right {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “rectangle.portrait.and.arrow.right.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.and.arrow.right.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.and.arrow.right.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.and.arrow.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “rectangle.portrait.and.arrow.right.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.and.arrow.right.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.and.arrow.right.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.and.arrow.right.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “rectangle.portrait.and.arrow.right.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.right.fill")
+                    }
+                    
+                    ///Creates the “rectangle.portrait.and.arrow.right.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.right.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomhalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomleading {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomleft {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomright {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct bottomtrailing {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct center {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct inset {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct leadinghalf {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct leadingthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct lefthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct leftthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct on {
+        public struct rectangle {
+            public struct portrait {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “rectangle.portrait.on.rectangle.portrait.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.on.rectangle.portrait.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “rectangle.portrait.on.rectangle.portrait.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.on.rectangle.portrait.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “rectangle.portrait.on.rectangle.portrait.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.fill")
+                    }
+                    
+                    ///Creates the “rectangle.portrait.on.rectangle.portrait.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                public struct slash {
+                    public struct fill {
+                        private init() {}
+                        #if os(macOS)
+                        
+                        ///Creates the “rectangle.portrait.on.rectangle.portrait.slash.fill” system symbol image with the accessibility description you specify.
+                        ///
+                        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                        @available(iOS, unavailable)
+                        @available(tvOS, unavailable)
+                        @available(watchOS, unavailable)
+                        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                            SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.slash.fill", accessibilityDescription: accessibilityDescription)
+                        }
+                        
+                        ///Creates the “rectangle.portrait.on.rectangle.portrait.slash.fill” system symbol image with the variable value you specify.
+                        ///
+                        ///The value parameter is valid for symbols that support variable rendering.
+                        ///
+                        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                        @available(macOS 13.0, *)
+                        @available(iOS, unavailable)
+                        @available(tvOS, unavailable)
+                        @available(watchOS, unavailable)
+                        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                            SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                        }
+                        
+                        #endif
+                        
+                        #if os(iOS) || os(tvOS) || os(watchOS)
+                        
+                        ///Creates the “rectangle.portrait.on.rectangle.portrait.slash.fill” system symbol image object with the specified configuration.
+                        ///
+                        ///Use this method to retrieve system-defined symbol images.
+                        ///
+                        ///- Parameter configuration: The image configuration the system applies to the image.
+                        ///
+                        ///- Returns: The object containing the image variant that matches the specified configuration data.
+                        @available(macOS, unavailable)
+                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.slash.fill", configuration: configuration)
+                        }
+                        
+                        ///Creates the “rectangle.portrait.on.rectangle.portrait.slash.fill” system symbol image object with the configuration and variable value you specify.
+                        ///
+                        ///Use this method to retrieve system-defined symbol images.
+                        ///
+                        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                        ///- Parameter configuration: The image configuration the system applies to the image.
+                        ///
+                        ///- Returns: The object containing the image variant that matches the specified configuration data.
+                        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                        @available(macOS, unavailable)
+                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.slash.fill", variableValue: variableValue, configuration: configuration)
+                        }
+                        
+                        #endif
+                        
+                        #if canImport(SwiftUI)
+                        ///Creates the “rectangle.portrait.on.rectangle.portrait.slash.fill” system symbol image.
+                        ///
+                        ///This initializer creates an image using a system-provided symbol.
+                        public static func swiftUIImage() -> SwiftUI.Image {
+                            SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.slash.fill")
+                        }
+                        
+                        ///Creates the “rectangle.portrait.on.rectangle.portrait.slash.fill” system symbol image with a variable value.
+                        ///
+                        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                        ///
+                        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                            SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.slash.fill", variableValue: variableValue)
+                        }
+                        
+                        #endif
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct rightthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct slash {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.portrait.slash.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.portrait.slash.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.portrait.slash.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.portrait.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.portrait.slash.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.portrait.slash.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.portrait.slash.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.portrait.slash.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.portrait.slash.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.portrait.slash.fill")
+            }
+            
+            ///Creates the “rectangle.portrait.slash.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.portrait.slash.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+    public struct split {
+        public struct x2x1 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", configuration: configuration)
+                }
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.fill")
+                }
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            public struct slash {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.slash.fill")
+                    }
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.slash.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct _2x1 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", configuration: configuration)
+                }
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "rectangle.portrait.split.2x1.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.fill")
+                }
+                
+                ///Creates the “rectangle.portrait.split.2x1.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            public struct slash {
+                public struct fill {
+                    private init() {}
+                    #if os(macOS)
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image with the accessibility description you specify.
+                    ///
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image with the variable value you specify.
+                    ///
+                    ///The value parameter is valid for symbols that support variable rendering.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                    @available(macOS 13.0, *)
+                    @available(iOS, unavailable)
+                    @available(tvOS, unavailable)
+                    @available(watchOS, unavailable)
+                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                    }
+                    
+                    #endif
+                    
+                    #if os(iOS) || os(tvOS) || os(watchOS)
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image object with the specified configuration.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(macOS, unavailable)
+                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", configuration: configuration)
+                    }
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image object with the configuration and variable value you specify.
+                    ///
+                    ///Use this method to retrieve system-defined symbol images.
+                    ///
+                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                    ///- Parameter configuration: The image configuration the system applies to the image.
+                    ///
+                    ///- Returns: The object containing the image variant that matches the specified configuration data.
+                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    @available(macOS, unavailable)
+                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        SFSymbolReference.image(name: "rectangle.portrait.split.2x1.slash.fill", variableValue: variableValue, configuration: configuration)
+                    }
+                    
+                    #endif
+                    
+                    #if canImport(SwiftUI)
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol.
+                    public static func swiftUIImage() -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.slash.fill")
+                    }
+                    
+                    ///Creates the “rectangle.portrait.split.2x1.slash.fill” system symbol image with a variable value.
+                    ///
+                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                    ///
+                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                        SFSymbolReference.swiftUIImage(name: "rectangle.portrait.split.2x1.slash.fill", variableValue: variableValue)
+                    }
+                    
+                    #endif
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct tophalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct topleading {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct topleft {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct topright {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct topthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct toptrailing {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct trailinghalf {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct trailingthird {
+        public struct inset {
+            public struct filled {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.righthalf {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.righthalf.inset {
+    public struct filled {
+        public struct arrow {
+            public struct right {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.rightthird.inset {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.split.x2x1 {
+    public struct slash {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.split.2x1.slash.fill")
+            }
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.split.2x1.slash.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.split._2x1 {
+    public struct slash {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.split.2x1.slash.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.split.2x1.slash.fill")
+            }
+            
+            ///Creates the “rectangle.split.2x1.slash.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.split.2x1.slash.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.stack.badge {
+    public struct play {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “rectangle.stack.badge.play.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.stack.badge.play.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “rectangle.stack.badge.play.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "rectangle.stack.badge.play.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “rectangle.stack.badge.play.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.stack.badge.play.fill", configuration: configuration)
+            }
+            
+            ///Creates the “rectangle.stack.badge.play.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "rectangle.stack.badge.play.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “rectangle.stack.badge.play.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.stack.badge.play.fill")
+            }
+            
+            ///Creates the “rectangle.stack.badge.play.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "rectangle.stack.badge.play.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.stack.badge.person.crop {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “rectangle.stack.badge.person.crop.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "rectangle.stack.badge.person.crop.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “rectangle.stack.badge.person.crop.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "rectangle.stack.badge.person.crop.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “rectangle.stack.badge.person.crop.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "rectangle.stack.badge.person.crop.fill", configuration: configuration)
+        }
+        
+        ///Creates the “rectangle.stack.badge.person.crop.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "rectangle.stack.badge.person.crop.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “rectangle.stack.badge.person.crop.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "rectangle.stack.badge.person.crop.fill")
+        }
+        
+        ///Creates the “rectangle.stack.badge.person.crop.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "rectangle.stack.badge.person.crop.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.rectangle.topthird.inset {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`.x1 {
+    public struct ar {
+        private init() {}
+    }
+    
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`.x1.circle {
+    public struct ar {
+        private init() {}
+    }
+    
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`.x1.circle.fill {
+    public struct ar {
+        private init() {}
+    }
+    
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`._1 {
+    public struct ar {
+        private init() {}
+    }
+    
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`._1.circle {
+    public struct ar {
+        private init() {}
+    }
+    
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`repeat`._1.circle.fill {
+    public struct ar {
+        private init() {}
+    }
+    
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.restart.circle {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “restart.circle.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "restart.circle.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “restart.circle.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "restart.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “restart.circle.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "restart.circle.fill", configuration: configuration)
+        }
+        
+        ///Creates the “restart.circle.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "restart.circle.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “restart.circle.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "restart.circle.fill")
+        }
+        
+        ///Creates the “restart.circle.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "restart.circle.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.`return` {
+    public struct left {
+        private init() {}
+    }
+    
+    public struct right {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.scissors {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “scissors.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "scissors.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “scissors.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "scissors.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “scissors.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "scissors.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “scissors.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "scissors.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “scissors.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "scissors.circle.fill")
+            }
+            
+            ///Creates the “scissors.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "scissors.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.shield {
+    public struct righthalf {
+        public struct filled {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.shield.lefthalf {
+    public struct filled {
+        public struct slash {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.shippingbox {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “shippingbox.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "shippingbox.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “shippingbox.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "shippingbox.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “shippingbox.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "shippingbox.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “shippingbox.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "shippingbox.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “shippingbox.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "shippingbox.circle.fill")
+            }
+            
+            ///Creates the “shippingbox.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "shippingbox.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.signature {
+    public struct ja {
+        private init() {}
+    }
+    
+    public struct th {
+        private init() {}
+    }
+    
+    public struct zh {
+        public struct traditional {
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.sleep {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “sleep.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "sleep.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “sleep.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "sleep.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “sleep.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "sleep.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “sleep.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "sleep.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “sleep.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "sleep.circle.fill")
+            }
+            
+            ///Creates the “sleep.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "sleep.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.slider.horizontal {
+    public struct x2 {
+        public struct rectangle {
+            public struct and {
+                public struct arrow {
+                    public struct triangle {
+                        public struct x2 {
+                            public struct circlepath {
+                                private init() {}
+                            }
+                            
+                            private init() {}
+                        }
+                        
+                        public struct _2 {
+                            public struct circlepath {
+                                private init() {}
+                            }
+                            
+                            private init() {}
+                        }
+                        
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+    public struct _2 {
+        public struct rectangle {
+            public struct and {
+                public struct arrow {
+                    public struct triangle {
+                        public struct x2 {
+                            public struct circlepath {
+                                private init() {}
+                            }
+                            
+                            private init() {}
+                        }
+                        
+                        public struct _2 {
+                            public struct circlepath {
+                                private init() {}
+                            }
+                            
+                            private init() {}
+                        }
+                        
+                        private init() {}
+                    }
+                    
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.slider.horizontal.below.square {
+    public struct filled {
+        public struct and {
+            public struct square {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.smallcircle {
+    public struct filled {
+        public struct circle {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “smallcircle.filled.circle.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "smallcircle.filled.circle.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “smallcircle.filled.circle.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "smallcircle.filled.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “smallcircle.filled.circle.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "smallcircle.filled.circle.fill", configuration: configuration)
+                }
+                
+                ///Creates the “smallcircle.filled.circle.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "smallcircle.filled.circle.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “smallcircle.filled.circle.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "smallcircle.filled.circle.fill")
+                }
+                
+                ///Creates the “smallcircle.filled.circle.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "smallcircle.filled.circle.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.sparkle {
     public struct magnifyingglass {
         private init() {}
@@ -448,6 +8646,54 @@ extension SF.square.x2.stack.x3d.top {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.x2.stack._3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.x2.stack._3d.top {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._2.stack.x3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._2.stack.x3d.top {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._2.stack._3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._2.stack._3d.top {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.square.x3.stack.x3d.bottom {
     public struct filled {
         private init() {}
@@ -465,6 +8711,78 @@ extension SF.square.x3.stack.x3d.middle {
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.square.x3.stack.x3d.top {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.x3.stack._3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.x3.stack._3d.middle {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.x3.stack._3d.top {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack.x3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack.x3d.middle {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack.x3d.top {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack._3d.bottom {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack._3d.middle {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square._3.stack._3d.top {
     public struct filled {
         private init() {}
     }
@@ -848,6 +9166,261 @@ extension SF.square.grid.x3x1.below.line.grid.x1x2 {
 }
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid.x3x1.below.line.grid._1x2 {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", configuration: configuration)
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "square.grid.3x1.below.line.grid.1x2.fill")
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x1.below.line.grid.x1x2 {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", configuration: configuration)
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "square.grid.3x1.below.line.grid.1x2.fill")
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x1.below.line.grid._1x2 {
+    public struct fill {
+        private init() {}
+        #if os(macOS)
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with the accessibility description you specify.
+        ///
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", accessibilityDescription: accessibilityDescription)
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with the variable value you specify.
+        ///
+        ///The value parameter is valid for symbols that support variable rendering.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+        @available(macOS 13.0, *)
+        @available(iOS, unavailable)
+        @available(tvOS, unavailable)
+        @available(watchOS, unavailable)
+        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+        }
+        
+        #endif
+        
+        #if os(iOS) || os(tvOS) || os(watchOS)
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image object with the specified configuration.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(macOS, unavailable)
+        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", configuration: configuration)
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image object with the configuration and variable value you specify.
+        ///
+        ///Use this method to retrieve system-defined symbol images.
+        ///
+        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+        ///- Parameter configuration: The image configuration the system applies to the image.
+        ///
+        ///- Returns: The object containing the image variant that matches the specified configuration data.
+        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        @available(macOS, unavailable)
+        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            SFSymbolReference.image(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue, configuration: configuration)
+        }
+        
+        #endif
+        
+        #if canImport(SwiftUI)
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image.
+        ///
+        ///This initializer creates an image using a system-provided symbol.
+        public static func swiftUIImage() -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "square.grid.3x1.below.line.grid.1x2.fill")
+        }
+        
+        ///Creates the “square.grid.3x1.below.line.grid.1x2.fill” system symbol image with a variable value.
+        ///
+        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+        ///
+        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+            SFSymbolReference.swiftUIImage(name: "square.grid.3x1.below.line.grid.1x2.fill", variableValue: variableValue)
+        }
+        
+        #endif
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.square.grid.x3x3 {
     public struct square {
         private init() {}
@@ -921,6 +9494,86 @@ extension SF.square.grid.x3x3.topmiddle {
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.square.grid.x3x3.topright {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3 {
+    public struct square {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.bottomleft {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.bottommiddle {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.bottomright {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.middle {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.middleleft {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.middleright {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.topleft {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.topmiddle {
+    public struct filled {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.square.grid._3x3.topright {
     public struct filled {
         private init() {}
     }
@@ -1519,6 +10172,14 @@ extension SF.text {
 
 @available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
 extension SF.textformat.x123 {
+    public struct hi {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.0, tvOS 15.0, watchOS 8.0, macOS 12.0, *)
+extension SF.textformat._123 {
     public struct hi {
         private init() {}
     }
@@ -2517,6 +11178,86 @@ extension SF.square.x3 {
             private init() {}
         }
         
+        public struct _3d {
+            public struct down {
+                public struct backward {
+                    private init() {}
+                }
+                
+                public struct forward {
+                    private init() {}
+                }
+                
+                public struct left {
+                    private init() {}
+                }
+                
+                public struct right {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.1, tvOS 15.1, watchOS 8.1, macOS 12.0, *)
+extension SF.square._3 {
+    public struct layers {
+        public struct x3d {
+            public struct down {
+                public struct backward {
+                    private init() {}
+                }
+                
+                public struct forward {
+                    private init() {}
+                }
+                
+                public struct left {
+                    private init() {}
+                }
+                
+                public struct right {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct _3d {
+            public struct down {
+                public struct backward {
+                    private init() {}
+                }
+                
+                public struct forward {
+                    private init() {}
+                }
+                
+                public struct left {
+                    private init() {}
+                }
+                
+                public struct right {
+                    private init() {}
+                }
+                
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
         private init() {}
     }
     
@@ -2793,7 +11534,79 @@ extension SF.square.x3.layers.x3d.down.right {
 }
 
 @available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square.x3.layers._3d.down.left {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square.x3.layers._3d.down.right {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
 extension SF.square.x3.stack.x3d {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square.x3.stack._3d {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.layers.x3d.down.left {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.layers.x3d.down.right {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.layers._3d.down.left {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.layers._3d.down.right {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.stack.x3d {
+    public struct slash {
+        private init() {}
+    }
+    
+}
+
+@available(iOS 15.2, tvOS 15.2, watchOS 8.3, macOS 12.1, *)
+extension SF.square._3.stack._3d {
     public struct slash {
         private init() {}
     }
@@ -3483,6 +12296,91 @@ extension SF {
     
     public struct balloon {
         public struct x2 {
+            public struct fill {
+                private init() {}
+                #if os(macOS)
+                
+                ///Creates the “balloon.2.fill” system symbol image with the accessibility description you specify.
+                ///
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "balloon.2.fill", accessibilityDescription: accessibilityDescription)
+                }
+                
+                ///Creates the “balloon.2.fill” system symbol image with the variable value you specify.
+                ///
+                ///The value parameter is valid for symbols that support variable rendering.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+                @available(macOS 13.0, *)
+                @available(iOS, unavailable)
+                @available(tvOS, unavailable)
+                @available(watchOS, unavailable)
+                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                    SFSymbolReference.image(name: "balloon.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+                }
+                
+                #endif
+                
+                #if os(iOS) || os(tvOS) || os(watchOS)
+                
+                ///Creates the “balloon.2.fill” system symbol image object with the specified configuration.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(macOS, unavailable)
+                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "balloon.2.fill", configuration: configuration)
+                }
+                
+                ///Creates the “balloon.2.fill” system symbol image object with the configuration and variable value you specify.
+                ///
+                ///Use this method to retrieve system-defined symbol images.
+                ///
+                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+                ///- Parameter configuration: The image configuration the system applies to the image.
+                ///
+                ///- Returns: The object containing the image variant that matches the specified configuration data.
+                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                @available(macOS, unavailable)
+                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    SFSymbolReference.image(name: "balloon.2.fill", variableValue: variableValue, configuration: configuration)
+                }
+                
+                #endif
+                
+                #if canImport(SwiftUI)
+                ///Creates the “balloon.2.fill” system symbol image.
+                ///
+                ///This initializer creates an image using a system-provided symbol.
+                public static func swiftUIImage() -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "balloon.2.fill")
+                }
+                
+                ///Creates the “balloon.2.fill” system symbol image with a variable value.
+                ///
+                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+                ///
+                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                    SFSymbolReference.swiftUIImage(name: "balloon.2.fill", variableValue: variableValue)
+                }
+                
+                #endif
+            }
+            
+            private init() {}
+        }
+        
+        public struct _2 {
             public struct fill {
                 private init() {}
                 #if os(macOS)
@@ -10613,6 +19511,14 @@ extension SF {
     
     public struct oar {
         public struct x2 {
+            public struct crossed {
+                private init() {}
+            }
+            
+            private init() {}
+        }
+        
+        public struct _2 {
             public struct crossed {
                 private init() {}
             }
@@ -17966,6 +26872,95 @@ extension SF.battery.x100 {
 }
 
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
+extension SF.battery._100 {
+    public struct circle {
+        public struct fill {
+            private init() {}
+            #if os(macOS)
+            
+            ///Creates the “battery.100.circle.fill” system symbol image with the accessibility description you specify.
+            ///
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "battery.100.circle.fill", accessibilityDescription: accessibilityDescription)
+            }
+            
+            ///Creates the “battery.100.circle.fill” system symbol image with the variable value you specify.
+            ///
+            ///The value parameter is valid for symbols that support variable rendering.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
+            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
+            @available(macOS 13.0, *)
+            @available(iOS, unavailable)
+            @available(tvOS, unavailable)
+            @available(watchOS, unavailable)
+            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
+                SFSymbolReference.image(name: "battery.100.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
+            }
+            
+            #endif
+            
+            #if os(iOS) || os(tvOS) || os(watchOS)
+            
+            ///Creates the “battery.100.circle.fill” system symbol image object with the specified configuration.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(macOS, unavailable)
+            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "battery.100.circle.fill", configuration: configuration)
+            }
+            
+            ///Creates the “battery.100.circle.fill” system symbol image object with the configuration and variable value you specify.
+            ///
+            ///Use this method to retrieve system-defined symbol images.
+            ///
+            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
+            ///- Parameter configuration: The image configuration the system applies to the image.
+            ///
+            ///- Returns: The object containing the image variant that matches the specified configuration data.
+            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            @available(macOS, unavailable)
+            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                SFSymbolReference.image(name: "battery.100.circle.fill", variableValue: variableValue, configuration: configuration)
+            }
+            
+            #endif
+            
+            #if canImport(SwiftUI)
+            ///Creates the “battery.100.circle.fill” system symbol image.
+            ///
+            ///This initializer creates an image using a system-provided symbol.
+            public static func swiftUIImage() -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "battery.100.circle.fill")
+            }
+            
+            ///Creates the “battery.100.circle.fill” system symbol image with a variable value.
+            ///
+            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
+            ///
+            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
+            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
+            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
+                SFSymbolReference.swiftUIImage(name: "battery.100.circle.fill", variableValue: variableValue)
+            }
+            
+            #endif
+        }
+        
+        private init() {}
+    }
+    
+}
+
+@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
 extension SF.bell.and {
     public struct waves {
         public struct left {
@@ -21195,8849 +30190,6 @@ extension SF.drop {
                 #endif
             }
             
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.ellipsis {
-    public struct message {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “ellipsis.message.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "ellipsis.message.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “ellipsis.message.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "ellipsis.message.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “ellipsis.message.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "ellipsis.message.fill", configuration: configuration)
-            }
-            
-            ///Creates the “ellipsis.message.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "ellipsis.message.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “ellipsis.message.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "ellipsis.message.fill")
-            }
-            
-            ///Creates the “ellipsis.message.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "ellipsis.message.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.envelope.open {
-    public struct badge {
-        public struct clock {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.exclamationmark {
-    public struct brakesignal {
-        private init() {}
-    }
-    
-    public struct lock {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “exclamationmark.lock.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "exclamationmark.lock.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “exclamationmark.lock.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "exclamationmark.lock.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “exclamationmark.lock.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "exclamationmark.lock.fill", configuration: configuration)
-            }
-            
-            ///Creates the “exclamationmark.lock.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "exclamationmark.lock.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “exclamationmark.lock.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "exclamationmark.lock.fill")
-            }
-            
-            ///Creates the “exclamationmark.lock.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "exclamationmark.lock.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive.badge {
-    public struct exclamationmark {
-        private init() {}
-    }
-    
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive.fill {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.externaldrive.fill.badge {
-    public struct exclamationmark {
-        private init() {}
-    }
-    
-    public struct questionmark {
-        public struct ar {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.face.smiling {
-    public struct inverse {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.fanblades {
-    public struct slash {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “fanblades.slash.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "fanblades.slash.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “fanblades.slash.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "fanblades.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “fanblades.slash.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "fanblades.slash.fill", configuration: configuration)
-            }
-            
-            ///Creates the “fanblades.slash.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "fanblades.slash.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “fanblades.slash.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "fanblades.slash.fill")
-            }
-            
-            ///Creates the “fanblades.slash.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "fanblades.slash.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.faxmachine {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “faxmachine.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "faxmachine.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “faxmachine.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "faxmachine.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “faxmachine.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "faxmachine.fill", configuration: configuration)
-        }
-        
-        ///Creates the “faxmachine.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "faxmachine.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “faxmachine.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "faxmachine.fill")
-        }
-        
-        ///Creates the “faxmachine.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "faxmachine.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.figure {
-    public struct x2 {
-        public struct and {
-            public struct child {
-                public struct holdinghands {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        public struct arms {
-            public struct open {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct american {
-        public struct football {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct and {
-        public struct child {
-            public struct holdinghands {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct archery {
-        private init() {}
-    }
-    
-    public struct arms {
-        public struct open {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct australian {
-        public struct football {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct badminton {
-        private init() {}
-    }
-    
-    public struct barre {
-        private init() {}
-    }
-    
-    public struct baseball {
-        private init() {}
-    }
-    
-    public struct basketball {
-        private init() {}
-    }
-    
-    public struct bowling {
-        private init() {}
-    }
-    
-    public struct boxing {
-        private init() {}
-    }
-    
-    public struct climbing {
-        private init() {}
-    }
-    
-    public struct cooldown {
-        private init() {}
-    }
-    
-    public struct core {
-        public struct training {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct cricket {
-        private init() {}
-    }
-    
-    public struct cross {
-        public struct training {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct curling {
-        private init() {}
-    }
-    
-    public struct dance {
-        private init() {}
-    }
-    
-    public struct disc {
-        public struct sports {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct dress {
-        public struct line {
-            public struct vertical {
-                public struct figure {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct elliptical {
-        private init() {}
-    }
-    
-    public struct equestrian {
-        public struct sports {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct fall {
-        public struct circle {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “figure.fall.circle.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "figure.fall.circle.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “figure.fall.circle.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "figure.fall.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “figure.fall.circle.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "figure.fall.circle.fill", configuration: configuration)
-                }
-                
-                ///Creates the “figure.fall.circle.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "figure.fall.circle.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “figure.fall.circle.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "figure.fall.circle.fill")
-                }
-                
-                ///Creates the “figure.fall.circle.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "figure.fall.circle.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct fencing {
-        private init() {}
-    }
-    
-    public struct fishing {
-        private init() {}
-    }
-    
-    public struct flexibility {
-        private init() {}
-    }
-    
-    public struct golf {
-        private init() {}
-    }
-    
-    public struct gymnastics {
-        private init() {}
-    }
-    
-    public struct hand {
-        public struct cycling {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct handball {
-        private init() {}
-    }
-    
-    public struct highintensity {
-        public struct intervaltraining {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct hiking {
-        private init() {}
-    }
-    
-    public struct hockey {
-        private init() {}
-    }
-    
-    public struct hunting {
-        private init() {}
-    }
-    
-    public struct indoor {
-        public struct cycle {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct jumprope {
-        private init() {}
-    }
-    
-    public struct kickboxing {
-        private init() {}
-    }
-    
-    public struct lacrosse {
-        private init() {}
-    }
-    
-    public struct martial {
-        public struct arts {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct mind {
-        public struct and {
-            public struct body {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct mixed {
-        public struct cardio {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct open {
-        public struct water {
-            public struct swim {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct outdoor {
-        public struct cycle {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct pickleball {
-        private init() {}
-    }
-    
-    public struct pilates {
-        private init() {}
-    }
-    
-    public struct play {
-        private init() {}
-    }
-    
-    public struct pool {
-        public struct swim {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct racquetball {
-        private init() {}
-    }
-    
-    public struct rolling {
-        private init() {}
-    }
-    
-    public struct rower {
-        private init() {}
-    }
-    
-    public struct rugby {
-        private init() {}
-    }
-    
-    public struct run {
-        public struct circle {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “figure.run.circle.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "figure.run.circle.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “figure.run.circle.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "figure.run.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “figure.run.circle.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "figure.run.circle.fill", configuration: configuration)
-                }
-                
-                ///Creates the “figure.run.circle.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "figure.run.circle.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “figure.run.circle.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "figure.run.circle.fill")
-                }
-                
-                ///Creates the “figure.run.circle.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "figure.run.circle.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct sailing {
-        private init() {}
-    }
-    
-    public struct skating {
-        private init() {}
-    }
-    
-    public struct skiing {
-        public struct crosscountry {
-            private init() {}
-        }
-        
-        public struct downhill {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct snowboarding {
-        private init() {}
-    }
-    
-    public struct soccer {
-        private init() {}
-    }
-    
-    public struct socialdance {
-        private init() {}
-    }
-    
-    public struct softball {
-        private init() {}
-    }
-    
-    public struct squash {
-        private init() {}
-    }
-    
-    public struct stair {
-        public struct stepper {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct stairs {
-        private init() {}
-    }
-    
-    public struct step {
-        public struct training {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct strengthtraining {
-        public struct functional {
-            private init() {}
-        }
-        
-        public struct traditional {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct surfing {
-        private init() {}
-    }
-    
-    public struct table {
-        public struct tennis {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct taichi {
-        private init() {}
-    }
-    
-    public struct tennis {
-        private init() {}
-    }
-    
-    public struct track {
-        public struct and {
-            public struct field {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct volleyball {
-        private init() {}
-    }
-    
-    public struct water {
-        public struct fitness {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct waterpolo {
-        private init() {}
-    }
-    
-    public struct wrestling {
-        private init() {}
-    }
-    
-    public struct yoga {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.figure.roll {
-    public struct runningpace {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.figure.walk {
-    public struct arrival {
-        private init() {}
-    }
-    
-    public struct departure {
-        private init() {}
-    }
-    
-    public struct motion {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.film {
-    public struct stack {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “film.stack.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "film.stack.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “film.stack.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "film.stack.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “film.stack.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "film.stack.fill", configuration: configuration)
-            }
-            
-            ///Creates the “film.stack.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "film.stack.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “film.stack.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "film.stack.fill")
-            }
-            
-            ///Creates the “film.stack.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "film.stack.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.flag {
-    public struct checkered {
-        public struct x2 {
-            public struct crossed {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.flag.x2.crossed {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “flag.2.crossed.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "flag.2.crossed.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “flag.2.crossed.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "flag.2.crossed.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “flag.2.crossed.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "flag.2.crossed.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “flag.2.crossed.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "flag.2.crossed.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “flag.2.crossed.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "flag.2.crossed.circle.fill")
-            }
-            
-            ///Creates the “flag.2.crossed.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "flag.2.crossed.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.forward.end {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “forward.end.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "forward.end.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “forward.end.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "forward.end.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “forward.end.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "forward.end.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “forward.end.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "forward.end.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “forward.end.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "forward.end.circle.fill")
-            }
-            
-            ///Creates the “forward.end.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "forward.end.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gauge {
-    public struct high {
-        private init() {}
-    }
-    
-    public struct low {
-        private init() {}
-    }
-    
-    public struct medium {
-        public struct badge {
-            public struct minus {
-                private init() {}
-            }
-            
-            public struct plus {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gear.badge {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.gearshape {
-    public struct arrow {
-        public struct triangle {
-            public struct x2 {
-                public struct circlepath {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.globe {
-    public struct central {
-        public struct south {
-            public struct asia {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    ///Creates the “globe.central.south.asia.fill” system symbol image with the accessibility description you specify.
-                    ///
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "globe.central.south.asia.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    ///Creates the “globe.central.south.asia.fill” system symbol image with the variable value you specify.
-                    ///
-                    ///The value parameter is valid for symbols that support variable rendering.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(macOS 13.0, *)
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "globe.central.south.asia.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    ///Creates the “globe.central.south.asia.fill” system symbol image object with the specified configuration.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "globe.central.south.asia.fill", configuration: configuration)
-                    }
-                    
-                    ///Creates the “globe.central.south.asia.fill” system symbol image object with the configuration and variable value you specify.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "globe.central.south.asia.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    ///Creates the “globe.central.south.asia.fill” system symbol image.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol.
-                    public static func swiftUIImage() -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "globe.central.south.asia.fill")
-                    }
-                    
-                    ///Creates the “globe.central.south.asia.fill” system symbol image with a variable value.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                    ///
-                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "globe.central.south.asia.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct desk {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “globe.desk.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "globe.desk.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “globe.desk.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "globe.desk.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “globe.desk.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "globe.desk.fill", configuration: configuration)
-            }
-            
-            ///Creates the “globe.desk.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "globe.desk.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “globe.desk.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "globe.desk.fill")
-            }
-            
-            ///Creates the “globe.desk.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "globe.desk.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hand {
-    public struct app {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “hand.app.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "hand.app.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “hand.app.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "hand.app.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “hand.app.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "hand.app.fill", configuration: configuration)
-            }
-            
-            ///Creates the “hand.app.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "hand.app.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “hand.app.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "hand.app.fill")
-            }
-            
-            ///Creates the “hand.app.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "hand.app.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hand.raised {
-    public struct fingers {
-        public struct spread {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “hand.raised.fingers.spread.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "hand.raised.fingers.spread.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “hand.raised.fingers.spread.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "hand.raised.fingers.spread.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “hand.raised.fingers.spread.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "hand.raised.fingers.spread.fill", configuration: configuration)
-                }
-                
-                ///Creates the “hand.raised.fingers.spread.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "hand.raised.fingers.spread.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “hand.raised.fingers.spread.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "hand.raised.fingers.spread.fill")
-                }
-                
-                ///Creates the “hand.raised.fingers.spread.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "hand.raised.fingers.spread.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hearingdevice {
-    public struct and {
-        public struct signal {
-            public struct meter {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    ///Creates the “hearingdevice.and.signal.meter.fill” system symbol image with the accessibility description you specify.
-                    ///
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "hearingdevice.and.signal.meter.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    ///Creates the “hearingdevice.and.signal.meter.fill” system symbol image with the variable value you specify.
-                    ///
-                    ///The value parameter is valid for symbols that support variable rendering.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(macOS 13.0, *)
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "hearingdevice.and.signal.meter.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    ///Creates the “hearingdevice.and.signal.meter.fill” system symbol image object with the specified configuration.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "hearingdevice.and.signal.meter.fill", configuration: configuration)
-                    }
-                    
-                    ///Creates the “hearingdevice.and.signal.meter.fill” system symbol image object with the configuration and variable value you specify.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "hearingdevice.and.signal.meter.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    ///Creates the “hearingdevice.and.signal.meter.fill” system symbol image.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol.
-                    public static func swiftUIImage() -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "hearingdevice.and.signal.meter.fill")
-                    }
-                    
-                    ///Creates the “hearingdevice.and.signal.meter.fill” system symbol image with a variable value.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                    ///
-                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "hearingdevice.and.signal.meter.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hearingdevice.ear {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “hearingdevice.ear.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "hearingdevice.ear.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “hearingdevice.ear.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "hearingdevice.ear.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “hearingdevice.ear.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "hearingdevice.ear.fill", configuration: configuration)
-        }
-        
-        ///Creates the “hearingdevice.ear.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "hearingdevice.ear.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “hearingdevice.ear.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "hearingdevice.ear.fill")
-        }
-        
-        ///Creates the “hearingdevice.ear.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "hearingdevice.ear.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hifispeaker.and.appletv {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hifispeaker.and.appletv.fill {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepod.and.appletv {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepod.and.appletv.fill {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepodmini.and.appletv {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.homepodmini.and.appletv.fill {
-    public struct rtl {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.hurricane {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “hurricane.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "hurricane.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “hurricane.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "hurricane.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “hurricane.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "hurricane.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “hurricane.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "hurricane.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “hurricane.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "hurricane.circle.fill")
-            }
-            
-            ///Creates the “hurricane.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "hurricane.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.info {
-    public struct bubble {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “info.bubble.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "info.bubble.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “info.bubble.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "info.bubble.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “info.bubble.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "info.bubble.fill", configuration: configuration)
-            }
-            
-            ///Creates the “info.bubble.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "info.bubble.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “info.bubble.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "info.bubble.fill")
-            }
-            
-            ///Creates the “info.bubble.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "info.bubble.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct square {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “info.square.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "info.square.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “info.square.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "info.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “info.square.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "info.square.fill", configuration: configuration)
-            }
-            
-            ///Creates the “info.square.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "info.square.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “info.square.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "info.square.fill")
-            }
-            
-            ///Creates the “info.square.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "info.square.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.badge {
-    public struct eye {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “keyboard.badge.eye.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "keyboard.badge.eye.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “keyboard.badge.eye.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "keyboard.badge.eye.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “keyboard.badge.eye.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "keyboard.badge.eye.fill", configuration: configuration)
-            }
-            
-            ///Creates the “keyboard.badge.eye.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "keyboard.badge.eye.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “keyboard.badge.eye.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "keyboard.badge.eye.fill")
-            }
-            
-            ///Creates the “keyboard.badge.eye.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "keyboard.badge.eye.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.badge.ellipsis {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “keyboard.badge.ellipsis.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.badge.ellipsis.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “keyboard.badge.ellipsis.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.badge.ellipsis.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “keyboard.badge.ellipsis.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.badge.ellipsis.fill", configuration: configuration)
-        }
-        
-        ///Creates the “keyboard.badge.ellipsis.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.badge.ellipsis.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “keyboard.badge.ellipsis.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.badge.ellipsis.fill")
-        }
-        
-        ///Creates the “keyboard.badge.ellipsis.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.badge.ellipsis.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.chevron.compact.down {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “keyboard.chevron.compact.down.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.down.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “keyboard.chevron.compact.down.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.down.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “keyboard.chevron.compact.down.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.down.fill", configuration: configuration)
-        }
-        
-        ///Creates the “keyboard.chevron.compact.down.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.down.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “keyboard.chevron.compact.down.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.chevron.compact.down.fill")
-        }
-        
-        ///Creates the “keyboard.chevron.compact.down.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.chevron.compact.down.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.chevron.compact.left {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “keyboard.chevron.compact.left.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.left.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “keyboard.chevron.compact.left.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “keyboard.chevron.compact.left.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.left.fill", configuration: configuration)
-        }
-        
-        ///Creates the “keyboard.chevron.compact.left.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.chevron.compact.left.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “keyboard.chevron.compact.left.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.chevron.compact.left.fill")
-        }
-        
-        ///Creates the “keyboard.chevron.compact.left.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.chevron.compact.left.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.onehanded.left {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “keyboard.onehanded.left.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.left.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “keyboard.onehanded.left.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “keyboard.onehanded.left.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.left.fill", configuration: configuration)
-        }
-        
-        ///Creates the “keyboard.onehanded.left.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.left.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “keyboard.onehanded.left.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.left.fill")
-        }
-        
-        ///Creates the “keyboard.onehanded.left.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.left.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.keyboard.onehanded.right {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “keyboard.onehanded.right.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “keyboard.onehanded.right.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “keyboard.onehanded.right.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", configuration: configuration)
-        }
-        
-        ///Creates the “keyboard.onehanded.right.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "keyboard.onehanded.right.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “keyboard.onehanded.right.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.right.fill")
-        }
-        
-        ///Creates the “keyboard.onehanded.right.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "keyboard.onehanded.right.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.laptopcomputer.and {
-    public struct ipad {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.light {
-    public struct beacon {
-        public struct max {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “light.beacon.max.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.beacon.max.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “light.beacon.max.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.beacon.max.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “light.beacon.max.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.beacon.max.fill", configuration: configuration)
-                }
-                
-                ///Creates the “light.beacon.max.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.beacon.max.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “light.beacon.max.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.beacon.max.fill")
-                }
-                
-                ///Creates the “light.beacon.max.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.beacon.max.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        public struct min {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “light.beacon.min.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.beacon.min.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “light.beacon.min.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.beacon.min.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “light.beacon.min.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.beacon.min.fill", configuration: configuration)
-                }
-                
-                ///Creates the “light.beacon.min.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.beacon.min.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “light.beacon.min.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.beacon.min.fill")
-                }
-                
-                ///Creates the “light.beacon.min.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.beacon.min.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct cylindrical {
-        public struct ceiling {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “light.cylindrical.ceiling.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.cylindrical.ceiling.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “light.cylindrical.ceiling.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.cylindrical.ceiling.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “light.cylindrical.ceiling.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.cylindrical.ceiling.fill", configuration: configuration)
-                }
-                
-                ///Creates the “light.cylindrical.ceiling.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.cylindrical.ceiling.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “light.cylindrical.ceiling.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.cylindrical.ceiling.fill")
-                }
-                
-                ///Creates the “light.cylindrical.ceiling.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.cylindrical.ceiling.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            public struct inverse {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct panel {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “light.panel.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "light.panel.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “light.panel.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "light.panel.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “light.panel.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "light.panel.fill", configuration: configuration)
-            }
-            
-            ///Creates the “light.panel.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "light.panel.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “light.panel.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "light.panel.fill")
-            }
-            
-            ///Creates the “light.panel.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "light.panel.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct recessed {
-        public struct x3 {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “light.recessed.3.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.recessed.3.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “light.recessed.3.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.recessed.3.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “light.recessed.3.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.recessed.3.fill", configuration: configuration)
-                }
-                
-                ///Creates the “light.recessed.3.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.recessed.3.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “light.recessed.3.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.recessed.3.fill")
-                }
-                
-                ///Creates the “light.recessed.3.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.recessed.3.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            public struct inverse {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “light.recessed.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "light.recessed.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “light.recessed.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "light.recessed.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “light.recessed.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "light.recessed.fill", configuration: configuration)
-            }
-            
-            ///Creates the “light.recessed.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "light.recessed.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “light.recessed.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "light.recessed.fill")
-            }
-            
-            ///Creates the “light.recessed.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "light.recessed.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        public struct inverse {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct ribbon {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “light.ribbon.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "light.ribbon.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “light.ribbon.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "light.ribbon.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “light.ribbon.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "light.ribbon.fill", configuration: configuration)
-            }
-            
-            ///Creates the “light.ribbon.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "light.ribbon.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “light.ribbon.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "light.ribbon.fill")
-            }
-            
-            ///Creates the “light.ribbon.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "light.ribbon.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct strip {
-        public struct x2 {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “light.strip.2.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.strip.2.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “light.strip.2.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "light.strip.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “light.strip.2.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.strip.2.fill", configuration: configuration)
-                }
-                
-                ///Creates the “light.strip.2.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "light.strip.2.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “light.strip.2.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.strip.2.fill")
-                }
-                
-                ///Creates the “light.strip.2.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "light.strip.2.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.lightbulb {
-    public struct x2 {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “lightbulb.2.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "lightbulb.2.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “lightbulb.2.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "lightbulb.2.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “lightbulb.2.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "lightbulb.2.fill", configuration: configuration)
-            }
-            
-            ///Creates the “lightbulb.2.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "lightbulb.2.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “lightbulb.2.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "lightbulb.2.fill")
-            }
-            
-            ///Creates the “lightbulb.2.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "lightbulb.2.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct led {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “lightbulb.led.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "lightbulb.led.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “lightbulb.led.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "lightbulb.led.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “lightbulb.led.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "lightbulb.led.fill", configuration: configuration)
-            }
-            
-            ///Creates the “lightbulb.led.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "lightbulb.led.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “lightbulb.led.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "lightbulb.led.fill")
-            }
-            
-            ///Creates the “lightbulb.led.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "lightbulb.led.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        public struct wide {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “lightbulb.led.wide.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "lightbulb.led.wide.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “lightbulb.led.wide.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "lightbulb.led.wide.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “lightbulb.led.wide.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "lightbulb.led.wide.fill", configuration: configuration)
-                }
-                
-                ///Creates the “lightbulb.led.wide.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "lightbulb.led.wide.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “lightbulb.led.wide.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "lightbulb.led.wide.fill")
-                }
-                
-                ///Creates the “lightbulb.led.wide.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "lightbulb.led.wide.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.list {
-    public struct clipboard {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “list.clipboard.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "list.clipboard.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “list.clipboard.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "list.clipboard.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “list.clipboard.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "list.clipboard.fill", configuration: configuration)
-            }
-            
-            ///Creates the “list.clipboard.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "list.clipboard.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “list.clipboard.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "list.clipboard.fill")
-            }
-            
-            ///Creates the “list.clipboard.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "list.clipboard.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.list.bullet {
-    public struct clipboard {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “list.bullet.clipboard.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "list.bullet.clipboard.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “list.bullet.clipboard.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "list.bullet.clipboard.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “list.bullet.clipboard.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "list.bullet.clipboard.fill", configuration: configuration)
-            }
-            
-            ///Creates the “list.bullet.clipboard.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "list.bullet.clipboard.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “list.bullet.clipboard.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "list.bullet.clipboard.fill")
-            }
-            
-            ///Creates the “list.bullet.clipboard.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "list.bullet.clipboard.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.location.slash {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “location.slash.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "location.slash.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “location.slash.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "location.slash.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “location.slash.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "location.slash.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “location.slash.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "location.slash.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “location.slash.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "location.slash.circle.fill")
-            }
-            
-            ///Creates the “location.slash.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "location.slash.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.lock {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “lock.trianglebadge.exclamationmark.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "lock.trianglebadge.exclamationmark.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “lock.trianglebadge.exclamationmark.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "lock.trianglebadge.exclamationmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “lock.trianglebadge.exclamationmark.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "lock.trianglebadge.exclamationmark.fill", configuration: configuration)
-                }
-                
-                ///Creates the “lock.trianglebadge.exclamationmark.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "lock.trianglebadge.exclamationmark.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “lock.trianglebadge.exclamationmark.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "lock.trianglebadge.exclamationmark.fill")
-                }
-                
-                ///Creates the “lock.trianglebadge.exclamationmark.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "lock.trianglebadge.exclamationmark.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.lock.open {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “lock.open.trianglebadge.exclamationmark.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "lock.open.trianglebadge.exclamationmark.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “lock.open.trianglebadge.exclamationmark.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "lock.open.trianglebadge.exclamationmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “lock.open.trianglebadge.exclamationmark.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "lock.open.trianglebadge.exclamationmark.fill", configuration: configuration)
-                }
-                
-                ///Creates the “lock.open.trianglebadge.exclamationmark.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "lock.open.trianglebadge.exclamationmark.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “lock.open.trianglebadge.exclamationmark.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "lock.open.trianglebadge.exclamationmark.fill")
-                }
-                
-                ///Creates the “lock.open.trianglebadge.exclamationmark.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "lock.open.trianglebadge.exclamationmark.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.message {
-    public struct badge {
-        public struct circle {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-                
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “message.badge.circle.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "message.badge.circle.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “message.badge.circle.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "message.badge.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “message.badge.circle.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "message.badge.circle.fill", configuration: configuration)
-                }
-                
-                ///Creates the “message.badge.circle.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "message.badge.circle.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “message.badge.circle.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "message.badge.circle.fill")
-                }
-                
-                ///Creates the “message.badge.circle.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "message.badge.circle.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            public struct rtl {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        public struct fill {
-            public struct rtl {
-                private init() {}
-            }
-            
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “message.badge.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "message.badge.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “message.badge.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "message.badge.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “message.badge.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "message.badge.fill", configuration: configuration)
-            }
-            
-            ///Creates the “message.badge.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "message.badge.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “message.badge.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "message.badge.fill")
-            }
-            
-            ///Creates the “message.badge.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "message.badge.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        public struct filled {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-                
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “message.badge.filled.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "message.badge.filled.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “message.badge.filled.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "message.badge.filled.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “message.badge.filled.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "message.badge.filled.fill", configuration: configuration)
-                }
-                
-                ///Creates the “message.badge.filled.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "message.badge.filled.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “message.badge.filled.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "message.badge.filled.fill")
-                }
-                
-                ///Creates the “message.badge.filled.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "message.badge.filled.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        public struct rtl {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.mic {
-    public struct and {
-        public struct signal {
-            public struct meter {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    ///Creates the “mic.and.signal.meter.fill” system symbol image with the accessibility description you specify.
-                    ///
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "mic.and.signal.meter.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    ///Creates the “mic.and.signal.meter.fill” system symbol image with the variable value you specify.
-                    ///
-                    ///The value parameter is valid for symbols that support variable rendering.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(macOS 13.0, *)
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "mic.and.signal.meter.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    ///Creates the “mic.and.signal.meter.fill” system symbol image object with the specified configuration.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "mic.and.signal.meter.fill", configuration: configuration)
-                    }
-                    
-                    ///Creates the “mic.and.signal.meter.fill” system symbol image object with the configuration and variable value you specify.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "mic.and.signal.meter.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    ///Creates the “mic.and.signal.meter.fill” system symbol image.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol.
-                    public static func swiftUIImage() -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "mic.and.signal.meter.fill")
-                    }
-                    
-                    ///Creates the “mic.and.signal.meter.fill” system symbol image with a variable value.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                    ///
-                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "mic.and.signal.meter.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.mic.badge {
-    public struct xmark {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.mic.fill.badge {
-    public struct xmark {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.moon {
-    public struct haze {
-        public struct circle {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “moon.haze.circle.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "moon.haze.circle.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “moon.haze.circle.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "moon.haze.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “moon.haze.circle.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "moon.haze.circle.fill", configuration: configuration)
-                }
-                
-                ///Creates the “moon.haze.circle.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "moon.haze.circle.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “moon.haze.circle.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "moon.haze.circle.fill")
-                }
-                
-                ///Creates the “moon.haze.circle.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "moon.haze.circle.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “moon.haze.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "moon.haze.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “moon.haze.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "moon.haze.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “moon.haze.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "moon.haze.fill", configuration: configuration)
-            }
-            
-            ///Creates the “moon.haze.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "moon.haze.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “moon.haze.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "moon.haze.fill")
-            }
-            
-            ///Creates the “moon.haze.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "moon.haze.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.moon.stars {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “moon.stars.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "moon.stars.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “moon.stars.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "moon.stars.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “moon.stars.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "moon.stars.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “moon.stars.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "moon.stars.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “moon.stars.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "moon.stars.circle.fill")
-            }
-            
-            ///Creates the “moon.stars.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "moon.stars.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.nosign {
-    public struct app {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “nosign.app.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "nosign.app.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “nosign.app.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "nosign.app.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “nosign.app.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "nosign.app.fill", configuration: configuration)
-            }
-            
-            ///Creates the “nosign.app.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "nosign.app.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “nosign.app.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "nosign.app.fill")
-            }
-            
-            ///Creates the “nosign.app.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "nosign.app.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.opticaldisc {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “opticaldisc.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "opticaldisc.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “opticaldisc.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "opticaldisc.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “opticaldisc.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "opticaldisc.fill", configuration: configuration)
-        }
-        
-        ///Creates the “opticaldisc.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "opticaldisc.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “opticaldisc.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "opticaldisc.fill")
-        }
-        
-        ///Creates the “opticaldisc.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "opticaldisc.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.parkingsign {
-    public struct brakesignal {
-        public struct slash {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.pencil {
-    public struct line {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.pencil.and {
-    public struct ruler {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “pencil.and.ruler.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "pencil.and.ruler.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “pencil.and.ruler.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "pencil.and.ruler.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “pencil.and.ruler.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "pencil.and.ruler.fill", configuration: configuration)
-            }
-            
-            ///Creates the “pencil.and.ruler.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "pencil.and.ruler.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “pencil.and.ruler.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "pencil.and.ruler.fill")
-            }
-            
-            ///Creates the “pencil.and.ruler.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "pencil.and.ruler.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person {
-    public struct bust {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “person.bust.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "person.bust.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “person.bust.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "person.bust.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “person.bust.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "person.bust.fill", configuration: configuration)
-            }
-            
-            ///Creates the “person.bust.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "person.bust.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “person.bust.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "person.bust.fill")
-            }
-            
-            ///Creates the “person.bust.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "person.bust.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct line {
-        public struct dotted {
-            public struct person {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    ///Creates the “person.line.dotted.person.fill” system symbol image with the accessibility description you specify.
-                    ///
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "person.line.dotted.person.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    ///Creates the “person.line.dotted.person.fill” system symbol image with the variable value you specify.
-                    ///
-                    ///The value parameter is valid for symbols that support variable rendering.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(macOS 13.0, *)
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "person.line.dotted.person.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    ///Creates the “person.line.dotted.person.fill” system symbol image object with the specified configuration.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "person.line.dotted.person.fill", configuration: configuration)
-                    }
-                    
-                    ///Creates the “person.line.dotted.person.fill” system symbol image object with the configuration and variable value you specify.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "person.line.dotted.person.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    ///Creates the “person.line.dotted.person.fill” system symbol image.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol.
-                    public static func swiftUIImage() -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "person.line.dotted.person.fill")
-                    }
-                    
-                    ///Creates the “person.line.dotted.person.fill” system symbol image with a variable value.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                    ///
-                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "person.line.dotted.person.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.x2 {
-    public struct badge {
-        public struct gearshape {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “person.2.badge.gearshape.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "person.2.badge.gearshape.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “person.2.badge.gearshape.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "person.2.badge.gearshape.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “person.2.badge.gearshape.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "person.2.badge.gearshape.fill", configuration: configuration)
-                }
-                
-                ///Creates the “person.2.badge.gearshape.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "person.2.badge.gearshape.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “person.2.badge.gearshape.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "person.2.badge.gearshape.fill")
-                }
-                
-                ///Creates the “person.2.badge.gearshape.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "person.2.badge.gearshape.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct gobackward {
-        private init() {}
-    }
-    
-    public struct slash {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “person.2.slash.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "person.2.slash.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “person.2.slash.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "person.2.slash.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “person.2.slash.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "person.2.slash.fill", configuration: configuration)
-            }
-            
-            ///Creates the “person.2.slash.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "person.2.slash.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “person.2.slash.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "person.2.slash.fill")
-            }
-            
-            ///Creates the “person.2.slash.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "person.2.slash.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.and {
-    public struct background {
-        public struct dotted {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.badge {
-    public struct shield {
-        public struct checkmark {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “person.badge.shield.checkmark.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “person.badge.shield.checkmark.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “person.badge.shield.checkmark.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", configuration: configuration)
-                }
-                
-                ///Creates the “person.badge.shield.checkmark.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "person.badge.shield.checkmark.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “person.badge.shield.checkmark.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "person.badge.shield.checkmark.fill")
-                }
-                
-                ///Creates the “person.badge.shield.checkmark.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "person.badge.shield.checkmark.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.person.crop.rectangle {
-    public struct badge {
-        public struct plus {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “person.crop.rectangle.badge.plus.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “person.crop.rectangle.badge.plus.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “person.crop.rectangle.badge.plus.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", configuration: configuration)
-                }
-                
-                ///Creates the “person.crop.rectangle.badge.plus.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "person.crop.rectangle.badge.plus.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “person.crop.rectangle.badge.plus.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.badge.plus.fill")
-                }
-                
-                ///Creates the “person.crop.rectangle.badge.plus.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "person.crop.rectangle.badge.plus.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.down.left {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “phone.arrow.down.left.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.arrow.down.left.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “phone.arrow.down.left.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.arrow.down.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “phone.arrow.down.left.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.arrow.down.left.fill", configuration: configuration)
-        }
-        
-        ///Creates the “phone.arrow.down.left.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.arrow.down.left.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “phone.arrow.down.left.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.arrow.down.left.fill")
-        }
-        
-        ///Creates the “phone.arrow.down.left.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.arrow.down.left.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.right {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “phone.arrow.right.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.arrow.right.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “phone.arrow.right.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.arrow.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “phone.arrow.right.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.arrow.right.fill", configuration: configuration)
-        }
-        
-        ///Creates the “phone.arrow.right.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.arrow.right.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “phone.arrow.right.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.arrow.right.fill")
-        }
-        
-        ///Creates the “phone.arrow.right.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.arrow.right.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.arrow.up.right {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “phone.arrow.up.right.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “phone.arrow.up.right.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “phone.arrow.up.right.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “phone.arrow.up.right.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "phone.arrow.up.right.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “phone.arrow.up.right.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.circle.fill")
-            }
-            
-            ///Creates the “phone.arrow.up.right.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “phone.arrow.up.right.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.arrow.up.right.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “phone.arrow.up.right.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.arrow.up.right.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “phone.arrow.up.right.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.arrow.up.right.fill", configuration: configuration)
-        }
-        
-        ///Creates the “phone.arrow.up.right.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.arrow.up.right.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “phone.arrow.up.right.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.fill")
-        }
-        
-        ///Creates the “phone.arrow.up.right.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.arrow.up.right.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.badge {
-    public struct checkmark {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.connection {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “phone.connection.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.connection.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “phone.connection.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "phone.connection.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “phone.connection.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.connection.fill", configuration: configuration)
-        }
-        
-        ///Creates the “phone.connection.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "phone.connection.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “phone.connection.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.connection.fill")
-        }
-        
-        ///Creates the “phone.connection.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "phone.connection.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.down {
-    public struct waves {
-        public struct left {
-            public struct and {
-                public struct right {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.phone.fill.badge {
-    public struct checkmark {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.photo {
-    public struct stack {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “photo.stack.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "photo.stack.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “photo.stack.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "photo.stack.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “photo.stack.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "photo.stack.fill", configuration: configuration)
-            }
-            
-            ///Creates the “photo.stack.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "photo.stack.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “photo.stack.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "photo.stack.fill")
-            }
-            
-            ///Creates the “photo.stack.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "photo.stack.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.play {
-    public struct desktopcomputer {
-        private init() {}
-    }
-    
-    public struct display {
-        private init() {}
-    }
-    
-    public struct laptopcomputer {
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.playpause {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “playpause.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "playpause.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “playpause.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "playpause.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “playpause.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "playpause.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “playpause.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "playpause.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “playpause.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "playpause.circle.fill")
-            }
-            
-            ///Creates the “playpause.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "playpause.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.questionmark {
-    public struct bubble {
-        public struct ar {
-            private init() {}
-        }
-        
-        public struct fill {
-            public struct ar {
-                private init() {}
-            }
-            
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “questionmark.bubble.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "questionmark.bubble.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “questionmark.bubble.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "questionmark.bubble.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “questionmark.bubble.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "questionmark.bubble.fill", configuration: configuration)
-            }
-            
-            ///Creates the “questionmark.bubble.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "questionmark.bubble.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “questionmark.bubble.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "questionmark.bubble.fill")
-            }
-            
-            ///Creates the “questionmark.bubble.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "questionmark.bubble.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.recordingtape {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “recordingtape.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "recordingtape.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “recordingtape.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "recordingtape.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “recordingtape.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "recordingtape.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “recordingtape.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "recordingtape.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “recordingtape.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "recordingtape.circle.fill")
-            }
-            
-            ///Creates the “recordingtape.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "recordingtape.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.and.arrow {
-    public struct forward {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “rectangle.portrait.and.arrow.forward.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “rectangle.portrait.and.arrow.forward.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “rectangle.portrait.and.arrow.forward.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", configuration: configuration)
-            }
-            
-            ///Creates the “rectangle.portrait.and.arrow.forward.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "rectangle.portrait.and.arrow.forward.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “rectangle.portrait.and.arrow.forward.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.forward.fill")
-            }
-            
-            ///Creates the “rectangle.portrait.and.arrow.forward.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "rectangle.portrait.and.arrow.forward.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.rectangle.portrait.on.rectangle.portrait {
-    public struct angled {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “rectangle.portrait.on.rectangle.portrait.angled.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “rectangle.portrait.on.rectangle.portrait.angled.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “rectangle.portrait.on.rectangle.portrait.angled.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", configuration: configuration)
-            }
-            
-            ///Creates the “rectangle.portrait.on.rectangle.portrait.angled.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “rectangle.portrait.on.rectangle.portrait.angled.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.angled.fill")
-            }
-            
-            ///Creates the “rectangle.portrait.on.rectangle.portrait.angled.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "rectangle.portrait.on.rectangle.portrait.angled.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sensor {
-    public struct fill {
-        private init() {}
-        #if os(macOS)
-        
-        ///Creates the “sensor.fill” system symbol image with the accessibility description you specify.
-        ///
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "sensor.fill", accessibilityDescription: accessibilityDescription)
-        }
-        
-        ///Creates the “sensor.fill” system symbol image with the variable value you specify.
-        ///
-        ///The value parameter is valid for symbols that support variable rendering.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-        ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-        @available(macOS 13.0, *)
-        @available(iOS, unavailable)
-        @available(tvOS, unavailable)
-        @available(watchOS, unavailable)
-        public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-            SFSymbolReference.image(name: "sensor.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-        }
-        
-        #endif
-        
-        #if os(iOS) || os(tvOS) || os(watchOS)
-        
-        ///Creates the “sensor.fill” system symbol image object with the specified configuration.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "sensor.fill", configuration: configuration)
-        }
-        
-        ///Creates the “sensor.fill” system symbol image object with the configuration and variable value you specify.
-        ///
-        ///Use this method to retrieve system-defined symbol images.
-        ///
-        ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-        ///- Parameter configuration: The image configuration the system applies to the image.
-        ///
-        ///- Returns: The object containing the image variant that matches the specified configuration data.
-        @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-            SFSymbolReference.image(name: "sensor.fill", variableValue: variableValue, configuration: configuration)
-        }
-        
-        #endif
-        
-        #if canImport(SwiftUI)
-        ///Creates the “sensor.fill” system symbol image.
-        ///
-        ///This initializer creates an image using a system-provided symbol.
-        public static func swiftUIImage() -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "sensor.fill")
-        }
-        
-        ///Creates the “sensor.fill” system symbol image with a variable value.
-        ///
-        ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-        ///
-        ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-        @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-        public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-            SFSymbolReference.swiftUIImage(name: "sensor.fill", variableValue: variableValue)
-        }
-        
-        #endif
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.shippingbox {
-    public struct and {
-        public struct arrow {
-            public struct backward {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    ///Creates the “shippingbox.and.arrow.backward.fill” system symbol image with the accessibility description you specify.
-                    ///
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "shippingbox.and.arrow.backward.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    ///Creates the “shippingbox.and.arrow.backward.fill” system symbol image with the variable value you specify.
-                    ///
-                    ///The value parameter is valid for symbols that support variable rendering.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(macOS 13.0, *)
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "shippingbox.and.arrow.backward.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    ///Creates the “shippingbox.and.arrow.backward.fill” system symbol image object with the specified configuration.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "shippingbox.and.arrow.backward.fill", configuration: configuration)
-                    }
-                    
-                    ///Creates the “shippingbox.and.arrow.backward.fill” system symbol image object with the configuration and variable value you specify.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "shippingbox.and.arrow.backward.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    ///Creates the “shippingbox.and.arrow.backward.fill” system symbol image.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol.
-                    public static func swiftUIImage() -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "shippingbox.and.arrow.backward.fill")
-                    }
-                    
-                    ///Creates the “shippingbox.and.arrow.backward.fill” system symbol image with a variable value.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                    ///
-                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "shippingbox.and.arrow.backward.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.slider.horizontal.x2 {
-    public struct gobackward {
-        private init() {}
-    }
-    
-    public struct square {
-        public struct badge {
-            public struct arrow {
-                public struct down {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        public struct on {
-            public struct square {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.slider.horizontal.below.square {
-    public struct and {
-        public struct square {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.smoke {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “smoke.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "smoke.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “smoke.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "smoke.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “smoke.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "smoke.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “smoke.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "smoke.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “smoke.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "smoke.circle.fill")
-            }
-            
-            ///Creates the “smoke.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "smoke.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.speaker {
-    public struct minus {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “speaker.minus.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "speaker.minus.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “speaker.minus.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "speaker.minus.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “speaker.minus.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "speaker.minus.fill", configuration: configuration)
-            }
-            
-            ///Creates the “speaker.minus.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "speaker.minus.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “speaker.minus.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "speaker.minus.fill")
-            }
-            
-            ///Creates the “speaker.minus.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "speaker.minus.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct plus {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “speaker.plus.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "speaker.plus.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “speaker.plus.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "speaker.plus.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “speaker.plus.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "speaker.plus.fill", configuration: configuration)
-            }
-            
-            ///Creates the “speaker.plus.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "speaker.plus.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “speaker.plus.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "speaker.plus.fill")
-            }
-            
-            ///Creates the “speaker.plus.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "speaker.plus.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-    public struct square {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “speaker.square.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "speaker.square.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “speaker.square.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "speaker.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “speaker.square.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "speaker.square.fill", configuration: configuration)
-            }
-            
-            ///Creates the “speaker.square.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "speaker.square.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “speaker.square.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "speaker.square.fill")
-            }
-            
-            ///Creates the “speaker.square.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "speaker.square.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.speaker.wave.x2 {
-    public struct bubble {
-        public struct left {
-            public struct fill {
-                public struct rtl {
-                    private init() {}
-                }
-                
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “speaker.wave.2.bubble.left.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "speaker.wave.2.bubble.left.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “speaker.wave.2.bubble.left.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "speaker.wave.2.bubble.left.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “speaker.wave.2.bubble.left.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "speaker.wave.2.bubble.left.fill", configuration: configuration)
-                }
-                
-                ///Creates the “speaker.wave.2.bubble.left.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "speaker.wave.2.bubble.left.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “speaker.wave.2.bubble.left.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "speaker.wave.2.bubble.left.fill")
-                }
-                
-                ///Creates the “speaker.wave.2.bubble.left.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "speaker.wave.2.bubble.left.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            public struct rtl {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sportscourt {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “sportscourt.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sportscourt.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “sportscourt.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sportscourt.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “sportscourt.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sportscourt.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “sportscourt.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sportscourt.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “sportscourt.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sportscourt.circle.fill")
-            }
-            
-            ///Creates the “sportscourt.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sportscourt.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square {
-    public struct bottomthird {
-        public struct inset {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct dotted {
-        private init() {}
-    }
-    
-    public struct leadingthird {
-        public struct inset {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct leftthird {
-        public struct inset {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct rightthird {
-        public struct inset {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct topthird {
-        public struct inset {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct trailingthird {
-        public struct inset {
-            public struct filled {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.x2 {
-    public struct layers {
-        public struct x3d {
-            public struct bottom {
-                public struct filled {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            public struct top {
-                public struct filled {
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.x3.layers.x3d {
-    public struct bottom {
-        public struct filled {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct middle {
-        public struct filled {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct slash {
-        private init() {}
-    }
-    
-    public struct top {
-        public struct filled {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.x3.layers.x3d.down.backward {
-    public struct slash {
-        public struct rtl {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.x3.layers.x3d.down.forward {
-    public struct slash {
-        public struct rtl {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.and.pencil {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “square.and.pencil.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "square.and.pencil.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “square.and.pencil.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "square.and.pencil.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “square.and.pencil.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "square.and.pencil.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “square.and.pencil.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "square.and.pencil.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “square.and.pencil.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "square.and.pencil.circle.fill")
-            }
-            
-            ///Creates the “square.and.pencil.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "square.and.pencil.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.square.on.square {
-    public struct badge {
-        public struct person {
-            public struct crop {
-                public struct fill {
-                    private init() {}
-                    #if os(macOS)
-                    
-                    ///Creates the “square.on.square.badge.person.crop.fill” system symbol image with the accessibility description you specify.
-                    ///
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "square.on.square.badge.person.crop.fill", accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    ///Creates the “square.on.square.badge.person.crop.fill” system symbol image with the variable value you specify.
-                    ///
-                    ///The value parameter is valid for symbols that support variable rendering.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                    ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                    @available(macOS 13.0, *)
-                    @available(iOS, unavailable)
-                    @available(tvOS, unavailable)
-                    @available(watchOS, unavailable)
-                    public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                        SFSymbolReference.image(name: "square.on.square.badge.person.crop.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                    }
-                    
-                    #endif
-                    
-                    #if os(iOS) || os(tvOS) || os(watchOS)
-                    
-                    ///Creates the “square.on.square.badge.person.crop.fill” system symbol image object with the specified configuration.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "square.on.square.badge.person.crop.fill", configuration: configuration)
-                    }
-                    
-                    ///Creates the “square.on.square.badge.person.crop.fill” system symbol image object with the configuration and variable value you specify.
-                    ///
-                    ///Use this method to retrieve system-defined symbol images.
-                    ///
-                    ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                    ///- Parameter configuration: The image configuration the system applies to the image.
-                    ///
-                    ///- Returns: The object containing the image variant that matches the specified configuration data.
-                    @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                        SFSymbolReference.image(name: "square.on.square.badge.person.crop.fill", variableValue: variableValue, configuration: configuration)
-                    }
-                    
-                    #endif
-                    
-                    #if canImport(SwiftUI)
-                    ///Creates the “square.on.square.badge.person.crop.fill” system symbol image.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol.
-                    public static func swiftUIImage() -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "square.on.square.badge.person.crop.fill")
-                    }
-                    
-                    ///Creates the “square.on.square.badge.person.crop.fill” system symbol image with a variable value.
-                    ///
-                    ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                    ///
-                    ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                    @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                    public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                        SFSymbolReference.swiftUIImage(name: "square.on.square.badge.person.crop.fill", variableValue: variableValue)
-                    }
-                    
-                    #endif
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct intersection {
-        public struct dashed {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.squares {
-    public struct leading {
-        public struct rectangle {
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.squareshape {
-    public struct dotted {
-        public struct split {
-            public struct x2x2 {
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.star.square {
-    public struct on {
-        public struct square {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “star.square.on.square.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "star.square.on.square.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “star.square.on.square.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "star.square.on.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “star.square.on.square.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "star.square.on.square.fill", configuration: configuration)
-                }
-                
-                ///Creates the “star.square.on.square.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "star.square.on.square.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “star.square.on.square.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "star.square.on.square.fill")
-                }
-                
-                ///Creates the “star.square.on.square.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "star.square.on.square.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.and.horizon {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “sun.and.horizon.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sun.and.horizon.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “sun.and.horizon.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sun.and.horizon.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “sun.and.horizon.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sun.and.horizon.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “sun.and.horizon.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sun.and.horizon.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “sun.and.horizon.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sun.and.horizon.circle.fill")
-            }
-            
-            ///Creates the “sun.and.horizon.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sun.and.horizon.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.dust {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “sun.dust.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sun.dust.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “sun.dust.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sun.dust.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “sun.dust.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sun.dust.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “sun.dust.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sun.dust.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “sun.dust.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sun.dust.circle.fill")
-            }
-            
-            ///Creates the “sun.dust.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sun.dust.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.haze {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “sun.haze.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sun.haze.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “sun.haze.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sun.haze.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “sun.haze.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sun.haze.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “sun.haze.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sun.haze.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “sun.haze.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sun.haze.circle.fill")
-            }
-            
-            ///Creates the “sun.haze.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sun.haze.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sun.max {
-    public struct trianglebadge {
-        public struct exclamationmark {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “sun.max.trianglebadge.exclamationmark.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "sun.max.trianglebadge.exclamationmark.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “sun.max.trianglebadge.exclamationmark.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "sun.max.trianglebadge.exclamationmark.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “sun.max.trianglebadge.exclamationmark.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "sun.max.trianglebadge.exclamationmark.fill", configuration: configuration)
-                }
-                
-                ///Creates the “sun.max.trianglebadge.exclamationmark.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "sun.max.trianglebadge.exclamationmark.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “sun.max.trianglebadge.exclamationmark.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "sun.max.trianglebadge.exclamationmark.fill")
-                }
-                
-                ///Creates the “sun.max.trianglebadge.exclamationmark.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "sun.max.trianglebadge.exclamationmark.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sunrise {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “sunrise.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sunrise.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “sunrise.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sunrise.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “sunrise.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sunrise.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “sunrise.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sunrise.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “sunrise.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sunrise.circle.fill")
-            }
-            
-            ///Creates the “sunrise.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sunrise.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.sunset {
-    public struct circle {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “sunset.circle.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sunset.circle.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “sunset.circle.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "sunset.circle.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “sunset.circle.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sunset.circle.fill", configuration: configuration)
-            }
-            
-            ///Creates the “sunset.circle.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "sunset.circle.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “sunset.circle.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sunset.circle.fill")
-            }
-            
-            ///Creates the “sunset.circle.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "sunset.circle.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.`switch` {
-    public struct programmable {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “switch.programmable.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "switch.programmable.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “switch.programmable.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "switch.programmable.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “switch.programmable.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "switch.programmable.fill", configuration: configuration)
-            }
-            
-            ///Creates the “switch.programmable.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "switch.programmable.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “switch.programmable.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "switch.programmable.fill")
-            }
-            
-            ///Creates the “switch.programmable.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "switch.programmable.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        public struct square {
-            public struct fill {
-                private init() {}
-                #if os(macOS)
-                
-                ///Creates the “switch.programmable.square.fill” system symbol image with the accessibility description you specify.
-                ///
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "switch.programmable.square.fill", accessibilityDescription: accessibilityDescription)
-                }
-                
-                ///Creates the “switch.programmable.square.fill” system symbol image with the variable value you specify.
-                ///
-                ///The value parameter is valid for symbols that support variable rendering.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-                ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-                @available(macOS 13.0, *)
-                @available(iOS, unavailable)
-                @available(tvOS, unavailable)
-                @available(watchOS, unavailable)
-                public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                    SFSymbolReference.image(name: "switch.programmable.square.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-                }
-                
-                #endif
-                
-                #if os(iOS) || os(tvOS) || os(watchOS)
-                
-                ///Creates the “switch.programmable.square.fill” system symbol image object with the specified configuration.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "switch.programmable.square.fill", configuration: configuration)
-                }
-                
-                ///Creates the “switch.programmable.square.fill” system symbol image object with the configuration and variable value you specify.
-                ///
-                ///Use this method to retrieve system-defined symbol images.
-                ///
-                ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-                ///- Parameter configuration: The image configuration the system applies to the image.
-                ///
-                ///- Returns: The object containing the image variant that matches the specified configuration data.
-                @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                    SFSymbolReference.image(name: "switch.programmable.square.fill", variableValue: variableValue, configuration: configuration)
-                }
-                
-                #endif
-                
-                #if canImport(SwiftUI)
-                ///Creates the “switch.programmable.square.fill” system symbol image.
-                ///
-                ///This initializer creates an image using a system-provided symbol.
-                public static func swiftUIImage() -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "switch.programmable.square.fill")
-                }
-                
-                ///Creates the “switch.programmable.square.fill” system symbol image with a variable value.
-                ///
-                ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-                ///
-                ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-                @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-                public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                    SFSymbolReference.swiftUIImage(name: "switch.programmable.square.fill", variableValue: variableValue)
-                }
-                
-                #endif
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.table {
-    public struct furniture {
-        public struct fill {
-            private init() {}
-            #if os(macOS)
-            
-            ///Creates the “table.furniture.fill” system symbol image with the accessibility description you specify.
-            ///
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "table.furniture.fill", accessibilityDescription: accessibilityDescription)
-            }
-            
-            ///Creates the “table.furniture.fill” system symbol image with the variable value you specify.
-            ///
-            ///The value parameter is valid for symbols that support variable rendering.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the symbol’s content, between `0` and `1`.
-            ///- Parameter accessibilityDescription: The accessibility description for the symbol image, if any.
-            @available(macOS 13.0, *)
-            @available(iOS, unavailable)
-            @available(tvOS, unavailable)
-            @available(watchOS, unavailable)
-            public static func image(variableValue: Double, accessibilityDescription: String? = nil) -> NSImage {
-                SFSymbolReference.image(name: "table.furniture.fill", variableValue: variableValue, accessibilityDescription: accessibilityDescription)
-            }
-            
-            #endif
-            
-            #if os(iOS) || os(tvOS) || os(watchOS)
-            
-            ///Creates the “table.furniture.fill” system symbol image object with the specified configuration.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "table.furniture.fill", configuration: configuration)
-            }
-            
-            ///Creates the “table.furniture.fill” system symbol image object with the configuration and variable value you specify.
-            ///
-            ///Use this method to retrieve system-defined symbol images.
-            ///
-            ///- Parameter variableValue: The value the system uses to customize the image content, between `0` and `1`.
-            ///- Parameter configuration: The image configuration the system applies to the image.
-            ///
-            ///- Returns: The object containing the image variant that matches the specified configuration data.
-            @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
-                SFSymbolReference.image(name: "table.furniture.fill", variableValue: variableValue, configuration: configuration)
-            }
-            
-            #endif
-            
-            #if canImport(SwiftUI)
-            ///Creates the “table.furniture.fill” system symbol image.
-            ///
-            ///This initializer creates an image using a system-provided symbol.
-            public static func swiftUIImage() -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "table.furniture.fill")
-            }
-            
-            ///Creates the “table.furniture.fill” system symbol image with a variable value.
-            ///
-            ///This initializer creates an image using a system-provided symbol. The rendered symbol may alter its appearance to represent the value provided in `variableValue`.
-            ///
-            ///- Parameter variableValue: An optional value between `0.0` and `1.0` that the rendered image can use to customize its appearance, if specified. If the symbol doesn’t support variable values, this parameter has no effect. Use the SF Symbols app to look up which symbols support variable values.
-            @available(macOS 13.0, iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-            public static func swiftUIImage(variableValue: Double?) -> SwiftUI.Image {
-                SFSymbolReference.swiftUIImage(name: "table.furniture.fill", variableValue: variableValue)
-            }
-            
-            #endif
-        }
-        
-        private init() {}
-    }
-    
-}
-
-@available(iOS 16.0, tvOS 16.0, watchOS 9.0, macOS 13.0, *)
-extension SF.text {
-    public struct line {
-        public struct first {
-            public struct and {
-                public struct arrowtriangle {
-                    public struct forward {
-                        private init() {}
-                    }
-                    
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        public struct last {
-            public struct and {
-                public struct arrowtriangle {
-                    public struct forward {
-                        private init() {}
-                    }
-                    
-                    private init() {}
-                }
-                
-                private init() {}
-            }
-            
-            private init() {}
-        }
-        
-        private init() {}
-    }
-    
-    public struct word {
-        public struct spacing {
             private init() {}
         }
         
