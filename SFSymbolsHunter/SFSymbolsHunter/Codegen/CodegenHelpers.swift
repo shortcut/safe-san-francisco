@@ -13,9 +13,9 @@ struct CodegenHelpers {
         return reservedKeys.contains(text)
     }
     
-    static func substitution(for text: String) -> String? {
+    static func substitution(for text: String) -> [String]? {
         let reserved = [
-            "image": "x_image"
+            "image": ["x_image", "_image"]
         ]
         
         return reserved[text]
@@ -27,52 +27,67 @@ struct CodegenHelpers {
         return reserved.contains(text)
     }
 
-    static func serializeKey(_ text: String, checkReservedKeywords: Bool = true) -> String {
+    static func serializeKey(_ text: String?, checkReservedKeywords: Bool = true) -> [String] {
+        guard let text = text else {
+            return []
+        }
+        
         guard let firstCharacter = text.first else {
-            return text
+            return [text]
         }
 
         if firstCharacter.isNumber {
-            return "x\(text)"
-        }
-        
-        if checkReservedKeywords && isReserved(text) {
-            return "`\(text)`"
+            return ["x\(text)", "_\(text)"]
         }
         
         if let substitution = substitution(for: text) {
             return substitution
         }
         
-        return text
+        if checkReservedKeywords && isReserved(text) {
+            return ["`\(text)`"]
+        }
+        
+        return [text]
     }
 
     static func recurseCodegen(codegen: Codegen, dictionary: [String: Any], key: String? = nil, ignoringSymbols: Bool) {
         var keys = dictionary.keys.sorted()
         
         let defineInStruct = requiresToBeDefinedInStruct(for: key ?? "")
+        let shouldWriteSymbols = (defineInStruct && ignoringSymbols) || (!defineInStruct && !ignoringSymbols)
         
-        if let key {
-            codegen.openStructure(named: serializeKey(key))
-        }
+        let serializedKeys = serializeKey(key)
         
-        keys.removeAll(where: { $0 == kNamespaceDictionaryValuesKey })
+        keys.removeFirst(where: { $0 == kNamespaceDictionaryValuesKey })
         
-        if (defineInStruct && ignoringSymbols) || (!defineInStruct && !ignoringSymbols),
-           let symbol = dictionary[kNamespaceDictionaryValuesKey] as? Symbol {
-            if key == nil {
+        if serializedKeys.isEmpty {
+            if shouldWriteSymbols,
+                let symbol = dictionary[kNamespaceDictionaryValuesKey] as? Symbol {
+                
                 let line = symbol.codegenStaticVariable
                 codegen.add(line: line)
-            } else {
+            }
+            
+            keys.forEach {
+                codegenRecurse(codegen: codegen, dictionary: dictionary, key: $0, ignoringSymbols: ignoringSymbols)
+            }
+            
+            return
+        }
+        
+        serializedKeys.forEach { key in
+            codegen.openStructure(named: key)
+            
+            if shouldWriteSymbols,
+               let symbol = dictionary[kNamespaceDictionaryValuesKey] as? Symbol {
                 symbol.codegenWhenOnlyStaticVariable(codegen: codegen)
             }
-        }
-        
-        keys.forEach {
-            codegenRecurse(codegen: codegen, dictionary: dictionary, key: $0, ignoringSymbols: ignoringSymbols)
-        }
-        
-        if key != nil {
+            
+            keys.forEach {
+                codegenRecurse(codegen: codegen, dictionary: dictionary, key: $0, ignoringSymbols: ignoringSymbols)
+            }
+            
             codegen.closeStructure()
         }
     }

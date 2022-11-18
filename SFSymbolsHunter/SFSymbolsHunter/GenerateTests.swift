@@ -46,18 +46,23 @@ struct GenerateTests: ParsableCommand {
         
         var tests = [String]()
         var symbolsArray = ""
-        for (i, symbol) in symbols.enumerated() {
-            let name = symbol.namespacedNameForImage(withTitle: title)
-            symbolsArray += "\n" + tab(level: 3) + name + ","
-            
-            if (i != 0 && i % linesThreshold == 0) || i == symbols.count - 1 {
-                let className = "\(classNameTitle)\(i)"
-                let test = testsTemplate
-                    .replacingOccurrences(of: "{{AVAILABIITY}}", with: availability)
-                    .replacingOccurrences(of: "{{CLASS_NAME}}", with: className)
-                    .replacingOccurrences(of: "{{IMAGES}}", with: symbolsArray)
-                symbolsArray = ""
-                tests.append(test)
+        var i = 0
+        symbols.forEach { symbol in
+            let names = symbol.namespacedNameForImage(withTitle: title)
+            names.forEach { name in
+                symbolsArray += "\n" + tab(level: 3) + name + ","
+                
+                if (i != 0 && i % linesThreshold == 0) || i == symbols.count - 1 {
+                    let className = "\(classNameTitle)\(i)"
+                    let test = testsTemplate
+                        .replacingOccurrences(of: "{{AVAILABIITY}}", with: availability)
+                        .replacingOccurrences(of: "{{CLASS_NAME}}", with: className)
+                        .replacingOccurrences(of: "{{IMAGES}}", with: symbolsArray)
+                    symbolsArray = ""
+                    tests.append(test)
+                }
+                
+                i += 1
             }
         }
         

@@ -30,10 +30,24 @@ struct Symbol: CustomStringConvertible {
         codegen.add(line: template)
     }
     
-    func namespacedNameForImage(withTitle title: String) -> String {
-        let nameComponents = name
+    func namespacedNameForImage(withTitle title: String) -> [String] {
+        let namesComponents = name
             .split(separator: ".")
             .map { CodegenHelpers.serializeKey(String($0), checkReservedKeywords: false) }
-        return "\(title).\(nameComponents.joined(separator: ".")).image()"
+        var heads = namesComponents
+        var names = heads.removeLast()
+        
+        for head in heads.reversed() {
+            var newNames = [String]()
+            for name in names {
+                for component in head {
+                    let entry = "\(component).\(name)"
+                    newNames.append(entry)
+                }
+            }
+            names = newNames
+        }
+        
+        return names.map { "\(title).\($0).image()" }
     }
 }
