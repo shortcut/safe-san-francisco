@@ -72,7 +72,7 @@ struct SFSymbolReference {
     ///- Parameter configuration: The image configuration the system applies to the image.
     ///
     ///- Returns: The object containing the image variant that matches the specified configuration data.
-    func image(withConfiguration configuration: Image.Configuration? = nil) -> UIImage {
+    func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
         guard let image = Image(systemName: name, withConfiguration: configuration) else {
             return handleFailureToConstruct()
         }
@@ -89,7 +89,7 @@ struct SFSymbolReference {
     ///
     ///- Returns: The object containing the image variant that matches the specified configuration data.
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    func image(withVariableValue variableValue: Double, configuration: Image.Configuration? = nil) -> UIImage {
+    func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
         guard let image = Image(systemName: name, variableValue: variableValue, configuration: configuration) else {
             return handleFailureToConstruct()
         }
@@ -97,12 +97,12 @@ struct SFSymbolReference {
         return image
     }
     
-    internal static func image(name: String, configuration: Image.Configuration?) -> UIImage {
+    internal static func image(name: String, configuration: UIImage.Configuration?) -> UIImage {
         SFSymbolReference(named: name).image(withConfiguration: configuration)
     }
     
     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
-    internal static func image(name: String, variableValue: Double, configuration: Image.Configuration?) -> UIImage {
+    internal static func image(name: String, variableValue: Double, configuration: UIImage.Configuration?) -> UIImage {
         SFSymbolReference(named: name).image(withVariableValue: variableValue, configuration: configuration)
     }
 #endif

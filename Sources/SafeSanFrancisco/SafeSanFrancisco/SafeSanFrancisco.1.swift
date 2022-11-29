@@ -50,7 +50,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "aspectratio.fill", configuration: configuration)
             }
             
@@ -64,7 +64,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "aspectratio.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -136,7 +136,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flashlight.off.fill", configuration: configuration)
                 }
                 
@@ -150,7 +150,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flashlight.off.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -221,7 +221,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flashlight.on.fill", configuration: configuration)
                 }
                 
@@ -235,7 +235,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flashlight.on.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -310,7 +310,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flip.horizontal.fill", configuration: configuration)
                 }
                 
@@ -324,7 +324,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flip.horizontal.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -418,7 +418,7 @@ extension SF.circle.grid {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.grid.2x2.fill", configuration: configuration)
             }
             
@@ -432,7 +432,7 @@ extension SF.circle.grid {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.grid.2x2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -503,7 +503,7 @@ extension SF.circle.grid {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.grid.2x2.fill", configuration: configuration)
             }
             
@@ -517,7 +517,7 @@ extension SF.circle.grid {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.grid.2x2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -592,7 +592,7 @@ extension SF.mappin {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mappin.circle.fill", configuration: configuration)
             }
             
@@ -606,7 +606,7 @@ extension SF.mappin {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mappin.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -681,7 +681,7 @@ extension SF.paperclip {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paperclip.circle.fill", configuration: configuration)
             }
             
@@ -695,7 +695,7 @@ extension SF.paperclip {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paperclip.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -770,7 +770,7 @@ extension SF.pin {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pin.circle.fill", configuration: configuration)
             }
             
@@ -784,7 +784,7 @@ extension SF.pin {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pin.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -872,7 +872,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "4k.tv.fill", configuration: configuration)
                 }
                 
@@ -886,7 +886,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "4k.tv.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -961,7 +961,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "4k.tv.fill", configuration: configuration)
                 }
                 
@@ -975,7 +975,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "4k.tv.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -1113,7 +1113,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "applescript.fill", configuration: configuration)
             }
             
@@ -1127,7 +1127,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "applescript.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1198,7 +1198,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "appletv.fill", configuration: configuration)
             }
             
@@ -1212,7 +1212,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "appletv.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1347,7 +1347,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "banknote.fill", configuration: configuration)
             }
             
@@ -1361,7 +1361,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "banknote.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1437,7 +1437,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "bicycle.circle.fill", configuration: configuration)
                 }
                 
@@ -1451,7 +1451,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "bicycle.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -1525,7 +1525,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "binoculars.fill", configuration: configuration)
             }
             
@@ -1539,7 +1539,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "binoculars.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -1615,7 +1615,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "books.vertical.fill", configuration: configuration)
                 }
                 
@@ -1629,7 +1629,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "books.vertical.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -1706,7 +1706,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "building.2.crop.circle.fill", configuration: configuration)
                         }
                         
@@ -1720,7 +1720,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "building.2.crop.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -1793,7 +1793,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "building.2.fill", configuration: configuration)
                 }
                 
@@ -1807,7 +1807,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "building.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -1880,7 +1880,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "building.2.crop.circle.fill", configuration: configuration)
                         }
                         
@@ -1894,7 +1894,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "building.2.crop.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -1967,7 +1967,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "building.2.fill", configuration: configuration)
                 }
                 
@@ -1981,7 +1981,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "building.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2052,7 +2052,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "building.columns.fill", configuration: configuration)
                 }
                 
@@ -2066,7 +2066,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "building.columns.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2136,7 +2136,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "building.fill", configuration: configuration)
             }
             
@@ -2150,7 +2150,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "building.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2222,7 +2222,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "bus.doubledecker.fill", configuration: configuration)
                 }
                 
@@ -2236,7 +2236,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "bus.doubledecker.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2306,7 +2306,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bus.fill", configuration: configuration)
             }
             
@@ -2320,7 +2320,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bus.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2395,7 +2395,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "case.fill", configuration: configuration)
             }
             
@@ -2409,7 +2409,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "case.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2489,7 +2489,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circlebadge.2.fill", configuration: configuration)
                 }
                 
@@ -2503,7 +2503,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circlebadge.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2574,7 +2574,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circlebadge.2.fill", configuration: configuration)
                 }
                 
@@ -2588,7 +2588,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circlebadge.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2658,7 +2658,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circlebadge.fill", configuration: configuration)
             }
             
@@ -2672,7 +2672,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circlebadge.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -2744,7 +2744,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circles.hexagongrid.fill", configuration: configuration)
                 }
                 
@@ -2758,7 +2758,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circles.hexagongrid.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2829,7 +2829,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circles.hexagonpath.fill", configuration: configuration)
                 }
                 
@@ -2843,7 +2843,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circles.hexagonpath.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -2917,7 +2917,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "comb.fill", configuration: configuration)
             }
             
@@ -2931,7 +2931,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "comb.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -3002,7 +3002,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cone.fill", configuration: configuration)
             }
             
@@ -3016,7 +3016,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cone.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -3104,7 +3104,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "cross.case.fill", configuration: configuration)
                 }
                 
@@ -3118,7 +3118,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "cross.case.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -3189,7 +3189,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "cross.circle.fill", configuration: configuration)
                 }
                 
@@ -3203,7 +3203,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "cross.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -3273,7 +3273,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cross.fill", configuration: configuration)
             }
             
@@ -3287,7 +3287,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cross.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -3358,7 +3358,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "crown.fill", configuration: configuration)
             }
             
@@ -3372,7 +3372,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "crown.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -3444,7 +3444,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "curlybraces.square.fill", configuration: configuration)
                 }
                 
@@ -3458,7 +3458,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "curlybraces.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -3592,7 +3592,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cylinder.fill", configuration: configuration)
             }
             
@@ -3606,7 +3606,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cylinder.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -3675,7 +3675,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "cylinder.split.1x2.fill", configuration: configuration)
                     }
                     
@@ -3689,7 +3689,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "cylinder.split.1x2.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -3760,7 +3760,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "cylinder.split.1x2.fill", configuration: configuration)
                     }
                     
@@ -3774,7 +3774,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "cylinder.split.1x2.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -3851,7 +3851,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "deskclock.fill", configuration: configuration)
             }
             
@@ -3865,7 +3865,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "deskclock.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -3936,7 +3936,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "diamond.fill", configuration: configuration)
             }
             
@@ -3950,7 +3950,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "diamond.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -4023,7 +4023,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.1.fill", configuration: configuration)
                     }
                     
@@ -4037,7 +4037,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.1.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4108,7 +4108,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.1.fill", configuration: configuration)
                     }
                     
@@ -4122,7 +4122,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.1.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4193,7 +4193,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.2.fill", configuration: configuration)
                     }
                     
@@ -4207,7 +4207,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.2.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4278,7 +4278,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.2.fill", configuration: configuration)
                     }
                     
@@ -4292,7 +4292,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.2.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4363,7 +4363,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.3.fill", configuration: configuration)
                     }
                     
@@ -4377,7 +4377,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.3.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4448,7 +4448,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.3.fill", configuration: configuration)
                     }
                     
@@ -4462,7 +4462,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.3.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4533,7 +4533,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.4.fill", configuration: configuration)
                     }
                     
@@ -4547,7 +4547,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.4.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4618,7 +4618,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.4.fill", configuration: configuration)
                     }
                     
@@ -4632,7 +4632,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.4.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4703,7 +4703,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.5.fill", configuration: configuration)
                     }
                     
@@ -4717,7 +4717,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.5.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4788,7 +4788,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.5.fill", configuration: configuration)
                     }
                     
@@ -4802,7 +4802,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.5.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4873,7 +4873,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.6.fill", configuration: configuration)
                     }
                     
@@ -4887,7 +4887,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.6.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -4958,7 +4958,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.6.fill", configuration: configuration)
                     }
                     
@@ -4972,7 +4972,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "die.face.6.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -5098,7 +5098,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.down.fill", configuration: configuration)
                 }
                 
@@ -5112,7 +5112,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.down.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -5182,7 +5182,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dpad.fill", configuration: configuration)
             }
             
@@ -5196,7 +5196,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dpad.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -5264,7 +5264,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.left.fill", configuration: configuration)
                 }
                 
@@ -5278,7 +5278,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -5349,7 +5349,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.right.fill", configuration: configuration)
                 }
                 
@@ -5363,7 +5363,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.right.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -5434,7 +5434,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.up.fill", configuration: configuration)
                 }
                 
@@ -5448,7 +5448,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "dpad.up.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -5526,7 +5526,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "esim.fill", configuration: configuration)
             }
             
@@ -5540,7 +5540,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "esim.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -5655,7 +5655,7 @@ extension SF {
                             ///
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(macOS, unavailable)
-                            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "externaldrive.connected.to.line.below.fill", configuration: configuration)
                             }
                             
@@ -5669,7 +5669,7 @@ extension SF {
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                             @available(macOS, unavailable)
-                            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "externaldrive.connected.to.line.below.fill", variableValue: variableValue, configuration: configuration)
                             }
                             
@@ -5788,7 +5788,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "externaldrive.fill", configuration: configuration)
             }
             
@@ -5802,7 +5802,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "externaldrive.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -5886,7 +5886,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "face.dashed.fill", configuration: configuration)
                 }
                 
@@ -5900,7 +5900,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "face.dashed.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -5971,7 +5971,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "face.smiling.fill", configuration: configuration)
                 }
                 
@@ -5985,7 +5985,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "face.smiling.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -6089,7 +6089,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "figure.walk.circle.fill", configuration: configuration)
                     }
                     
@@ -6103,7 +6103,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "figure.walk.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -6174,7 +6174,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "figure.walk.diamond.fill", configuration: configuration)
                     }
                     
@@ -6188,7 +6188,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "figure.walk.diamond.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -6263,7 +6263,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "figure.wave.circle.fill", configuration: configuration)
                     }
                     
@@ -6277,7 +6277,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "figure.wave.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -6383,7 +6383,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "gearshape.2.fill", configuration: configuration)
                 }
                 
@@ -6397,7 +6397,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "gearshape.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -6468,7 +6468,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "gearshape.2.fill", configuration: configuration)
                 }
                 
@@ -6482,7 +6482,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "gearshape.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -6552,7 +6552,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "gearshape.fill", configuration: configuration)
             }
             
@@ -6566,7 +6566,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "gearshape.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -6637,7 +6637,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "giftcard.fill", configuration: configuration)
             }
             
@@ -6651,7 +6651,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "giftcard.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -6722,7 +6722,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "graduationcap.fill", configuration: configuration)
             }
             
@@ -6736,7 +6736,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "graduationcap.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -6807,7 +6807,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "greetingcard.fill", configuration: configuration)
             }
             
@@ -6821,7 +6821,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "greetingcard.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -6897,7 +6897,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hands.clap.fill", configuration: configuration)
                 }
                 
@@ -6911,7 +6911,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hands.clap.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -6982,7 +6982,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hands.sparkles.fill", configuration: configuration)
                 }
                 
@@ -6996,7 +6996,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hands.sparkles.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -7087,7 +7087,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepod.2.fill", configuration: configuration)
                 }
                 
@@ -7101,7 +7101,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepod.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -7172,7 +7172,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepod.2.fill", configuration: configuration)
                 }
                 
@@ -7186,7 +7186,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepod.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -7256,7 +7256,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "homepod.fill", configuration: configuration)
             }
             
@@ -7270,7 +7270,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "homepod.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -7345,7 +7345,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "internaldrive.fill", configuration: configuration)
             }
             
@@ -7359,7 +7359,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "internaldrive.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -7522,7 +7522,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "key.fill", configuration: configuration)
             }
             
@@ -7536,7 +7536,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "key.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -7604,7 +7604,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "key.icloud.fill", configuration: configuration)
                 }
                 
@@ -7618,7 +7618,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "key.icloud.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -7694,7 +7694,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "l1.rectangle.roundedbottom.fill", configuration: configuration)
                     }
                     
@@ -7708,7 +7708,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "l1.rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -7787,7 +7787,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "l2.rectangle.roundedtop.fill", configuration: configuration)
                     }
                     
@@ -7801,7 +7801,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "l2.rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -7878,7 +7878,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ladybug.fill", configuration: configuration)
             }
             
@@ -7892,7 +7892,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ladybug.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -7977,7 +7977,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "latch.2.case.fill", configuration: configuration)
                     }
                     
@@ -7991,7 +7991,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "latch.2.case.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -8066,7 +8066,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "latch.2.case.fill", configuration: configuration)
                     }
                     
@@ -8080,7 +8080,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "latch.2.case.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -8159,7 +8159,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "lb.rectangle.roundedbottom.fill", configuration: configuration)
                     }
                     
@@ -8173,7 +8173,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "lb.rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -8250,7 +8250,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "level.fill", configuration: configuration)
             }
             
@@ -8264,7 +8264,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "level.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -8335,7 +8335,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lifepreserver.fill", configuration: configuration)
             }
             
@@ -8349,7 +8349,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lifepreserver.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -8430,7 +8430,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "lt.rectangle.roundedtop.fill", configuration: configuration)
                     }
                     
@@ -8444,7 +8444,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "lt.rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -8521,7 +8521,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lungs.fill", configuration: configuration)
             }
             
@@ -8535,7 +8535,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lungs.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -8606,7 +8606,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "macmini.fill", configuration: configuration)
             }
             
@@ -8620,7 +8620,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "macmini.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -8696,7 +8696,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "macpro.gen2.fill", configuration: configuration)
                 }
                 
@@ -8710,7 +8710,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "macpro.gen2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -8808,7 +8808,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mail.fill", configuration: configuration)
             }
             
@@ -8822,7 +8822,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mail.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -8890,7 +8890,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "mail.stack.fill", configuration: configuration)
                 }
                 
@@ -8904,7 +8904,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "mail.stack.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -8978,7 +8978,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "megaphone.fill", configuration: configuration)
             }
             
@@ -8992,7 +8992,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "megaphone.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9111,7 +9111,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mosaic.fill", configuration: configuration)
             }
             
@@ -9125,7 +9125,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mosaic.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9196,7 +9196,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mount.fill", configuration: configuration)
             }
             
@@ -9210,7 +9210,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mount.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9281,7 +9281,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mouth.fill", configuration: configuration)
             }
             
@@ -9295,7 +9295,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mouth.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9378,7 +9378,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mustache.fill", configuration: configuration)
             }
             
@@ -9392,7 +9392,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "mustache.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9467,7 +9467,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "newspaper.fill", configuration: configuration)
             }
             
@@ -9481,7 +9481,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "newspaper.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9552,7 +9552,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "nose.fill", configuration: configuration)
             }
             
@@ -9566,7 +9566,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "nose.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9653,7 +9653,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "octagon.fill", configuration: configuration)
             }
             
@@ -9667,7 +9667,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "octagon.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9742,7 +9742,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "opticaldiscdrive.fill", configuration: configuration)
             }
             
@@ -9756,7 +9756,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "opticaldiscdrive.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9827,7 +9827,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "oval.fill", configuration: configuration)
             }
             
@@ -9841,7 +9841,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "oval.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -9909,7 +9909,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "oval.portrait.fill", configuration: configuration)
                 }
                 
@@ -9923,7 +9923,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "oval.portrait.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -9997,7 +9997,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paintpalette.fill", configuration: configuration)
             }
             
@@ -10011,7 +10011,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paintpalette.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10098,7 +10098,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pills.fill", configuration: configuration)
             }
             
@@ -10112,7 +10112,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pills.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10191,7 +10191,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pip.fill", configuration: configuration)
             }
             
@@ -10205,7 +10205,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pip.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10284,7 +10284,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "placeholdertext.fill", configuration: configuration)
             }
             
@@ -10298,7 +10298,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "placeholdertext.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10441,7 +10441,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "puzzlepiece.fill", configuration: configuration)
             }
             
@@ -10455,7 +10455,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "puzzlepiece.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10526,7 +10526,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pyramid.fill", configuration: configuration)
             }
             
@@ -10540,7 +10540,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pyramid.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10613,7 +10613,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "r1.rectangle.roundedbottom.fill", configuration: configuration)
                     }
                     
@@ -10627,7 +10627,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "r1.rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -10706,7 +10706,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "r2.rectangle.roundedtop.fill", configuration: configuration)
                     }
                     
@@ -10720,7 +10720,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "r2.rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -10797,7 +10797,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "radio.fill", configuration: configuration)
             }
             
@@ -10811,7 +10811,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "radio.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -10884,7 +10884,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "rb.rectangle.roundedbottom.fill", configuration: configuration)
                     }
                     
@@ -10898,7 +10898,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "rb.rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -10976,7 +10976,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "record.circle.fill", configuration: configuration)
                 }
                 
@@ -10990,7 +10990,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "record.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -11074,7 +11074,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "rt.rectangle.roundedtop.fill", configuration: configuration)
                     }
                     
@@ -11088,7 +11088,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "rt.rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -11165,7 +11165,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ruler.fill", configuration: configuration)
             }
             
@@ -11179,7 +11179,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ruler.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11262,7 +11262,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "scalemass.fill", configuration: configuration)
             }
             
@@ -11276,7 +11276,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "scalemass.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11347,7 +11347,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "scanner.fill", configuration: configuration)
             }
             
@@ -11361,7 +11361,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "scanner.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11432,7 +11432,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "scroll.fill", configuration: configuration)
             }
             
@@ -11446,7 +11446,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "scroll.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11517,7 +11517,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "sdcard.fill", configuration: configuration)
             }
             
@@ -11531,7 +11531,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "sdcard.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11602,7 +11602,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "seal.fill", configuration: configuration)
             }
             
@@ -11616,7 +11616,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "seal.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11700,7 +11700,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "shekelsign.circle.fill", configuration: configuration)
                 }
                 
@@ -11714,7 +11714,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "shekelsign.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -11785,7 +11785,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "shekelsign.square.fill", configuration: configuration)
                 }
                 
@@ -11799,7 +11799,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "shekelsign.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -11873,7 +11873,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "shippingbox.fill", configuration: configuration)
             }
             
@@ -11887,7 +11887,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "shippingbox.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -11959,7 +11959,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "signpost.left.fill", configuration: configuration)
                 }
                 
@@ -11973,7 +11973,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "signpost.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -12044,7 +12044,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "signpost.right.fill", configuration: configuration)
                 }
                 
@@ -12058,7 +12058,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "signpost.right.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -12133,7 +12133,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "simcard.2.fill", configuration: configuration)
                 }
                 
@@ -12147,7 +12147,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "simcard.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -12218,7 +12218,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "simcard.2.fill", configuration: configuration)
                 }
                 
@@ -12232,7 +12232,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "simcard.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -12302,7 +12302,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "simcard.fill", configuration: configuration)
             }
             
@@ -12316,7 +12316,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "simcard.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -12419,7 +12419,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "squareshape.fill", configuration: configuration)
             }
             
@@ -12433,7 +12433,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "squareshape.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -12562,7 +12562,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "tablecells.badge.ellipsis.fill", configuration: configuration)
                     }
                     
@@ -12576,7 +12576,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "tablecells.badge.ellipsis.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -12649,7 +12649,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tablecells.fill", configuration: configuration)
             }
             
@@ -12663,7 +12663,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tablecells.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -12738,7 +12738,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "terminal.fill", configuration: configuration)
             }
             
@@ -12752,7 +12752,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "terminal.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -12823,7 +12823,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ticket.fill", configuration: configuration)
             }
             
@@ -12837,7 +12837,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ticket.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -12929,7 +12929,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "wallet.pass.fill", configuration: configuration)
                 }
                 
@@ -12943,7 +12943,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "wallet.pass.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -13020,7 +13020,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.backward.circle.fill", configuration: configuration)
                         }
                         
@@ -13034,7 +13034,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13109,7 +13109,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.forward.circle.fill", configuration: configuration)
                         }
                         
@@ -13123,7 +13123,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13198,7 +13198,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.left.circle.fill", configuration: configuration)
                         }
                         
@@ -13212,7 +13212,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.left.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13287,7 +13287,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.right.circle.fill", configuration: configuration)
                         }
                         
@@ -13301,7 +13301,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.right.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13380,7 +13380,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.backward.circle.fill", configuration: configuration)
                         }
                         
@@ -13394,7 +13394,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13469,7 +13469,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.forward.circle.fill", configuration: configuration)
                         }
                         
@@ -13483,7 +13483,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13558,7 +13558,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.left.circle.fill", configuration: configuration)
                         }
                         
@@ -13572,7 +13572,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.left.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13647,7 +13647,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.right.circle.fill", configuration: configuration)
                         }
                         
@@ -13661,7 +13661,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "wave.3.right.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -13747,7 +13747,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "zl.rectangle.roundedtop.fill", configuration: configuration)
                     }
                     
@@ -13761,7 +13761,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "zl.rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -13840,7 +13840,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "zr.rectangle.roundedtop.fill", configuration: configuration)
                     }
                     
@@ -13854,7 +13854,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "zr.rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -13984,7 +13984,7 @@ extension SF.a {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "a.book.closed.fill", configuration: configuration)
                 }
                 
@@ -13998,7 +13998,7 @@ extension SF.a {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "a.book.closed.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -14104,7 +14104,7 @@ extension SF.airplane {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airplane.circle.fill", configuration: configuration)
             }
             
@@ -14118,7 +14118,7 @@ extension SF.airplane {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airplane.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -14193,7 +14193,7 @@ extension SF.archivebox {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "archivebox.circle.fill", configuration: configuration)
             }
             
@@ -14207,7 +14207,7 @@ extension SF.archivebox {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "archivebox.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -14283,7 +14283,7 @@ extension SF.arrow {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -14297,7 +14297,7 @@ extension SF.arrow {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -14368,7 +14368,7 @@ extension SF.arrow {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.backward.square.fill", configuration: configuration)
                 }
                 
@@ -14382,7 +14382,7 @@ extension SF.arrow {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.backward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -14457,7 +14457,7 @@ extension SF.arrow {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -14471,7 +14471,7 @@ extension SF.arrow {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -14542,7 +14542,7 @@ extension SF.arrow {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.forward.square.fill", configuration: configuration)
                 }
                 
@@ -14556,7 +14556,7 @@ extension SF.arrow {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.forward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -14637,7 +14637,7 @@ extension SF.arrow {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.camera.fill", configuration: configuration)
                         }
                         
@@ -14651,7 +14651,7 @@ extension SF.arrow {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.camera.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -14722,7 +14722,7 @@ extension SF.arrow {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.circle.fill", configuration: configuration)
                         }
                         
@@ -14736,7 +14736,7 @@ extension SF.arrow {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -14827,7 +14827,7 @@ extension SF.arrow {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.camera.fill", configuration: configuration)
                         }
                         
@@ -14841,7 +14841,7 @@ extension SF.arrow {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.camera.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -14912,7 +14912,7 @@ extension SF.arrow {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.circle.fill", configuration: configuration)
                         }
                         
@@ -14926,7 +14926,7 @@ extension SF.arrow {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.triangle.2.circlepath.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -15038,7 +15038,7 @@ extension SF.arrow {
                             ///
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(macOS, unavailable)
-                            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.triangle.turn.up.right.circle.fill", configuration: configuration)
                             }
                             
@@ -15052,7 +15052,7 @@ extension SF.arrow {
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                             @available(macOS, unavailable)
-                            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.triangle.turn.up.right.circle.fill", variableValue: variableValue, configuration: configuration)
                             }
                             
@@ -15123,7 +15123,7 @@ extension SF.arrow {
                             ///
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(macOS, unavailable)
-                            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.triangle.turn.up.right.diamond.fill", configuration: configuration)
                             }
                             
@@ -15137,7 +15137,7 @@ extension SF.arrow {
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                             @available(macOS, unavailable)
-                            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.triangle.turn.up.right.diamond.fill", variableValue: variableValue, configuration: configuration)
                             }
                             
@@ -15224,7 +15224,7 @@ extension SF.arrow.clockwise {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.clockwise.heart.fill", configuration: configuration)
             }
             
@@ -15238,7 +15238,7 @@ extension SF.arrow.clockwise {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.clockwise.heart.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -15313,7 +15313,7 @@ extension SF.arrow.down {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.app.fill", configuration: configuration)
             }
             
@@ -15327,7 +15327,7 @@ extension SF.arrow.down {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.app.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -15399,7 +15399,7 @@ extension SF.arrow.down {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -15413,7 +15413,7 @@ extension SF.arrow.down {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -15484,7 +15484,7 @@ extension SF.arrow.down {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.backward.square.fill", configuration: configuration)
                 }
                 
@@ -15498,7 +15498,7 @@ extension SF.arrow.down {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.backward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -15577,7 +15577,7 @@ extension SF.arrow.down {
                                 ///
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(macOS, unavailable)
-                                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrow.down.forward.and.arrow.up.backward.circle.fill", configuration: configuration)
                                 }
                                 
@@ -15591,7 +15591,7 @@ extension SF.arrow.down {
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                                 @available(macOS, unavailable)
-                                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrow.down.forward.and.arrow.up.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                                 }
                                 
@@ -15674,7 +15674,7 @@ extension SF.arrow.down {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -15688,7 +15688,7 @@ extension SF.arrow.down {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -15759,7 +15759,7 @@ extension SF.arrow.down {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.forward.square.fill", configuration: configuration)
                 }
                 
@@ -15773,7 +15773,7 @@ extension SF.arrow.down {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.down.forward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -15847,7 +15847,7 @@ extension SF.arrow.down {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.heart.fill", configuration: configuration)
             }
             
@@ -15861,7 +15861,7 @@ extension SF.arrow.down {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.heart.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -15936,7 +15936,7 @@ extension SF.arrow.down.right.and.arrow.up.left {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.right.and.arrow.up.left.circle.fill", configuration: configuration)
             }
             
@@ -15950,7 +15950,7 @@ extension SF.arrow.down.right.and.arrow.up.left {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.right.and.arrow.up.left.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -16027,7 +16027,7 @@ extension SF.arrow.left {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.left.arrow.right.circle.fill", configuration: configuration)
                     }
                     
@@ -16041,7 +16041,7 @@ extension SF.arrow.left {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.left.arrow.right.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -16112,7 +16112,7 @@ extension SF.arrow.left {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.left.arrow.right.square.fill", configuration: configuration)
                     }
                     
@@ -16126,7 +16126,7 @@ extension SF.arrow.left {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.left.arrow.right.square.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -16210,7 +16210,7 @@ extension SF.arrow.left.and.right {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.left.and.right.righttriangle.left.righttriangle.right.fill", configuration: configuration)
                         }
                         
@@ -16224,7 +16224,7 @@ extension SF.arrow.left.and.right {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "arrow.left.and.right.righttriangle.left.righttriangle.right.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -16325,7 +16325,7 @@ extension SF.arrow.turn.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.turn.up.forward.iphone.fill", configuration: configuration)
                 }
                 
@@ -16339,7 +16339,7 @@ extension SF.arrow.turn.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.turn.up.forward.iphone.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -16422,7 +16422,7 @@ extension SF.arrow.up {
                                 ///
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(macOS, unavailable)
-                                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrow.up.backward.and.arrow.down.forward.circle.fill", configuration: configuration)
                                 }
                                 
@@ -16436,7 +16436,7 @@ extension SF.arrow.up {
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                                 @available(macOS, unavailable)
-                                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrow.up.backward.and.arrow.down.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                                 }
                                 
@@ -16519,7 +16519,7 @@ extension SF.arrow.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -16533,7 +16533,7 @@ extension SF.arrow.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -16604,7 +16604,7 @@ extension SF.arrow.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.backward.square.fill", configuration: configuration)
                 }
                 
@@ -16618,7 +16618,7 @@ extension SF.arrow.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.backward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -16693,7 +16693,7 @@ extension SF.arrow.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.forward.app.fill", configuration: configuration)
                 }
                 
@@ -16707,7 +16707,7 @@ extension SF.arrow.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.forward.app.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -16778,7 +16778,7 @@ extension SF.arrow.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -16792,7 +16792,7 @@ extension SF.arrow.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -16863,7 +16863,7 @@ extension SF.arrow.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.forward.square.fill", configuration: configuration)
                 }
                 
@@ -16877,7 +16877,7 @@ extension SF.arrow.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.up.forward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -16951,7 +16951,7 @@ extension SF.arrow.up {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.heart.fill", configuration: configuration)
             }
             
@@ -16965,7 +16965,7 @@ extension SF.arrow.up {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.heart.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -17036,7 +17036,7 @@ extension SF.arrow.up {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.message.fill", configuration: configuration)
             }
             
@@ -17050,7 +17050,7 @@ extension SF.arrow.up {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.message.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -17177,7 +17177,7 @@ extension SF.arrow.up.and.down {
                             ///
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(macOS, unavailable)
-                            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill", configuration: configuration)
                             }
                             
@@ -17191,7 +17191,7 @@ extension SF.arrow.up.and.down {
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                             @available(macOS, unavailable)
-                            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill", variableValue: variableValue, configuration: configuration)
                             }
                             
@@ -17342,7 +17342,7 @@ extension SF.arrow.up.left.and.arrow.down.right {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.left.and.arrow.down.right.circle.fill", configuration: configuration)
             }
             
@@ -17356,7 +17356,7 @@ extension SF.arrow.up.left.and.arrow.down.right {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.left.and.arrow.down.right.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -17435,7 +17435,7 @@ extension SF.arrow.up.right {
                             ///
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(macOS, unavailable)
-                            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.up.right.and.arrow.down.left.rectangle.fill", configuration: configuration)
                             }
                             
@@ -17449,7 +17449,7 @@ extension SF.arrow.up.right {
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                             @available(macOS, unavailable)
-                            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "arrow.up.right.and.arrow.down.left.rectangle.fill", variableValue: variableValue, configuration: configuration)
                             }
                             
@@ -17545,7 +17545,7 @@ extension SF.arrow.uturn {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -17559,7 +17559,7 @@ extension SF.arrow.uturn {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -17630,7 +17630,7 @@ extension SF.arrow.uturn {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.backward.square.fill", configuration: configuration)
                 }
                 
@@ -17644,7 +17644,7 @@ extension SF.arrow.uturn {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.backward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -17719,7 +17719,7 @@ extension SF.arrow.uturn {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -17733,7 +17733,7 @@ extension SF.arrow.uturn {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -17804,7 +17804,7 @@ extension SF.arrow.uturn {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.forward.square.fill", configuration: configuration)
                 }
                 
@@ -17818,7 +17818,7 @@ extension SF.arrow.uturn {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrow.uturn.forward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -17897,7 +17897,7 @@ extension SF.arrowshape {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.bounce.forward.fill", configuration: configuration)
                 }
                 
@@ -17911,7 +17911,7 @@ extension SF.arrowshape {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.bounce.forward.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -17982,7 +17982,7 @@ extension SF.arrowshape {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.bounce.right.fill", configuration: configuration)
                 }
                 
@@ -17996,7 +17996,7 @@ extension SF.arrowshape {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.bounce.right.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18071,7 +18071,7 @@ extension SF.arrowshape {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.zigzag.forward.fill", configuration: configuration)
                 }
                 
@@ -18085,7 +18085,7 @@ extension SF.arrowshape {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.zigzag.forward.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18156,7 +18156,7 @@ extension SF.arrowshape {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.zigzag.right.fill", configuration: configuration)
                 }
                 
@@ -18170,7 +18170,7 @@ extension SF.arrowshape {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.zigzag.right.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18250,7 +18250,7 @@ extension SF.arrowshape.turn.up {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.circle.fill", configuration: configuration)
                     }
                     
@@ -18264,7 +18264,7 @@ extension SF.arrowshape.turn.up {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -18334,7 +18334,7 @@ extension SF.arrowshape.turn.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.fill", configuration: configuration)
                 }
                 
@@ -18348,7 +18348,7 @@ extension SF.arrowshape.turn.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18420,7 +18420,7 @@ extension SF.arrowshape.turn.up {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.circle.fill", configuration: configuration)
                     }
                     
@@ -18434,7 +18434,7 @@ extension SF.arrowshape.turn.up {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -18504,7 +18504,7 @@ extension SF.arrowshape.turn.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.fill", configuration: configuration)
                 }
                 
@@ -18518,7 +18518,7 @@ extension SF.arrowshape.turn.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.backward.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18589,7 +18589,7 @@ extension SF.arrowshape.turn.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -18603,7 +18603,7 @@ extension SF.arrowshape.turn.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18673,7 +18673,7 @@ extension SF.arrowshape.turn.up {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.backward.fill", configuration: configuration)
             }
             
@@ -18687,7 +18687,7 @@ extension SF.arrowshape.turn.up {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.backward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -18759,7 +18759,7 @@ extension SF.arrowshape.turn.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -18773,7 +18773,7 @@ extension SF.arrowshape.turn.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowshape.turn.up.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -18843,7 +18843,7 @@ extension SF.arrowshape.turn.up {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.forward.fill", configuration: configuration)
             }
             
@@ -18857,7 +18857,7 @@ extension SF.arrowshape.turn.up {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.forward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -18932,7 +18932,7 @@ extension SF.arrowshape.turn.up.left.x2 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.left.2.circle.fill", configuration: configuration)
             }
             
@@ -18946,7 +18946,7 @@ extension SF.arrowshape.turn.up.left.x2 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.left.2.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -19021,7 +19021,7 @@ extension SF.arrowshape.turn.up.left._2 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.left.2.circle.fill", configuration: configuration)
             }
             
@@ -19035,7 +19035,7 @@ extension SF.arrowshape.turn.up.left._2 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowshape.turn.up.left.2.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -19111,7 +19111,7 @@ extension SF.arrowtriangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -19125,7 +19125,7 @@ extension SF.arrowtriangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -19195,7 +19195,7 @@ extension SF.arrowtriangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowtriangle.backward.fill", configuration: configuration)
             }
             
@@ -19209,7 +19209,7 @@ extension SF.arrowtriangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowtriangle.backward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -19277,7 +19277,7 @@ extension SF.arrowtriangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.backward.square.fill", configuration: configuration)
                 }
                 
@@ -19291,7 +19291,7 @@ extension SF.arrowtriangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.backward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -19366,7 +19366,7 @@ extension SF.arrowtriangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -19380,7 +19380,7 @@ extension SF.arrowtriangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -19450,7 +19450,7 @@ extension SF.arrowtriangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowtriangle.forward.fill", configuration: configuration)
             }
             
@@ -19464,7 +19464,7 @@ extension SF.arrowtriangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrowtriangle.forward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -19532,7 +19532,7 @@ extension SF.arrowtriangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.forward.square.fill", configuration: configuration)
                 }
                 
@@ -19546,7 +19546,7 @@ extension SF.arrowtriangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "arrowtriangle.forward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -19657,7 +19657,7 @@ extension SF.arrowtriangle.left.fill {
                                 ///
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(macOS, unavailable)
-                                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill", configuration: configuration)
                                 }
                                 
@@ -19671,7 +19671,7 @@ extension SF.arrowtriangle.left.fill {
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                                 @available(macOS, unavailable)
-                                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill", variableValue: variableValue, configuration: configuration)
                                 }
                                 
@@ -19794,7 +19794,7 @@ extension SF.arrowtriangle.right.fill {
                                 ///
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(macOS, unavailable)
-                                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill", configuration: configuration)
                                 }
                                 
@@ -19808,7 +19808,7 @@ extension SF.arrowtriangle.right.fill {
                                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                                 @available(macOS, unavailable)
-                                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                     SFSymbolReference.image(name: "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill", variableValue: variableValue, configuration: configuration)
                                 }
                                 
@@ -19898,7 +19898,7 @@ extension SF.at {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "at.circle.fill", configuration: configuration)
             }
             
@@ -19912,7 +19912,7 @@ extension SF.at {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "at.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -19987,7 +19987,7 @@ extension SF.backward {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "backward.frame.fill", configuration: configuration)
             }
             
@@ -20001,7 +20001,7 @@ extension SF.backward {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "backward.frame.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20084,7 +20084,7 @@ extension SF.bag {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bag.circle.fill", configuration: configuration)
             }
             
@@ -20098,7 +20098,7 @@ extension SF.bag {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bag.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20197,7 +20197,7 @@ extension SF.bell {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bell.badge.fill", configuration: configuration)
             }
             
@@ -20211,7 +20211,7 @@ extension SF.bell {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bell.badge.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20286,7 +20286,7 @@ extension SF.bell.slash {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bell.slash.circle.fill", configuration: configuration)
             }
             
@@ -20300,7 +20300,7 @@ extension SF.bell.slash {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bell.slash.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20375,7 +20375,7 @@ extension SF.bolt {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.car.fill", configuration: configuration)
             }
             
@@ -20389,7 +20389,7 @@ extension SF.bolt {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.car.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20460,7 +20460,7 @@ extension SF.bolt {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.heart.fill", configuration: configuration)
             }
             
@@ -20474,7 +20474,7 @@ extension SF.bolt {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.heart.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20549,7 +20549,7 @@ extension SF.bolt.fill {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.fill.batteryblock.fill", configuration: configuration)
             }
             
@@ -20563,7 +20563,7 @@ extension SF.bolt.fill {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.fill.batteryblock.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20638,7 +20638,7 @@ extension SF.bolt.slash {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.slash.circle.fill", configuration: configuration)
             }
             
@@ -20652,7 +20652,7 @@ extension SF.bolt.slash {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bolt.slash.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20727,7 +20727,7 @@ extension SF.book {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "book.closed.fill", configuration: configuration)
             }
             
@@ -20741,7 +20741,7 @@ extension SF.book {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "book.closed.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20816,7 +20816,7 @@ extension SF.bookmark {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bookmark.circle.fill", configuration: configuration)
             }
             
@@ -20830,7 +20830,7 @@ extension SF.bookmark {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bookmark.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -20901,7 +20901,7 @@ extension SF.bookmark {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bookmark.slash.fill", configuration: configuration)
             }
             
@@ -20915,7 +20915,7 @@ extension SF.bookmark {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "bookmark.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21082,7 +21082,7 @@ extension SF.capsule {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "capsule.portrait.fill", configuration: configuration)
             }
             
@@ -21096,7 +21096,7 @@ extension SF.capsule {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "capsule.portrait.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21171,7 +21171,7 @@ extension SF.car {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "car.2.fill", configuration: configuration)
             }
             
@@ -21185,7 +21185,7 @@ extension SF.car {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "car.2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21256,7 +21256,7 @@ extension SF.car {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "car.2.fill", configuration: configuration)
             }
             
@@ -21270,7 +21270,7 @@ extension SF.car {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "car.2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21341,7 +21341,7 @@ extension SF.car {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "car.circle.fill", configuration: configuration)
             }
             
@@ -21355,7 +21355,7 @@ extension SF.car {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "car.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21431,7 +21431,7 @@ extension SF.chart.bar {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chart.bar.doc.horizontal.fill", configuration: configuration)
                 }
                 
@@ -21445,7 +21445,7 @@ extension SF.chart.bar {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chart.bar.doc.horizontal.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -21527,7 +21527,7 @@ extension SF.checkmark {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "checkmark.icloud.fill", configuration: configuration)
             }
             
@@ -21541,7 +21541,7 @@ extension SF.checkmark {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "checkmark.icloud.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21616,7 +21616,7 @@ extension SF.checkmark.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "checkmark.rectangle.portrait.fill", configuration: configuration)
             }
             
@@ -21630,7 +21630,7 @@ extension SF.checkmark.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "checkmark.rectangle.portrait.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -21714,7 +21714,7 @@ extension SF.chevron {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.backward.circle.fill", configuration: configuration)
                 }
                 
@@ -21728,7 +21728,7 @@ extension SF.chevron {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.backward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -21799,7 +21799,7 @@ extension SF.chevron {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.backward.square.fill", configuration: configuration)
                 }
                 
@@ -21813,7 +21813,7 @@ extension SF.chevron {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.backward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -21896,7 +21896,7 @@ extension SF.chevron {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.forward.circle.fill", configuration: configuration)
                 }
                 
@@ -21910,7 +21910,7 @@ extension SF.chevron {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.forward.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -21981,7 +21981,7 @@ extension SF.chevron {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.forward.square.fill", configuration: configuration)
                 }
                 
@@ -21995,7 +21995,7 @@ extension SF.chevron {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "chevron.forward.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -22073,7 +22073,7 @@ extension SF.circle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.bottomhalf.fill", configuration: configuration)
             }
             
@@ -22087,7 +22087,7 @@ extension SF.circle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.bottomhalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -22158,7 +22158,7 @@ extension SF.circle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.circle.fill", configuration: configuration)
             }
             
@@ -22172,7 +22172,7 @@ extension SF.circle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -22244,7 +22244,7 @@ extension SF.circle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.dashed.inset.fill", configuration: configuration)
                 }
                 
@@ -22258,7 +22258,7 @@ extension SF.circle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.dashed.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -22336,7 +22336,7 @@ extension SF.circle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.tophalf.fill", configuration: configuration)
             }
             
@@ -22350,7 +22350,7 @@ extension SF.circle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.tophalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -22425,7 +22425,7 @@ extension SF.circle.fill {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.fill.square.fill", configuration: configuration)
             }
             
@@ -22439,7 +22439,7 @@ extension SF.circle.fill {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.fill.square.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -22515,7 +22515,7 @@ extension SF.circle.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.down.fill", configuration: configuration)
                 }
                 
@@ -22529,7 +22529,7 @@ extension SF.circle.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.down.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -22599,7 +22599,7 @@ extension SF.circle.grid {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.grid.cross.fill", configuration: configuration)
             }
             
@@ -22613,7 +22613,7 @@ extension SF.circle.grid {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "circle.grid.cross.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -22681,7 +22681,7 @@ extension SF.circle.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.left.fill", configuration: configuration)
                 }
                 
@@ -22695,7 +22695,7 @@ extension SF.circle.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -22766,7 +22766,7 @@ extension SF.circle.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.right.fill", configuration: configuration)
                 }
                 
@@ -22780,7 +22780,7 @@ extension SF.circle.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.right.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -22851,7 +22851,7 @@ extension SF.circle.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.up.fill", configuration: configuration)
                 }
                 
@@ -22865,7 +22865,7 @@ extension SF.circle.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "circle.grid.cross.up.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -22955,7 +22955,7 @@ extension SF.command {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "command.circle.fill", configuration: configuration)
             }
             
@@ -22969,7 +22969,7 @@ extension SF.command {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "command.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -23040,7 +23040,7 @@ extension SF.command {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "command.square.fill", configuration: configuration)
             }
             
@@ -23054,7 +23054,7 @@ extension SF.command {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "command.square.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -23129,7 +23129,7 @@ extension SF.creditcard {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "creditcard.circle.fill", configuration: configuration)
             }
             
@@ -23143,7 +23143,7 @@ extension SF.creditcard {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "creditcard.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -23218,7 +23218,7 @@ extension SF.cube {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cube.transparent.fill", configuration: configuration)
             }
             
@@ -23232,7 +23232,7 @@ extension SF.cube {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cube.transparent.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -23307,7 +23307,7 @@ extension SF.dial {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dial.max.fill", configuration: configuration)
             }
             
@@ -23321,7 +23321,7 @@ extension SF.dial {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dial.max.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -23392,7 +23392,7 @@ extension SF.dial {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dial.min.fill", configuration: configuration)
             }
             
@@ -23406,7 +23406,7 @@ extension SF.dial {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dial.min.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -23486,7 +23486,7 @@ extension SF.doc {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "doc.badge.gearshape.fill", configuration: configuration)
                 }
                 
@@ -23500,7 +23500,7 @@ extension SF.doc {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "doc.badge.gearshape.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -23589,7 +23589,7 @@ extension SF.doc.append {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "doc.append.fill", configuration: configuration)
         }
         
@@ -23603,7 +23603,7 @@ extension SF.doc.append {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "doc.append.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -23694,7 +23694,7 @@ extension SF.doc.plaintext {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "doc.plaintext.fill", configuration: configuration)
         }
         
@@ -23708,7 +23708,7 @@ extension SF.doc.plaintext {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "doc.plaintext.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -23791,7 +23791,7 @@ extension SF.doc.richtext {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "doc.richtext.fill", configuration: configuration)
         }
         
@@ -23805,7 +23805,7 @@ extension SF.doc.richtext {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "doc.richtext.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -23882,7 +23882,7 @@ extension SF.doc.text {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "doc.text.below.ecg.fill", configuration: configuration)
                 }
                 
@@ -23896,7 +23896,7 @@ extension SF.doc.text {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "doc.text.below.ecg.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -24018,7 +24018,7 @@ extension SF.dot {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dot.squareshape.fill", configuration: configuration)
             }
             
@@ -24032,7 +24032,7 @@ extension SF.dot {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dot.squareshape.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -24126,7 +24126,7 @@ extension SF.drop {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "drop.fill", configuration: configuration)
         }
         
@@ -24140,7 +24140,7 @@ extension SF.drop {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "drop.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -24219,7 +24219,7 @@ extension SF.ear {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "ear.fill", configuration: configuration)
         }
         
@@ -24233,7 +24233,7 @@ extension SF.ear {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "ear.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -24313,7 +24313,7 @@ extension SF.eject {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "eject.circle.fill", configuration: configuration)
             }
             
@@ -24327,7 +24327,7 @@ extension SF.eject {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "eject.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -24402,7 +24402,7 @@ extension SF.ellipsis {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ellipsis.bubble.fill", configuration: configuration)
             }
             
@@ -24416,7 +24416,7 @@ extension SF.ellipsis {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ellipsis.bubble.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -24487,7 +24487,7 @@ extension SF.ellipsis {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ellipsis.rectangle.fill", configuration: configuration)
             }
             
@@ -24501,7 +24501,7 @@ extension SF.ellipsis {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ellipsis.rectangle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -24578,7 +24578,7 @@ extension SF.envelope {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "envelope.arrow.triangle.branch.fill", configuration: configuration)
                     }
                     
@@ -24592,7 +24592,7 @@ extension SF.envelope {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "envelope.arrow.triangle.branch.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -24674,7 +24674,7 @@ extension SF.envelope.badge {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "envelope.badge.shield.leadinghalf.fill", configuration: configuration)
                 }
                 
@@ -24688,7 +24688,7 @@ extension SF.envelope.badge {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "envelope.badge.shield.leadinghalf.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -24768,7 +24768,7 @@ extension SF.envelope.fill {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "envelope.fill.badge.shield.trailinghalf.fill", configuration: configuration)
                     }
                     
@@ -24782,7 +24782,7 @@ extension SF.envelope.fill {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "envelope.fill.badge.shield.trailinghalf.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -24911,7 +24911,7 @@ extension SF.eye {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "eye.circle.fill", configuration: configuration)
             }
             
@@ -24925,7 +24925,7 @@ extension SF.eye {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "eye.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25001,7 +25001,7 @@ extension SF.flag {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flag.badge.ellipsis.fill", configuration: configuration)
                 }
                 
@@ -25015,7 +25015,7 @@ extension SF.flag {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "flag.badge.ellipsis.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -25093,7 +25093,7 @@ extension SF.flag.slash {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "flag.slash.circle.fill", configuration: configuration)
             }
             
@@ -25107,7 +25107,7 @@ extension SF.flag.slash {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "flag.slash.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25214,7 +25214,7 @@ extension SF.forward {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "forward.frame.fill", configuration: configuration)
             }
             
@@ -25228,7 +25228,7 @@ extension SF.forward {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "forward.frame.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25303,7 +25303,7 @@ extension SF.gift {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "gift.circle.fill", configuration: configuration)
             }
             
@@ -25317,7 +25317,7 @@ extension SF.gift {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "gift.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25391,7 +25391,7 @@ extension SF.guitars {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "guitars.fill", configuration: configuration)
         }
         
@@ -25405,7 +25405,7 @@ extension SF.guitars {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "guitars.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -25490,7 +25490,7 @@ extension SF.h.square.fill {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "h.square.fill.on.square.fill", configuration: configuration)
                 }
                 
@@ -25504,7 +25504,7 @@ extension SF.h.square.fill {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "h.square.fill.on.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -25582,7 +25582,7 @@ extension SF.hand {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.tap.fill", configuration: configuration)
             }
             
@@ -25596,7 +25596,7 @@ extension SF.hand {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.tap.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25667,7 +25667,7 @@ extension SF.hand {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.wave.fill", configuration: configuration)
             }
             
@@ -25681,7 +25681,7 @@ extension SF.hand {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.wave.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25756,7 +25756,7 @@ extension SF.hand.point {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.point.down.fill", configuration: configuration)
             }
             
@@ -25770,7 +25770,7 @@ extension SF.hand.point {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.point.down.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -25842,7 +25842,7 @@ extension SF.hand.point {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hand.point.up.braille.fill", configuration: configuration)
                 }
                 
@@ -25856,7 +25856,7 @@ extension SF.hand.point {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hand.point.up.braille.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -25926,7 +25926,7 @@ extension SF.hand.point {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.point.up.fill", configuration: configuration)
             }
             
@@ -25940,7 +25940,7 @@ extension SF.hand.point {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hand.point.up.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -26008,7 +26008,7 @@ extension SF.hand.point {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hand.point.up.left.fill", configuration: configuration)
                 }
                 
@@ -26022,7 +26022,7 @@ extension SF.hand.point {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hand.point.up.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -26100,7 +26100,7 @@ extension SF.headphones {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "headphones.circle.fill", configuration: configuration)
             }
             
@@ -26114,7 +26114,7 @@ extension SF.headphones {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "headphones.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -26190,7 +26190,7 @@ extension SF.heart {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "heart.text.square.fill", configuration: configuration)
                 }
                 
@@ -26204,7 +26204,7 @@ extension SF.heart {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "heart.text.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -26282,7 +26282,7 @@ extension SF.hifispeaker {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hifispeaker.2.fill", configuration: configuration)
             }
             
@@ -26296,7 +26296,7 @@ extension SF.hifispeaker {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hifispeaker.2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -26367,7 +26367,7 @@ extension SF.hifispeaker {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hifispeaker.2.fill", configuration: configuration)
             }
             
@@ -26381,7 +26381,7 @@ extension SF.hifispeaker {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hifispeaker.2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -26453,7 +26453,7 @@ extension SF.hifispeaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hifispeaker.and.homepod.fill", configuration: configuration)
                 }
                 
@@ -26467,7 +26467,7 @@ extension SF.hifispeaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "hifispeaker.and.homepod.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -26557,7 +26557,7 @@ extension SF.house {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "house.circle.fill", configuration: configuration)
             }
             
@@ -26571,7 +26571,7 @@ extension SF.house {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "house.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -26659,7 +26659,7 @@ extension SF.j.square.fill {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "j.square.fill.on.square.fill", configuration: configuration)
                 }
                 
@@ -26673,7 +26673,7 @@ extension SF.j.square.fill {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "j.square.fill.on.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -26788,7 +26788,7 @@ extension SF.l {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "l.joystick.down.fill", configuration: configuration)
                 }
                 
@@ -26802,7 +26802,7 @@ extension SF.l {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "l.joystick.down.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -26872,7 +26872,7 @@ extension SF.l {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "l.joystick.fill", configuration: configuration)
             }
             
@@ -26886,7 +26886,7 @@ extension SF.l {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "l.joystick.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -26958,7 +26958,7 @@ extension SF.l {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "l.rectangle.roundedbottom.fill", configuration: configuration)
                 }
                 
@@ -26972,7 +26972,7 @@ extension SF.l {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "l.rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -27057,7 +27057,7 @@ extension SF.leaf {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "leaf.fill", configuration: configuration)
         }
         
@@ -27071,7 +27071,7 @@ extension SF.leaf {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "leaf.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -27158,7 +27158,7 @@ extension SF.line {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "line.3.crossed.swirl.circle.fill", configuration: configuration)
                         }
                         
@@ -27172,7 +27172,7 @@ extension SF.line {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "line.3.crossed.swirl.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -27255,7 +27255,7 @@ extension SF.line {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "line.3.crossed.swirl.circle.fill", configuration: configuration)
                         }
                         
@@ -27269,7 +27269,7 @@ extension SF.line {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "line.3.crossed.swirl.circle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -27363,7 +27363,7 @@ extension SF.line.horizontal {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "line.horizontal.2.decrease.circle.fill", configuration: configuration)
                     }
                     
@@ -27377,7 +27377,7 @@ extension SF.line.horizontal {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "line.horizontal.2.decrease.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -27456,7 +27456,7 @@ extension SF.line.horizontal {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "line.horizontal.2.decrease.circle.fill", configuration: configuration)
                     }
                     
@@ -27470,7 +27470,7 @@ extension SF.line.horizontal {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "line.horizontal.2.decrease.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -27567,7 +27567,7 @@ extension SF.line.horizontal.x3 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "line.horizontal.3.circle.fill", configuration: configuration)
             }
             
@@ -27581,7 +27581,7 @@ extension SF.line.horizontal.x3 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "line.horizontal.3.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -27656,7 +27656,7 @@ extension SF.line.horizontal._3 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "line.horizontal.3.circle.fill", configuration: configuration)
             }
             
@@ -27670,7 +27670,7 @@ extension SF.line.horizontal._3 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "line.horizontal.3.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -27821,7 +27821,7 @@ extension SF.lock {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lock.doc.fill", configuration: configuration)
             }
             
@@ -27835,7 +27835,7 @@ extension SF.lock {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lock.doc.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -27906,7 +27906,7 @@ extension SF.lock {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lock.rectangle.fill", configuration: configuration)
             }
             
@@ -27920,7 +27920,7 @@ extension SF.lock {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lock.rectangle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -27989,7 +27989,7 @@ extension SF.lock {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "lock.rectangle.on.rectangle.fill", configuration: configuration)
                     }
                     
@@ -28003,7 +28003,7 @@ extension SF.lock {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "lock.rectangle.on.rectangle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -28077,7 +28077,7 @@ extension SF.lock {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "lock.rectangle.stack.fill", configuration: configuration)
                 }
                 
@@ -28091,7 +28091,7 @@ extension SF.lock {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "lock.rectangle.stack.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -28165,7 +28165,7 @@ extension SF.lock {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lock.square.fill", configuration: configuration)
             }
             
@@ -28179,7 +28179,7 @@ extension SF.lock {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lock.square.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -28247,7 +28247,7 @@ extension SF.lock {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "lock.square.stack.fill", configuration: configuration)
                 }
                 
@@ -28261,7 +28261,7 @@ extension SF.lock {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "lock.square.stack.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -28362,7 +28362,7 @@ extension SF.metronome {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "metronome.fill", configuration: configuration)
         }
         
@@ -28376,7 +28376,7 @@ extension SF.metronome {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "metronome.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -28448,7 +28448,7 @@ extension SF.minus {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "minus.diamond.fill", configuration: configuration)
             }
             
@@ -28462,7 +28462,7 @@ extension SF.minus {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "minus.diamond.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -28534,7 +28534,7 @@ extension SF.minus {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "minus.plus.batteryblock.fill", configuration: configuration)
                 }
                 
@@ -28548,7 +28548,7 @@ extension SF.minus {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "minus.plus.batteryblock.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -28626,7 +28626,7 @@ extension SF.minus.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "minus.rectangle.portrait.fill", configuration: configuration)
             }
             
@@ -28640,7 +28640,7 @@ extension SF.minus.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "minus.rectangle.portrait.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -28731,7 +28731,7 @@ extension SF.music.note {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "music.note.house.fill", configuration: configuration)
             }
             
@@ -28745,7 +28745,7 @@ extension SF.music.note {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "music.note.house.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -28820,7 +28820,7 @@ extension SF.paintbrush {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paintbrush.pointed.fill", configuration: configuration)
             }
             
@@ -28834,7 +28834,7 @@ extension SF.paintbrush {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paintbrush.pointed.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -28921,7 +28921,7 @@ extension SF.paperplane {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paperplane.circle.fill", configuration: configuration)
             }
             
@@ -28935,7 +28935,7 @@ extension SF.paperplane {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "paperplane.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29058,7 +29058,7 @@ extension SF.person.x2 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.circle.fill", configuration: configuration)
             }
             
@@ -29072,7 +29072,7 @@ extension SF.person.x2 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29147,7 +29147,7 @@ extension SF.person._2 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.circle.fill", configuration: configuration)
             }
             
@@ -29161,7 +29161,7 @@ extension SF.person._2 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "person.2.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29373,7 +29373,7 @@ extension SF.phone {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "phone.bubble.left.fill", configuration: configuration)
                 }
                 
@@ -29387,7 +29387,7 @@ extension SF.phone {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "phone.bubble.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -29485,7 +29485,7 @@ extension SF.play {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "play.slash.fill", configuration: configuration)
             }
             
@@ -29499,7 +29499,7 @@ extension SF.play {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "play.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29574,7 +29574,7 @@ extension SF.plus {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.diamond.fill", configuration: configuration)
             }
             
@@ -29588,7 +29588,7 @@ extension SF.plus {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.diamond.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29659,7 +29659,7 @@ extension SF.plus {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.message.fill", configuration: configuration)
             }
             
@@ -29673,7 +29673,7 @@ extension SF.plus {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.message.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29752,7 +29752,7 @@ extension SF.plus.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.rectangle.portrait.fill", configuration: configuration)
             }
             
@@ -29766,7 +29766,7 @@ extension SF.plus.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.rectangle.portrait.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29841,7 +29841,7 @@ extension SF.plus.rectangle.fill.on {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.rectangle.fill.on.folder.fill", configuration: configuration)
             }
             
@@ -29855,7 +29855,7 @@ extension SF.plus.rectangle.fill.on {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "plus.rectangle.fill.on.folder.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -29941,7 +29941,7 @@ extension SF.printer {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "printer.dotmatrix.fill.and.paper.fill", configuration: configuration)
                         }
                         
@@ -29955,7 +29955,7 @@ extension SF.printer {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "printer.dotmatrix.fill.and.paper.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -30027,7 +30027,7 @@ extension SF.printer {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "printer.dotmatrix.fill", configuration: configuration)
             }
             
@@ -30041,7 +30041,7 @@ extension SF.printer {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "printer.dotmatrix.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -30117,7 +30117,7 @@ extension SF.printer.fill {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "printer.fill.and.paper.fill", configuration: configuration)
                 }
                 
@@ -30131,7 +30131,7 @@ extension SF.printer.fill {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "printer.fill.and.paper.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -30221,7 +30221,7 @@ extension SF.questionmark {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "questionmark.folder.fill", configuration: configuration)
             }
             
@@ -30235,7 +30235,7 @@ extension SF.questionmark {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "questionmark.folder.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -30399,7 +30399,7 @@ extension SF.r {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "r.joystick.down.fill", configuration: configuration)
                 }
                 
@@ -30413,7 +30413,7 @@ extension SF.r {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "r.joystick.down.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -30483,7 +30483,7 @@ extension SF.r {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "r.joystick.fill", configuration: configuration)
             }
             
@@ -30497,7 +30497,7 @@ extension SF.r {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "r.joystick.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -30569,7 +30569,7 @@ extension SF.r {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "r.rectangle.roundedbottom.fill", configuration: configuration)
                 }
                 
@@ -30583,7 +30583,7 @@ extension SF.r {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "r.rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -30674,7 +30674,7 @@ extension SF.r.square.fill {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "r.square.fill.on.square.fill", configuration: configuration)
                 }
                 
@@ -30688,7 +30688,7 @@ extension SF.r.square.fill {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "r.square.fill.on.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -30795,7 +30795,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.bottomthird.inset.fill", configuration: configuration)
                 }
                 
@@ -30809,7 +30809,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.bottomthird.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -30884,7 +30884,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.center.inset.fill", configuration: configuration)
                 }
                 
@@ -30898,7 +30898,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.center.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31009,7 +31009,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.bottomleft.fill", configuration: configuration)
                 }
                 
@@ -31023,7 +31023,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.bottomleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31094,7 +31094,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.bottomright.fill", configuration: configuration)
                 }
                 
@@ -31108,7 +31108,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.bottomright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31178,7 +31178,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.inset.fill", configuration: configuration)
             }
             
@@ -31192,7 +31192,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.inset.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -31260,7 +31260,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.topleft.fill", configuration: configuration)
                 }
                 
@@ -31274,7 +31274,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.topleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31345,7 +31345,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.topright.fill", configuration: configuration)
                 }
                 
@@ -31359,7 +31359,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.inset.topright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31433,7 +31433,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.lefthalf.fill", configuration: configuration)
             }
             
@@ -31447,7 +31447,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.lefthalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -31523,7 +31523,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.lefthalf.inset.fill", configuration: configuration)
                 }
                 
@@ -31537,7 +31537,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.lefthalf.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31612,7 +31612,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.leftthird.inset.fill", configuration: configuration)
                 }
                 
@@ -31626,7 +31626,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.leftthird.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31728,7 +31728,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.portrait.fill", configuration: configuration)
             }
             
@@ -31742,7 +31742,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.portrait.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -31813,7 +31813,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.righthalf.fill", configuration: configuration)
             }
             
@@ -31827,7 +31827,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.righthalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -31903,7 +31903,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.righthalf.inset.fill", configuration: configuration)
                 }
                 
@@ -31917,7 +31917,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.righthalf.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -31992,7 +31992,7 @@ extension SF.rectangle {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.rightthird.inset.fill", configuration: configuration)
                 }
                 
@@ -32006,7 +32006,7 @@ extension SF.rectangle {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.rightthird.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -32080,7 +32080,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.roundedbottom.fill", configuration: configuration)
             }
             
@@ -32094,7 +32094,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.roundedbottom.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32165,7 +32165,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.roundedtop.fill", configuration: configuration)
             }
             
@@ -32179,7 +32179,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.roundedtop.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32250,7 +32250,7 @@ extension SF.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.slash.fill", configuration: configuration)
             }
             
@@ -32264,7 +32264,7 @@ extension SF.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32340,7 +32340,7 @@ extension SF.rectangle.x3.offgrid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.3.offgrid.bubble.left.fill", configuration: configuration)
                 }
                 
@@ -32354,7 +32354,7 @@ extension SF.rectangle.x3.offgrid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.3.offgrid.bubble.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -32433,7 +32433,7 @@ extension SF.rectangle._3.offgrid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.3.offgrid.bubble.left.fill", configuration: configuration)
                 }
                 
@@ -32447,7 +32447,7 @@ extension SF.rectangle._3.offgrid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "rectangle.3.offgrid.bubble.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -32581,7 +32581,7 @@ extension SF.rectangle.fill.on.rectangle.fill {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.fill.on.rectangle.fill.circle.fill", configuration: configuration)
             }
             
@@ -32595,7 +32595,7 @@ extension SF.rectangle.fill.on.rectangle.fill {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.fill.on.rectangle.fill.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32666,7 +32666,7 @@ extension SF.rectangle.fill.on.rectangle.fill {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.fill.on.rectangle.fill.slash.fill", configuration: configuration)
             }
             
@@ -32680,7 +32680,7 @@ extension SF.rectangle.fill.on.rectangle.fill {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.fill.on.rectangle.fill.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32763,7 +32763,7 @@ extension SF.rectangle.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.1x2.fill", configuration: configuration)
             }
             
@@ -32777,7 +32777,7 @@ extension SF.rectangle.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.1x2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32848,7 +32848,7 @@ extension SF.rectangle.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.1x2.fill", configuration: configuration)
             }
             
@@ -32862,7 +32862,7 @@ extension SF.rectangle.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.1x2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -32933,7 +32933,7 @@ extension SF.rectangle.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x1.fill", configuration: configuration)
             }
             
@@ -32947,7 +32947,7 @@ extension SF.rectangle.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x1.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -33018,7 +33018,7 @@ extension SF.rectangle.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x1.fill", configuration: configuration)
             }
             
@@ -33032,7 +33032,7 @@ extension SF.rectangle.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x1.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -33103,7 +33103,7 @@ extension SF.rectangle.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x2.fill", configuration: configuration)
             }
             
@@ -33117,7 +33117,7 @@ extension SF.rectangle.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -33188,7 +33188,7 @@ extension SF.rectangle.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x2.fill", configuration: configuration)
             }
             
@@ -33202,7 +33202,7 @@ extension SF.rectangle.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "rectangle.split.2x2.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -33386,7 +33386,7 @@ extension SF.sparkles {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "sparkles.rectangle.stack.fill", configuration: configuration)
                 }
                 
@@ -33400,7 +33400,7 @@ extension SF.sparkles {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "sparkles.rectangle.stack.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -33495,7 +33495,7 @@ extension SF.speaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.1.fill", configuration: configuration)
                 }
                 
@@ -33509,7 +33509,7 @@ extension SF.speaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.1.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -33580,7 +33580,7 @@ extension SF.speaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.1.fill", configuration: configuration)
                 }
                 
@@ -33594,7 +33594,7 @@ extension SF.speaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.1.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -33666,7 +33666,7 @@ extension SF.speaker {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "speaker.wave.2.circle.fill", configuration: configuration)
                     }
                     
@@ -33680,7 +33680,7 @@ extension SF.speaker {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "speaker.wave.2.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -33750,7 +33750,7 @@ extension SF.speaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.2.fill", configuration: configuration)
                 }
                 
@@ -33764,7 +33764,7 @@ extension SF.speaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -33836,7 +33836,7 @@ extension SF.speaker {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "speaker.wave.2.circle.fill", configuration: configuration)
                     }
                     
@@ -33850,7 +33850,7 @@ extension SF.speaker {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "speaker.wave.2.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -33920,7 +33920,7 @@ extension SF.speaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.2.fill", configuration: configuration)
                 }
                 
@@ -33934,7 +33934,7 @@ extension SF.speaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -34005,7 +34005,7 @@ extension SF.speaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.3.fill", configuration: configuration)
                 }
                 
@@ -34019,7 +34019,7 @@ extension SF.speaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.3.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -34090,7 +34090,7 @@ extension SF.speaker {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.3.fill", configuration: configuration)
                 }
                 
@@ -34104,7 +34104,7 @@ extension SF.speaker {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "speaker.wave.3.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -34186,7 +34186,7 @@ extension SF.speaker.slash {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "speaker.slash.circle.fill", configuration: configuration)
             }
             
@@ -34200,7 +34200,7 @@ extension SF.speaker.slash {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "speaker.slash.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -34282,7 +34282,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -34296,7 +34296,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34367,7 +34367,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -34381,7 +34381,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34456,7 +34456,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -34470,7 +34470,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34541,7 +34541,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -34555,7 +34555,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34638,7 +34638,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -34652,7 +34652,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34723,7 +34723,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -34737,7 +34737,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34812,7 +34812,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -34826,7 +34826,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34897,7 +34897,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -34911,7 +34911,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.2.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -34994,7 +34994,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -35008,7 +35008,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35079,7 +35079,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", configuration: configuration)
                         }
                         
@@ -35093,7 +35093,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35164,7 +35164,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -35178,7 +35178,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35253,7 +35253,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -35267,7 +35267,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35338,7 +35338,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", configuration: configuration)
                         }
                         
@@ -35352,7 +35352,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35423,7 +35423,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -35437,7 +35437,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35520,7 +35520,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -35534,7 +35534,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35605,7 +35605,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", configuration: configuration)
                         }
                         
@@ -35619,7 +35619,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35690,7 +35690,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -35704,7 +35704,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35779,7 +35779,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", configuration: configuration)
                         }
                         
@@ -35793,7 +35793,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.bottom.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35864,7 +35864,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", configuration: configuration)
                         }
                         
@@ -35878,7 +35878,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.middle.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -35949,7 +35949,7 @@ extension SF.square {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", configuration: configuration)
                         }
                         
@@ -35963,7 +35963,7 @@ extension SF.square {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "square.3.stack.3d.top.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -36043,7 +36043,7 @@ extension SF.square {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.bottomhalf.fill", configuration: configuration)
             }
             
@@ -36057,7 +36057,7 @@ extension SF.square {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.bottomhalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -36128,7 +36128,7 @@ extension SF.square {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.circle.fill", configuration: configuration)
             }
             
@@ -36142,7 +36142,7 @@ extension SF.square {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -36214,7 +36214,7 @@ extension SF.square {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.dashed.inset.fill", configuration: configuration)
                 }
                 
@@ -36228,7 +36228,7 @@ extension SF.square {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.dashed.inset.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -36302,7 +36302,7 @@ extension SF.square {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.slash.fill", configuration: configuration)
             }
             
@@ -36316,7 +36316,7 @@ extension SF.square {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -36387,7 +36387,7 @@ extension SF.square {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.tophalf.fill", configuration: configuration)
             }
             
@@ -36401,7 +36401,7 @@ extension SF.square {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.tophalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -36653,7 +36653,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomleft.fill", configuration: configuration)
                 }
                 
@@ -36667,7 +36667,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -36738,7 +36738,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottommiddle.fill", configuration: configuration)
                 }
                 
@@ -36752,7 +36752,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottommiddle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -36823,7 +36823,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomright.fill", configuration: configuration)
                 }
                 
@@ -36837,7 +36837,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -36911,7 +36911,7 @@ extension SF.square.grid {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.grid.3x3.fill", configuration: configuration)
             }
             
@@ -36925,7 +36925,7 @@ extension SF.square.grid {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.grid.3x3.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -36993,7 +36993,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middle.fill", configuration: configuration)
                 }
                 
@@ -37007,7 +37007,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37078,7 +37078,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleleft.fill", configuration: configuration)
                 }
                 
@@ -37092,7 +37092,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37163,7 +37163,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleright.fill", configuration: configuration)
                 }
                 
@@ -37177,7 +37177,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37248,7 +37248,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topleft.fill", configuration: configuration)
                 }
                 
@@ -37262,7 +37262,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37333,7 +37333,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topmiddle.fill", configuration: configuration)
                 }
                 
@@ -37347,7 +37347,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topmiddle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37418,7 +37418,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topright.fill", configuration: configuration)
                 }
                 
@@ -37432,7 +37432,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37507,7 +37507,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomleft.fill", configuration: configuration)
                 }
                 
@@ -37521,7 +37521,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37592,7 +37592,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottommiddle.fill", configuration: configuration)
                 }
                 
@@ -37606,7 +37606,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottommiddle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37677,7 +37677,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomright.fill", configuration: configuration)
                 }
                 
@@ -37691,7 +37691,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.bottomright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37765,7 +37765,7 @@ extension SF.square.grid {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.grid.3x3.fill", configuration: configuration)
             }
             
@@ -37779,7 +37779,7 @@ extension SF.square.grid {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.grid.3x3.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -37847,7 +37847,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middle.fill", configuration: configuration)
                 }
                 
@@ -37861,7 +37861,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -37932,7 +37932,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleleft.fill", configuration: configuration)
                 }
                 
@@ -37946,7 +37946,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38017,7 +38017,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleright.fill", configuration: configuration)
                 }
                 
@@ -38031,7 +38031,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.middleright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38102,7 +38102,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topleft.fill", configuration: configuration)
                 }
                 
@@ -38116,7 +38116,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topleft.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38187,7 +38187,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topmiddle.fill", configuration: configuration)
                 }
                 
@@ -38201,7 +38201,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topmiddle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38272,7 +38272,7 @@ extension SF.square.grid {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topright.fill", configuration: configuration)
                 }
                 
@@ -38286,7 +38286,7 @@ extension SF.square.grid {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.grid.3x3.topright.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38380,7 +38380,7 @@ extension SF.square.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.split.bottomrightquarter.fill", configuration: configuration)
             }
             
@@ -38394,7 +38394,7 @@ extension SF.square.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.split.bottomrightquarter.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -38466,7 +38466,7 @@ extension SF.square.split {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.split.diagonal.2x2.fill", configuration: configuration)
                 }
                 
@@ -38480,7 +38480,7 @@ extension SF.square.split {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.split.diagonal.2x2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38551,7 +38551,7 @@ extension SF.square.split {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.split.diagonal.2x2.fill", configuration: configuration)
                 }
                 
@@ -38565,7 +38565,7 @@ extension SF.square.split {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.split.diagonal.2x2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38635,7 +38635,7 @@ extension SF.square.split {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.split.diagonal.fill", configuration: configuration)
             }
             
@@ -38649,7 +38649,7 @@ extension SF.square.split {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.split.diagonal.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -38725,7 +38725,7 @@ extension SF.square.stack.x3d {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.forward.dottedline.fill", configuration: configuration)
                 }
                 
@@ -38739,7 +38739,7 @@ extension SF.square.stack.x3d {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.forward.dottedline.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -38817,7 +38817,7 @@ extension SF.square.stack.x3d.down {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.stack.3d.down.forward.fill", configuration: configuration)
             }
             
@@ -38831,7 +38831,7 @@ extension SF.square.stack.x3d.down {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.stack.3d.down.forward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -38907,7 +38907,7 @@ extension SF.square.stack.x3d.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.up.badge.a.fill", configuration: configuration)
                 }
                 
@@ -38921,7 +38921,7 @@ extension SF.square.stack.x3d.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.up.badge.a.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -39000,7 +39000,7 @@ extension SF.square.stack._3d {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.forward.dottedline.fill", configuration: configuration)
                 }
                 
@@ -39014,7 +39014,7 @@ extension SF.square.stack._3d {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.forward.dottedline.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -39092,7 +39092,7 @@ extension SF.square.stack._3d.down {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.stack.3d.down.forward.fill", configuration: configuration)
             }
             
@@ -39106,7 +39106,7 @@ extension SF.square.stack._3d.down {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "square.stack.3d.down.forward.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -39182,7 +39182,7 @@ extension SF.square.stack._3d.up {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.up.badge.a.fill", configuration: configuration)
                 }
                 
@@ -39196,7 +39196,7 @@ extension SF.square.stack._3d.up {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "square.stack.3d.up.badge.a.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -39274,7 +39274,7 @@ extension SF.star {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "star.leadinghalf.fill", configuration: configuration)
             }
             
@@ -39288,7 +39288,7 @@ extension SF.star {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "star.leadinghalf.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -39359,7 +39359,7 @@ extension SF.star {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "star.square.fill", configuration: configuration)
             }
             
@@ -39373,7 +39373,7 @@ extension SF.star {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "star.square.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -39448,7 +39448,7 @@ extension SF.staroflife {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "staroflife.circle.fill", configuration: configuration)
             }
             
@@ -39462,7 +39462,7 @@ extension SF.staroflife {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "staroflife.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -39569,7 +39569,7 @@ extension SF.tag {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tag.slash.fill", configuration: configuration)
             }
             
@@ -39583,7 +39583,7 @@ extension SF.tag {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tag.slash.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -39658,7 +39658,7 @@ extension SF.teletype {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "teletype.circle.fill", configuration: configuration)
             }
             
@@ -39672,7 +39672,7 @@ extension SF.teletype {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "teletype.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -39760,7 +39760,7 @@ extension SF.text {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "text.below.photo.fill", configuration: configuration)
                 }
                 
@@ -39774,7 +39774,7 @@ extension SF.text {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "text.below.photo.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -39849,7 +39849,7 @@ extension SF.text {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "text.book.closed.fill", configuration: configuration)
                 }
                 
@@ -39863,7 +39863,7 @@ extension SF.text {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "text.book.closed.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -40064,7 +40064,7 @@ extension SF.thermometer.sun {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "thermometer.sun.fill", configuration: configuration)
         }
         
@@ -40078,7 +40078,7 @@ extension SF.thermometer.sun {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "thermometer.sun.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -40158,7 +40158,7 @@ extension SF.tram {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tram.circle.fill", configuration: configuration)
             }
             
@@ -40172,7 +40172,7 @@ extension SF.tram {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tram.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -40243,7 +40243,7 @@ extension SF.tram {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tram.tunnel.fill", configuration: configuration)
             }
             
@@ -40257,7 +40257,7 @@ extension SF.tram {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tram.tunnel.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -40332,7 +40332,7 @@ extension SF.tray {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tray.circle.fill", configuration: configuration)
             }
             
@@ -40346,7 +40346,7 @@ extension SF.tray {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tray.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -40421,7 +40421,7 @@ extension SF.triangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "triangle.circle.fill", configuration: configuration)
             }
             
@@ -40435,7 +40435,7 @@ extension SF.triangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "triangle.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -40511,7 +40511,7 @@ extension SF.tv {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "tv.and.hifispeaker.fill", configuration: configuration)
                 }
                 
@@ -40525,7 +40525,7 @@ extension SF.tv {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "tv.and.hifispeaker.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -40604,7 +40604,7 @@ extension SF.video {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "video.bubble.left.fill", configuration: configuration)
                 }
                 
@@ -40618,7 +40618,7 @@ extension SF.video {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "video.bubble.left.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -40720,7 +40720,7 @@ extension SF.waveform.path.ecg {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "waveform.path.ecg.rectangle.fill", configuration: configuration)
             }
             
@@ -40734,7 +40734,7 @@ extension SF.waveform.path.ecg {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "waveform.path.ecg.rectangle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -40810,7 +40810,7 @@ extension SF.wrench {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "wrench.and.screwdriver.fill", configuration: configuration)
                 }
                 
@@ -40824,7 +40824,7 @@ extension SF.wrench {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "wrench.and.screwdriver.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -40903,7 +40903,7 @@ extension SF.xmark {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "xmark.bin.circle.fill", configuration: configuration)
                 }
                 
@@ -40917,7 +40917,7 @@ extension SF.xmark {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "xmark.bin.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -40987,7 +40987,7 @@ extension SF.xmark {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "xmark.bin.fill", configuration: configuration)
             }
             
@@ -41001,7 +41001,7 @@ extension SF.xmark {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "xmark.bin.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -41072,7 +41072,7 @@ extension SF.xmark {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "xmark.diamond.fill", configuration: configuration)
             }
             
@@ -41086,7 +41086,7 @@ extension SF.xmark {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "xmark.diamond.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -41161,7 +41161,7 @@ extension SF.xmark.rectangle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "xmark.rectangle.portrait.fill", configuration: configuration)
             }
             
@@ -41175,7 +41175,7 @@ extension SF.xmark.rectangle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "xmark.rectangle.portrait.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -41267,7 +41267,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "brazilianrealsign.circle.fill", configuration: configuration)
                 }
                 
@@ -41281,7 +41281,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "brazilianrealsign.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -41352,7 +41352,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "brazilianrealsign.square.fill", configuration: configuration)
                 }
                 
@@ -41366,7 +41366,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "brazilianrealsign.square.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -41482,7 +41482,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "character.book.closed.fill", configuration: configuration)
                     }
                     
@@ -41496,7 +41496,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "character.book.closed.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -41641,7 +41641,7 @@ extension SF.cart {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cart.circle.fill", configuration: configuration)
             }
             
@@ -41655,7 +41655,7 @@ extension SF.cart {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cart.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -41774,7 +41774,7 @@ extension SF.infinity {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "infinity.circle.fill", configuration: configuration)
             }
             
@@ -41788,7 +41788,7 @@ extension SF.infinity {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "infinity.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -41967,7 +41967,7 @@ extension SF.play {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "play.tv.fill", configuration: configuration)
             }
             
@@ -41981,7 +41981,7 @@ extension SF.play {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "play.tv.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -42092,7 +42092,7 @@ extension SF.`repeat` {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "repeat.circle.fill", configuration: configuration)
             }
             
@@ -42106,7 +42106,7 @@ extension SF.`repeat` {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "repeat.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -42181,7 +42181,7 @@ extension SF.`repeat`.x1 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "repeat.1.circle.fill", configuration: configuration)
             }
             
@@ -42195,7 +42195,7 @@ extension SF.`repeat`.x1 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "repeat.1.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -42270,7 +42270,7 @@ extension SF.`repeat`._1 {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "repeat.1.circle.fill", configuration: configuration)
             }
             
@@ -42284,7 +42284,7 @@ extension SF.`repeat`._1 {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "repeat.1.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -42367,7 +42367,7 @@ extension SF.shuffle {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "shuffle.circle.fill", configuration: configuration)
             }
             
@@ -42381,7 +42381,7 @@ extension SF.shuffle {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "shuffle.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -42681,7 +42681,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepodmini.2.fill", configuration: configuration)
                 }
                 
@@ -42695,7 +42695,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepodmini.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -42766,7 +42766,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepodmini.2.fill", configuration: configuration)
                 }
                 
@@ -42780,7 +42780,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepodmini.2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -42850,7 +42850,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "homepodmini.fill", configuration: configuration)
             }
             
@@ -42864,7 +42864,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "homepodmini.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -42963,7 +42963,7 @@ extension SF.character {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "character.bubble.fill", configuration: configuration)
             }
             
@@ -42977,7 +42977,7 @@ extension SF.character {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "character.bubble.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -43132,7 +43132,7 @@ extension SF.hifispeaker.and {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hifispeaker.and.homepodmini.fill", configuration: configuration)
             }
             
@@ -43146,7 +43146,7 @@ extension SF.hifispeaker.and {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "hifispeaker.and.homepodmini.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -43222,7 +43222,7 @@ extension SF.homepod {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepod.and.homepodmini.fill", configuration: configuration)
                 }
                 
@@ -43236,7 +43236,7 @@ extension SF.homepod {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "homepod.and.homepodmini.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -43313,7 +43313,7 @@ extension SF.rectangle.topthird.inset {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "rectangle.topthird.inset.fill", configuration: configuration)
         }
         
@@ -43327,7 +43327,7 @@ extension SF.rectangle.topthird.inset {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "rectangle.topthird.inset.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -43412,7 +43412,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "123.rectangle.fill", configuration: configuration)
                 }
                 
@@ -43426,7 +43426,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "123.rectangle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -43517,7 +43517,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "123.rectangle.fill", configuration: configuration)
                 }
                 
@@ -43531,7 +43531,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "123.rectangle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -43609,7 +43609,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airtag.fill", configuration: configuration)
             }
             
@@ -43623,7 +43623,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airtag.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -43696,7 +43696,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "airtag.radiowaves.forward.fill", configuration: configuration)
                     }
                     
@@ -43710,7 +43710,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "airtag.radiowaves.forward.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -43793,7 +43793,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.horizontal.center.fill", configuration: configuration)
                     }
                     
@@ -43807,7 +43807,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.horizontal.center.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -43878,7 +43878,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.horizontal.left.fill", configuration: configuration)
                     }
                     
@@ -43892,7 +43892,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.horizontal.left.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -43963,7 +43963,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.horizontal.right.fill", configuration: configuration)
                     }
                     
@@ -43977,7 +43977,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.horizontal.right.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -44052,7 +44052,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.vertical.bottom.fill", configuration: configuration)
                     }
                     
@@ -44066,7 +44066,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.vertical.bottom.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -44137,7 +44137,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.vertical.center.fill", configuration: configuration)
                     }
                     
@@ -44151,7 +44151,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.vertical.center.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -44222,7 +44222,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.vertical.top.fill", configuration: configuration)
                     }
                     
@@ -44236,7 +44236,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "align.vertical.top.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -44326,7 +44326,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen1.fill", configuration: configuration)
                 }
                 
@@ -44340,7 +44340,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen1.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -44411,7 +44411,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen2.fill", configuration: configuration)
                 }
                 
@@ -44425,7 +44425,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen2.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -44496,7 +44496,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen3.fill", configuration: configuration)
                 }
                 
@@ -44510,7 +44510,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen3.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -44581,7 +44581,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen4.fill", configuration: configuration)
                 }
                 
@@ -44595,7 +44595,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "appletvremote.gen4.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -44687,7 +44687,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "beats.powerbeatspro.chargingcase.fill", configuration: configuration)
                     }
                     
@@ -44701,7 +44701,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "beats.powerbeatspro.chargingcase.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -44796,7 +44796,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "beats.studiobuds.chargingcase.fill", configuration: configuration)
                     }
                     
@@ -44810,7 +44810,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "beats.studiobuds.chargingcase.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -44911,7 +44911,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cablecar.fill", configuration: configuration)
             }
             
@@ -44925,7 +44925,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "cablecar.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -45004,7 +45004,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "computermouse.fill", configuration: configuration)
             }
             
@@ -45018,7 +45018,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "computermouse.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -45091,7 +45091,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "cup.and.saucer.fill", configuration: configuration)
                     }
                     
@@ -45105,7 +45105,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "cup.and.saucer.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -45182,7 +45182,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dice.fill", configuration: configuration)
             }
             
@@ -45196,7 +45196,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "dice.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -45269,7 +45269,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "digitalcrown.arrow.clockwise.fill", configuration: configuration)
                     }
                     
@@ -45283,7 +45283,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "digitalcrown.arrow.clockwise.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -45354,7 +45354,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "digitalcrown.arrow.counterclockwise.fill", configuration: configuration)
                     }
                     
@@ -45368,7 +45368,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "digitalcrown.arrow.counterclockwise.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -45444,7 +45444,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "digitalcrown.horizontal.arrow.clockwise.fill", configuration: configuration)
                         }
                         
@@ -45458,7 +45458,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "digitalcrown.horizontal.arrow.clockwise.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -45529,7 +45529,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "digitalcrown.horizontal.arrow.counterclockwise.fill", configuration: configuration)
                         }
                         
@@ -45543,7 +45543,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "digitalcrown.horizontal.arrow.counterclockwise.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -45617,7 +45617,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "digitalcrown.horizontal.press.fill", configuration: configuration)
                     }
                     
@@ -45631,7 +45631,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "digitalcrown.horizontal.press.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -45705,7 +45705,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "digitalcrown.press.fill", configuration: configuration)
                 }
                 
@@ -45719,7 +45719,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "digitalcrown.press.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -45794,7 +45794,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "earbuds.case.fill", configuration: configuration)
                 }
                 
@@ -45808,7 +45808,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "earbuds.case.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -45882,7 +45882,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "facemask.fill", configuration: configuration)
             }
             
@@ -45896,7 +45896,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "facemask.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -45967,7 +45967,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "fanblades.fill", configuration: configuration)
             }
             
@@ -45981,7 +45981,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "fanblades.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46052,7 +46052,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ferry.fill", configuration: configuration)
             }
             
@@ -46066,7 +46066,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "ferry.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46143,7 +46143,7 @@ extension SF {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "fork.knife.circle.fill", configuration: configuration)
                     }
                     
@@ -46157,7 +46157,7 @@ extension SF {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "fork.knife.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -46235,7 +46235,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "fuelpump.circle.fill", configuration: configuration)
                 }
                 
@@ -46249,7 +46249,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "fuelpump.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -46319,7 +46319,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "fuelpump.fill", configuration: configuration)
             }
             
@@ -46333,7 +46333,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "fuelpump.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46412,7 +46412,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "humidity.fill", configuration: configuration)
             }
             
@@ -46426,7 +46426,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "humidity.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46498,7 +46498,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "ivfluid.bag.fill", configuration: configuration)
                 }
                 
@@ -46512,7 +46512,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "ivfluid.bag.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -46586,7 +46586,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lanyardcard.fill", configuration: configuration)
             }
             
@@ -46600,7 +46600,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "lanyardcard.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46695,7 +46695,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "magazine.fill", configuration: configuration)
             }
             
@@ -46709,7 +46709,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "magazine.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46780,7 +46780,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "magicmouse.fill", configuration: configuration)
             }
             
@@ -46794,7 +46794,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "magicmouse.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -46866,7 +46866,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "magsafe.batterypack.fill", configuration: configuration)
                 }
                 
@@ -46880,7 +46880,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "magsafe.batterypack.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -46958,7 +46958,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "menucard.fill", configuration: configuration)
             }
             
@@ -46972,7 +46972,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "menucard.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -47048,7 +47048,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "parkingsign.circle.fill", configuration: configuration)
                 }
                 
@@ -47062,7 +47062,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "parkingsign.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -47137,7 +47137,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "pawprint.circle.fill", configuration: configuration)
                 }
                 
@@ -47151,7 +47151,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "pawprint.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -47221,7 +47221,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pawprint.fill", configuration: configuration)
             }
             
@@ -47235,7 +47235,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pawprint.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -47318,7 +47318,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pentagon.fill", configuration: configuration)
             }
             
@@ -47332,7 +47332,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "pentagon.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -47531,7 +47531,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "powerplug.fill", configuration: configuration)
             }
             
@@ -47545,7 +47545,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "powerplug.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -47620,7 +47620,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "screwdriver.fill", configuration: configuration)
             }
             
@@ -47634,7 +47634,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "screwdriver.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -47708,7 +47708,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "sensor.tag.radiowaves.forward.fill", configuration: configuration)
                         }
                         
@@ -47722,7 +47722,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "sensor.tag.radiowaves.forward.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -47811,7 +47811,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "snowflake.circle.fill", configuration: configuration)
                 }
                 
@@ -47825,7 +47825,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "snowflake.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -47900,7 +47900,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "suitcase.cart.fill", configuration: configuration)
                 }
                 
@@ -47914,7 +47914,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "suitcase.cart.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -47984,7 +47984,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "suitcase.fill", configuration: configuration)
             }
             
@@ -47998,7 +47998,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "suitcase.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -48073,7 +48073,7 @@ extension SF {
                             ///
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(macOS, unavailable)
-                            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "takeoutbag.and.cup.and.straw.fill", configuration: configuration)
                             }
                             
@@ -48087,7 +48087,7 @@ extension SF {
                             ///- Returns: The object containing the image variant that matches the specified configuration data.
                             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                             @available(macOS, unavailable)
-                            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                                 SFSymbolReference.image(name: "takeoutbag.and.cup.and.straw.fill", variableValue: variableValue, configuration: configuration)
                             }
                             
@@ -48183,7 +48183,7 @@ extension SF {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "theatermasks.circle.fill", configuration: configuration)
                 }
                 
@@ -48197,7 +48197,7 @@ extension SF {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "theatermasks.circle.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -48267,7 +48267,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "theatermasks.fill", configuration: configuration)
             }
             
@@ -48281,7 +48281,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "theatermasks.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -48387,7 +48387,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "trapezoid.and.line.horizontal.fill", configuration: configuration)
                         }
                         
@@ -48401,7 +48401,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "trapezoid.and.line.horizontal.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -48472,7 +48472,7 @@ extension SF {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "trapezoid.and.line.vertical.fill", configuration: configuration)
                         }
                         
@@ -48486,7 +48486,7 @@ extension SF {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "trapezoid.and.line.vertical.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -48566,7 +48566,7 @@ extension SF {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tshirt.fill", configuration: configuration)
             }
             
@@ -48580,7 +48580,7 @@ extension SF {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "tshirt.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -48703,7 +48703,7 @@ extension SF.airplayaudio {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airplayaudio.circle.fill", configuration: configuration)
             }
             
@@ -48717,7 +48717,7 @@ extension SF.airplayaudio {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airplayaudio.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -48800,7 +48800,7 @@ extension SF.airplayvideo {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airplayvideo.circle.fill", configuration: configuration)
             }
             
@@ -48814,7 +48814,7 @@ extension SF.airplayvideo {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airplayvideo.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -48889,7 +48889,7 @@ extension SF.airpods {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airpods.chargingcase.fill", configuration: configuration)
             }
             
@@ -48903,7 +48903,7 @@ extension SF.airpods {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "airpods.chargingcase.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -48971,7 +48971,7 @@ extension SF.airpods {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "airpods.chargingcase.wireless.fill", configuration: configuration)
                 }
                 
@@ -48985,7 +48985,7 @@ extension SF.airpods {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "airpods.chargingcase.wireless.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -49064,7 +49064,7 @@ extension SF.airpodspro {
                 ///
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(macOS, unavailable)
-                public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "airpodspro.chargingcase.wireless.fill", configuration: configuration)
                 }
                 
@@ -49078,7 +49078,7 @@ extension SF.airpodspro {
                 ///- Returns: The object containing the image variant that matches the specified configuration data.
                 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                 @available(macOS, unavailable)
-                public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                     SFSymbolReference.image(name: "airpodspro.chargingcase.wireless.fill", variableValue: variableValue, configuration: configuration)
                 }
                 
@@ -49156,7 +49156,7 @@ extension SF.antenna.radiowaves.left.and.right {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "antenna.radiowaves.left.and.right.circle.fill", configuration: configuration)
             }
             
@@ -49170,7 +49170,7 @@ extension SF.antenna.radiowaves.left.and.right {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "antenna.radiowaves.left.and.right.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -49252,7 +49252,7 @@ extension SF.app {
                         ///
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(macOS, unavailable)
-                        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "app.connected.to.app.below.fill", configuration: configuration)
                         }
                         
@@ -49266,7 +49266,7 @@ extension SF.app {
                         ///- Returns: The object containing the image variant that matches the specified configuration data.
                         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                         @available(macOS, unavailable)
-                        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                             SFSymbolReference.image(name: "app.connected.to.app.below.fill", variableValue: variableValue, configuration: configuration)
                         }
                         
@@ -49354,7 +49354,7 @@ extension SF.app.badge {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "app.badge.checkmark.fill", configuration: configuration)
             }
             
@@ -49368,7 +49368,7 @@ extension SF.app.badge {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "app.badge.checkmark.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -49473,7 +49473,7 @@ extension SF.arrow.backward {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.backward.to.line.circle.fill", configuration: configuration)
                     }
                     
@@ -49487,7 +49487,7 @@ extension SF.arrow.backward {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.backward.to.line.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -49568,7 +49568,7 @@ extension SF.arrow.down.to.line {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.to.line.circle.fill", configuration: configuration)
             }
             
@@ -49582,7 +49582,7 @@ extension SF.arrow.down.to.line {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.down.to.line.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -49663,7 +49663,7 @@ extension SF.arrow.forward {
                     ///
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(macOS, unavailable)
-                    public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.forward.to.line.circle.fill", configuration: configuration)
                     }
                     
@@ -49677,7 +49677,7 @@ extension SF.arrow.forward {
                     ///- Returns: The object containing the image variant that matches the specified configuration data.
                     @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
                     @available(macOS, unavailable)
-                    public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+                    public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                         SFSymbolReference.image(name: "arrow.forward.to.line.circle.fill", variableValue: variableValue, configuration: configuration)
                     }
                     
@@ -49758,7 +49758,7 @@ extension SF.arrow.left.to.line {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.left.to.line.circle.fill", configuration: configuration)
             }
             
@@ -49772,7 +49772,7 @@ extension SF.arrow.left.to.line {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.left.to.line.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -49851,7 +49851,7 @@ extension SF.arrow.right.to.line {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.right.to.line.circle.fill", configuration: configuration)
             }
             
@@ -49865,7 +49865,7 @@ extension SF.arrow.right.to.line {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.right.to.line.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             
@@ -49943,7 +49943,7 @@ extension SF.arrow.up.and.down.righttriangle.up.righttriangle.down {
         ///
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(macOS, unavailable)
-        public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "arrow.up.and.down.righttriangle.up.righttriangle.down.fill", configuration: configuration)
         }
         
@@ -49957,7 +49957,7 @@ extension SF.arrow.up.and.down.righttriangle.up.righttriangle.down {
         ///- Returns: The object containing the image variant that matches the specified configuration data.
         @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
         @available(macOS, unavailable)
-        public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+        public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
             SFSymbolReference.image(name: "arrow.up.and.down.righttriangle.up.righttriangle.down.fill", variableValue: variableValue, configuration: configuration)
         }
         
@@ -50029,7 +50029,7 @@ extension SF.arrow.up.to.line {
             ///
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(macOS, unavailable)
-            public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.to.line.circle.fill", configuration: configuration)
             }
             
@@ -50043,7 +50043,7 @@ extension SF.arrow.up.to.line {
             ///- Returns: The object containing the image variant that matches the specified configuration data.
             @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
             @available(macOS, unavailable)
-            public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+            public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
                 SFSymbolReference.image(name: "arrow.up.to.line.circle.fill", variableValue: variableValue, configuration: configuration)
             }
             

@@ -46,7 +46,7 @@ public static func image(variableValue: Double, accessibilityDescription: String
 ///
 ///- Returns: The object containing the image variant that matches the specified configuration data.
 @available(macOS, unavailable)
-public static func image(withConfiguration configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+public static func image(withConfiguration configuration: UIImage.Configuration? = nil) -> UIImage {
     SFSymbolReference.image(name: "%@", configuration: configuration)
 }
 
@@ -60,7 +60,7 @@ public static func image(withConfiguration configuration: SFSymbolReference.Imag
 ///- Returns: The object containing the image variant that matches the specified configuration data.
 @available(iOS 16.0, tvOS 16.0, watchOS 9.0, *)
 @available(macOS, unavailable)
-public static func image(withVariableValue variableValue: Double, configuration: SFSymbolReference.Image.Configuration? = nil) -> UIImage {
+public static func image(withVariableValue variableValue: Double, configuration: UIImage.Configuration? = nil) -> UIImage {
     SFSymbolReference.image(name: "%@", variableValue: variableValue, configuration: configuration)
 }
 
